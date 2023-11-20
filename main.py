@@ -1,14 +1,14 @@
 import os
 import openai
 from flan_call import get_hugg_completion
-from gpt_api import generate_chat_response, test
+from gpt_api import test
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import google.generativeai as palm
 from dotenv import load_dotenv
 
 def run_gpt():
-    print(os.environ)
-    print(os.getenv("OPENAI_API_KEY"))
+    # print(os.environ)
+    # print(os.getenv("OPENAI_API_KEY"))
     os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     openai_api_key = os.getenv("OPENAI_API_KEY")
     openai.api_key = openai_api_key
