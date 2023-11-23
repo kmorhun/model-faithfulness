@@ -1,0 +1,20 @@
+{
+    "example_1": {
+        "review": "Far away from real Chinese food. Doesn't even taste good as American style Chinese food.",
+        "key_phrases": ["Doesn't taste good", "real Chinese food", "Far away from"],
+        "explanation": "The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn't measure up to their already lowered expectations of American style Chinese food.",
+        "sentiment": 2
+    },
+    "example_2": {
+        "review": "Sushi selection limited...  Miso soup tasted a little fishy.",
+        "key_phrases": ["sushi selection limited", "Miso soup tasted a little fishy"],
+        "explanation": "Sushi is often the main meal at a restaurant when it is available. A limited menu is disappointing, but not the end of the world. The speaker only had mild complaints about the soup.",
+        "sentiment": 3
+    },
+    "example_3": {
+        "review": "Meticulously organized and a great selection. Definitely worth a stop.",
+        "key_phrases": ["definitely worth a stop", "great selection", "meticulously organized"],
+        "explanation": "This customer thought the food selection is great, which is very important for a high rating. Also, the restaurant was organized, which could suggest that the place is well-kept, clean, and efficient. 'Definitely worth a stop' is the most important phrase because it is a direct recommendation to eat at the restaurant.",
+        "sentiment": 5
+    }
+}

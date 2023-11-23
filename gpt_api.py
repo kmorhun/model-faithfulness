@@ -2,7 +2,8 @@
 import os
 import openai
 from openai import OpenAI
-
+from prompts import *
+from datetime import datetime
 
 # def get_gpt_completion(prompt, model = "gpt-3.5-turbo"):
 #     messages = [{"role": "user", "content": prompt}]
@@ -30,155 +31,228 @@ from openai import OpenAI
 #         stop=None
 #     )
 #     return response.choices[0].text.strip()
-prompt = """Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
+def get_gpt_completion(prompt):
+    """
+    Generates a response from GPT-4 given a prompt
 
-Human: Far away from real Chinese food. Doesn't even taste good as American style Chinese food. 
-
-Assistant: 
-
-Most important phrase: Doesn’t taste good
-Second most important phrase: real Chinese food
-Third most important phrase: Far away from
-Any other important phrases: None
-
-The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn’t measure up to their already lowered expectations of American style Chinese food. 
-
-Final sentiment classification: 2
-________________________________________________________________________________________________________
-
-Human: Sushi selection limited...  Miso soup tasted a little fishy.
-
-Assistant: 
-
-Most important phrase: sushi selection limited
-Second most important phrase: Miso soup tasted a little fishy
-Third most important phrase: None
-Any other important phrases: None
-
-Sushi is often the main meal at a restaurant when it is available. A limited menu is disappointing, but not the end of the world. The speaker only had mild complaints about the soup 
-
-Final sentiment classification: 3
-________________________________________________________________________________________________________
-
-Human: Meticulously organized and a great selection. Definitely worth a stop.
-
-Assistant: 
-
-Most important phrase: definitely worth a stop
-Second most important phrase: great selection
-Third most important phrase: meticulously organized
-Any other important phrases: None
-
-This customer thought the food selection is great, which is very important for a high rating. Also, the restaurant was organized, which could suggest that the place is well-kept, clean, and efficient. “Definitely worth a stop” is the most important phrase because it is a direct recommendation to eat at the restaurant.
-
-Final sentiment classification: 5
-________________________________________________________________________________________________________
-
-Human: Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.
-
-In JSON format Assistant:
-"""
-
-prompt_2 = """
-Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
-
-Human: Far away from real Chinese food. Doesn't even taste good as American style Chinese food. 
-
-Assistant: 
-
-Most important phrase: Doesn’t taste good
-Second most important phrase: real Chinese food
-Third most important phrase: Far away from
-Any other important phrases: None
-
-The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn’t measure up to their already lowered expectations of American style Chinese food. 
-
-Final sentiment classification: 2
-________________________________________________________________________________________________________
-
-Human: Sushi selection limited...  Miso soup tasted a little fishy.
-
-Assistant: 
-
-Most important phrase: sushi selection limited
-Second most important phrase: Miso soup tasted a little fishy
-Third most important phrase: None
-Any other important phrases: None
-
-Sushi is often the main meal at a restaurant when it is available. A limited menu is disappointing, but not the end of the world. The speaker only had mild complaints about the soup 
-
-Final sentiment classification: 3
-________________________________________________________________________________________________________
-
-Human: Meticulously organized and a great selection. Definitely worth a stop.
-
-Assistant: 
-
-Most important phrase: definitely worth a stop
-Second most important phrase: great selection
-Third most important phrase: meticulously organized
-Any other important phrases: None
-
-This customer thought the food selection is great, which is very important for a high rating. Also, the restaurant was organized, which could suggest that the place is well-kept, clean, and efficient. “Definitely worth a stop” is the most important phrase because it is a direct recommendation to eat at the restaurant.
-
-Final sentiment classification: 5
-________________________________________________________________________________________________________
-
-Human: Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.
-
-Assistant: 
-
-Most important phrase: my first 5 star rating
-Second most important phrase: excellent breakfast
-Third most important phrase: staff was super
-Any other important phrases: so lucky, pancakes rocked
-
-This customer was so excited about this restaurant that they felt compelled to write a review for the first time, indicating extraordinary satisfaction. They thought the food and service were also very good. Saturdays are busy times for restaurants, so the customer was pleasantly surprised to not have to wait very long to be seated. 
-
-Final sentiment classification: 5
-________________________________________________________________________________________________________
-
-Human: Had the gnocchi delivered. Absolutely terrible. Gnocci's had to have been 2 years old. Delivery guy was shady too.
-
-Assistant: 
-
-Most important phrase: absolutely terrible
-Second most important phrase: Gnocci’s had to have been 2 years old
-Third most important phrase: Delivery guy was shady
-Any other important phrases: had the gnocchi delivered
-
-The implication here is that the customer did not receive fresh gnocchi when they had them delivered, and they exaggerate their discontent with hyperbole, claiming the gnocchi were 2 years old. They may have also felt unsafe around the delivery guy, contributing to their bad experience.
-
-Final sentiment classification: 1
-________________________________________________________________________________________________________
-
-
-
-"""
-prompt_3 = """
-Please classify the following Yelp review's sentiment on a scale of 1 (most negative) to 5 (most positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis. Return the answer in JSON format.
-
-Human: Sushi selection limited...  Miso soup tasted a little fishy.
-
-Assistant:
-"""
-def test():
+    Returns: a JSON object containing GPT-4's response, or None if the json was malformatted
+    """
     client = OpenAI()
     chat_completion = client.chat.completions.create(
         messages=[
             {
                 "role": "user",
-                "content": prompt_3,
-                
+                "content": prompt,
             }
         ],
         model="gpt-4-1106-preview",
         temperature = 0.1,
         response_format={ "type": "json_object" }
     )
-    print(chat_completion.choices[0].message.content)
-    print()
-    print(chat_completion.choices[0].finish_reason)
-   
+    print("Response Generated. Reason for stop: ", chat_completion.choices[0].finish_reason)
+    return chat_completion.choices[0].message.content
 
+def gpt_save_output_json(reviews, responses):
+    """
+    Parses the json response output by GPT-4 and attempts to save it to a 
 
+    Params:
+        reviews (list[str]): a list of the reviews used to prompt GPT-4 to result in these responses
+        responses (list[str]): a list of potentially invalid json strings to be parsed and written to an output file
+    
+    Returns:
+        None, but saves the valid outputs to data/outputs in a form that can easily be re-fed into the model. The invalid outputs
+        (those that don't have the right keys or are otherwise unable to be parsed), are saved to logs/gpt_errors.json
+    """
+    now = datetime.now()
+    now = now.strftime("%Y_%m_%d-%H_%M_%S")
+    print("saving raw gpt4 responses to output...")
+    output_json = {"COMMENT_": "Generated by GPT4"}
+    error_json = {"COMMENT_": "Generated by GPT4"}
+    f_output = open(f"data/outputs/gpt_output_{now}.json", "w")
+    f_error = open(f"logs/gpt_errors_{now}.json", "w")
+
+    for idx, response in enumerate(responses):
+        review_name = "review_" + str(idx)
+        print(f"{review_name}:")
+        #test for reasons to reject this response
+
+        #if malformed JSON object:
+        response_obj = {}
+        try:
+            response_obj = json.loads(response)
+        except:
+            print("malformed json object")
+            error_json[review_name] = {"review": reviews[idx], "response": response, "error": "malformed json object"}
+            continue
+        
+        #if missing something (assumes that 1st, 2nd, 3rd, and other important phrases are in the response)
+        keys = response_obj.keys()
+        if any(["Explanation" not in keys, "Final Sentiment Classification" not in keys, \
+                "Most important phrase" not in keys, "Second most important phrase" not in keys, \
+                "Third most important phrase" not in keys, "Any other important phrases" not in keys]):
+            print("missing one or more components")
+            error_json[review_name] = {"review": reviews[idx], "response": response, "error": "Missing one or more components"}
+            continue
+
+        #type checking
+        if any([type(response_obj["Explanation"]) != str, type(response_obj["Most important phrase"]) != str, \
+               type(response_obj["Second most important phrase"]) != str, type(response_obj["Third most important phrase"]) != str, \
+                type(response_obj["Any other important phrases"]) != str]):
+            print("invalid types of values")
+            error_json[review_name] = {"review": reviews[idx], "response": response, "error": "invalid types of values"}
+            continue
+        
+        #if final sentiment isn't a number between 1 and 5
+        raw_sentiment = response_obj["Final Sentiment Classification"]
+        if type(raw_sentiment) != int:
+            if type(raw_sentiment) == str:
+                if len(raw_sentiment) != 1: #it could be a float in string form, and we don't want that
+                    print("sentiment is not an integer")
+                    error_json[review_name] = {"review": reviews[idx], "response": response, "error": "sentiment is not an integer"}
+                    continue
+                try:
+                    sentiment = int(raw_sentiment)
+                    if (sentiment < 1 or sentiment > 5):
+                        #integer not in bounds
+                        print("sentiment is not within the bounds of 1 and 5")
+                        error_json[review_name] = {"review": reviews[idx], "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
+                        continue
+                except ValueError: #it wasn't a number to begin with
+                    print("sentiment is not an integer")
+                    error_json[review_name] = {"review": reviews[idx], "response": response, "error": "sentiment is not an integer"}
+                    continue
+            else:
+                print("sentiment is not an integer")
+                error_json[review_name] = {"review": reviews[idx], "response": response, "error": "sentiment is not an integer"}
+                continue
+        else: #looking at an integer
+            if (raw_sentiment < 1 or raw_sentiment > 5):
+                #integer not in bounds
+                print("sentiment is not within the bounds of 1 and 5")
+                error_json[review_name] = {"review": reviews[idx], "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
+                continue
+
+        #congrats! You made it past the validation ordeals
+        entry = {"review": reviews[idx], "explanation": response_obj["Explanation"], "sentiment": response_obj["Final Sentiment Classification"]}
+        key_phrases = [response_obj["Most important phrase"], response_obj["Second most important phrase"], response_obj["Third most important phrase"]]
+        phrase_keys = [k for k in keys if "important phrase" in k]    
+        other_phrase_keys = [k for k in phrase_keys if all(["Most" not in k, "Second" not in k, "Third" not in k, "Any" not in k])]        
+        for key in other_phrase_keys:
+            key_phrases.append(response_obj[key])
+        entry["key_phrases"] = key_phrases
+        output_json[review_name] = entry
+
+    json.dump(output_json, f_output, indent=4)
+    json.dump(error_json, f_error, indent=4)
+    f_output.close()
+    f_error.close()
+
+if __name__ == "__main__":
+    example_responses = ["""
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "Staff was super and we were seated immediately on a Saturday. So lucky.",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 5
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "Staff was super and we were seated immediately on a Saturday. So lucky.",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "five"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "Staff was super and we were seated immediately on a Saturday. So lucky.",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "positive"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Fourth most important phrase": "Regular pancakes rocked",
+    "Fifth most important phrase": "Regular pancakes rocked",
+    "Sixth most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 5
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Fourth most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "5"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Fourth most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience."
+    }""",  """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 6
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 0
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "6"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "0"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 4.3
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "2.1"
+    }""", """{
+    "Most important phrase": "My first 5 star rating on Yelp",
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": "n"
+    }""", """{
+    "Most important phrase": 7000,
+    "Second most important phrase": "Excellent breakfast",
+    "Third most important phrase": "Regular pancakes rocked",
+    "Any other important phrases": "None",
+    "Explanation": "The customer expresses high satisfaction with the breakfast quality, particularly enjoying the pancakes. The positive experience is further emphasized by the excellent service and immediate seating, which is notable on a typically busy day like Saturday. The fact that this is the customer's first 5-star rating on Yelp underscores the exceptional experience.",
+    "Final Sentiment Classification": 5
+    }"""]
+
+    example_reviews = ["reject_0", "reject_1", "reject_2", "accept_0", "accept_1", "reject_3", "reject_4", "reject_5", "reject_6", "reject_7", "reject_8", "reject_9", "reject_10", "reject_11"]
+
+    gpt_save_output_json(example_reviews, example_responses)    

@@ -3,9 +3,6 @@
 import os
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 
-
-
-
 def get_hugg_completion(prompt, tokenizer, model):
     """
     Given a prompt to pass into the model specified return a response
