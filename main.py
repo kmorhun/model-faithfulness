@@ -7,6 +7,7 @@ import google.generativeai as palm
 from dotenv import load_dotenv
 from prompts import *
 from datetime import datetime
+from bleu_score import compute_BLEU
 
 prompt_1 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
 prompt_2 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
@@ -34,21 +35,32 @@ def run_gpt(prompts):
     openai_api_key = os.getenv("OPENAI_API_KEY")
     openai.api_key = openai_api_key
     # get_gpt_completion("What is your name?")
+    # Check if the "outputs" folder exists, and create it if it doesn't
+    outputs_folder = "data/outputs"
+    if not os.path.exists(outputs_folder):
+        os.makedirs(outputs_folder)
+
+    # Check if the "outputs" folder exists, and create it if it doesn't
+    logs_folder = "logs"
+    if not os.path.exists(logs_folder):
+        os.makedirs(logs_folder)
+
     responses_json = {"responses": []}
     new_reviews = []
     count_processed = 0
     for prompt in prompts:
         new_reviews.append(extract_review(prompt))
         response = get_gpt_completion(prompt)
-        print(response)
         responses_json["responses"].append(response)
+        count_processed += 1 
         # Save every 25 because it might break in the middle and we don't want to lose it
-        if count_processed % 25 == 0:
-            now = datetime.now()
-            now = now.strftime("%Y_%m_%d-%H_%M_%S")
-            with open(f"data/outputs/interm_gpt_raw_output_{now}.json", "w") as raw_output_file:
+        if count_processed % 1 == 0:
+            now = datetime.now()      
+            now1 = now.strftime("%Y_%m_%d")
+            with open(f"data/outputs/interm_{count_processed}_gpt_raw_output_{now1}.json", "w") as raw_output_file:
                 json.dump(responses_json, raw_output_file, indent=4)
-
+                
+    
     #save raw outputs to a file in data/outputs as a checkpoint
     now = datetime.now()
     now = now.strftime("%Y_%m_%d-%H_%M_%S")
@@ -88,5 +100,6 @@ if __name__ == '__main__':
     run_gpt(prompts)
     # run_bard()
     # run_hugg_flan()
-
-    
+   # run_facebook_bart()
+    # run_bert()
+    # run_gp()
