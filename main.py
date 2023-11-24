@@ -50,10 +50,11 @@ def run_gpt(prompts):
     for prompt in prompts:
         new_reviews.append(extract_review(prompt))
         response = get_gpt_completion(prompt)
+        print(response)
         responses_json["responses"].append(response)
         count_processed += 1 
         # Save every 25 because it might break in the middle and we don't want to lose it
-        if count_processed % 1 == 0:
+        if count_processed % 25 == 0:
             now = datetime.now()      
             now1 = now.strftime("%Y_%m_%d")
             with open(f"data/outputs/interm_{count_processed}_gpt_raw_output_{now1}.json", "w") as raw_output_file:
