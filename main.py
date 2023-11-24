@@ -36,11 +36,18 @@ def run_gpt(prompts):
     # get_gpt_completion("What is your name?")
     responses_json = {"responses": []}
     new_reviews = []
+    count_processed = 0
     for prompt in prompts:
         new_reviews.append(extract_review(prompt))
         response = get_gpt_completion(prompt)
         print(response)
         responses_json["responses"].append(response)
+        # Save every 25 because it might break in the middle and we don't want to lose it
+        if count_processed % 25 == 0:
+            now = datetime.now()
+            now = now.strftime("%Y_%m_%d-%H_%M_%S")
+            with open(f"data/outputs/interm_gpt_raw_output_{now}.json", "w") as raw_output_file:
+                json.dump(responses_json, raw_output_file, indent=4)
 
     #save raw outputs to a file in data/outputs as a checkpoint
     now = datetime.now()
