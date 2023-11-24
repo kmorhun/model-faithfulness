@@ -1,7 +1,7 @@
 import os
 import openai
 from flan_call import get_hugg_completion
-from gpt_api import test
+from gpt_api import get_gpt_completion, gpt_save_output_json
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import google.generativeai as palm
 from dotenv import load_dotenv
@@ -9,101 +9,66 @@ from transformers import BartForConditionalGeneration, BartTokenizer
 from transformers import DistilBertTokenizer, DistilBertForQuestionAnswering
 import torch
 from transformers import pipeline
+from prompts import *
+from datetime import datetime
 
-prompt_1 = """Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
 
-Human: Far away from real Chinese food. Doesn't even taste good as American style Chinese food. 
+prompt_1 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
+prompt_2 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
+prompt_3 = create_prompt(PROMPT_TEMPLATE_ZERO_SHOT, None, NEW_EXAMPLE_JSON_TEMPLATE, [], PANCAKES_EXAMPLE, zero_shot=True)
 
-Assistant: 
+def extract_review(prompt):
+    #this gets the part of the prompt after "Human: "
+    review_assistant = prompt.split("Human: ")[-1]
+    # print("review_assistant ", review_assistant, "\n")
 
-Most important phrase: Doesn’t taste good
-Second most important phrase: real Chinese food
-Third most important phrase: Far away from
-Any other important phrases: None
+    #this gets the actual review
+    review = review_assistant.split("\n")[0]
+    # print("review ", review, "\n")
 
-The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn’t measure up to their already lowered expectations of American style Chinese food. 
+    return review
 
-Final sentiment classification: 2
-________________________________________________________________________________________________________
 
-Human: Sushi selection limited...  Miso soup tasted a little fishy.
-
-Assistant: 
-
-Most important phrase: sushi selection limited
-Second most important phrase: Miso soup tasted a little fishy
-Third most important phrase: None
-Any other important phrases: None
-
-Sushi is often the main meal at a restaurant when it is available. A limited menu is disappointing, but not the end of the world. The speaker only had mild complaints about the soup 
-
-Final sentiment classification: 3
-________________________________________________________________________________________________________
-
-Human: Meticulously organized and a great selection. Definitely worth a stop.
-
-Assistant: 
-
-Most important phrase: definitely worth a stop
-Second most important phrase: great selection
-Third most important phrase: meticulously organized
-Any other important phrases: None
-
-This customer thought the food selection is great, which is very important for a high rating. Also, the restaurant was organized, which could suggest that the place is well-kept, clean, and efficient. “Definitely worth a stop” is the most important phrase because it is a direct recommendation to eat at the restaurant.
-
-Final sentiment classification: 5
-________________________________________________________________________________________________________
-
-Human: Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.
-
-Please classify this text. In the same format the assistant has.
-"""
-prompt_2 = """
-Human: Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.
-
-Please classify this text. In the same format the assistant has.
-
-"""
-
-context = """
-Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
-
-Human: Far away from real Chinese food. Doesn't even taste good as American style Chinese food. 
-
-Assistant: 
-
-Most important phrase: Doesn’t taste good
-Second most important phrase: real Chinese food
-Third most important phrase: Far away from
-Any other important phrases: None
-
-The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn’t measure up to their already lowered expectations of American style Chinese food. 
-
-Final sentiment classification: 2
-"""
-
-def run_gpt():
+def run_gpt(prompts):
+    """
+    Prompts GPT-4, and reformats the model's response into a json file, which gets saved to data/outputs
+    As a checkpoint, it also saves the intermediate step from model response to a file in data/outputs
+    """
     # print(os.environ)
     # print(os.getenv("OPENAI_API_KEY"))
     os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     openai_api_key = os.getenv("OPENAI_API_KEY")
     openai.api_key = openai_api_key
     # get_gpt_completion("What is your name?")
-    test()
+    responses_json = {"responses": []}
+    new_reviews = []
+    for prompt in prompts:
+        new_reviews.append(extract_review(prompt))
+        response = get_gpt_completion(prompt)
+        print(response)
+        responses_json["responses"].append(response)
+
+    #save raw outputs to a file in data/outputs as a checkpoint
+    now = datetime.now()
+    now = now.strftime("%Y_%m_%d-%H_%M_%S")
+    with open(f"data/outputs/gpt_raw_output_{now}.json", "w") as raw_output_file:
+        json.dump(responses_json, raw_output_file, indent=4)
+
+    gpt_save_output_json(new_reviews, responses_json["responses"])
 
 
 def run_hugg_flan():
     tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-base", token = os.getenv("HUGGING_FACE_KEY"))
     model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-base", token = os.getenv("HUGGING_FACE_KEY")) 
-    get_hugg_completion(prompt_1, tokenizer, model)
+    get_hugg_completion(prompt_2, tokenizer, model)
     get_hugg_completion("can you tell me what sport the following prompt relates too and give me your resoning? prompt: I like to shoot balls into a circle. Answer either: basketball, baseball", tokenizer, model)
     
 
 def run_bard():
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/zackduitz/Downloads/first-website-374821-7893c1f2d758.json'
     palm.configure(api_key = os.getenv("PALM_KEY"))
-    response = palm.generate_text(prompt=prompt_1, model ='models/text-bison-001', temperature = 0.0, max_output_tokens = 1024)
-    print(response)
+    response = palm.generate_text(prompt=prompt_2, model ='models/text-bison-001', temperature = 0.0, max_output_tokens = 1024)
+    print( "From text-bison: ", response)
     # We can also use context and examples here
 #     examples = [
 #     ("What's up?", # A hypothetical user input
@@ -112,8 +77,9 @@ def run_bard():
 #      ("I'm kind of bored",
 #       "How can you be bored when there are so many fun, exciting, beautiful experiences to be had in the world? 🌈")
 # ]
-    response2 = palm.chat(messages=prompt_1, model ='models/chat-bison-001', temperature = 0.0)
-    print(response2.last)
+    response2 = palm.chat(messages=prompt_2, model ='models/chat-bison-001', temperature = 0.0)
+    print("From chat-bison", response2.last)
+
     # for m in palm.list_models():
     #     print(m)
 
@@ -158,11 +124,13 @@ if __name__ == '__main__':
     load_dotenv(dotenv_path)
 
     # Run the different model tests
-    # run_gpt()
+    prompts = [prompt_1, prompt_2]
+    run_gpt(prompts)
     # run_bard()
     # run_hugg_flan()
     # run_facebook_bart()
     # run_bert()
     run_gp()
+
 
     
