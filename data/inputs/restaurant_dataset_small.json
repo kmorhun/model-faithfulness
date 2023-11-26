@@ -1,0 +1,122 @@
+{
+    "Example_1": {
+        "review": "I heart King's. I've always been a fan and this one was as good as my old one in Monaca.",
+        "sentiment": 4
+    },
+    "Example_2": {
+        "review": "Love this place. Never had a bad meal. Good portions and great people. Be ready to stand in line.",
+        "sentiment": 5
+    },
+    "Example_3": {
+        "review": "Great little place. Treats you like a local.Eaten here 3 times a week for a month. Same overtime. Barb is always here.",
+        "sentiment": 5
+    },
+    "Example_4": {
+        "review": "Far away from real Chinese food. Doesn't even taste good as American style Chinese food.",
+        "sentiment": 2
+    },
+    "Example_5": {
+        "review": "Papa J's is expensive and inconsistent. The ambiance is nice but it doesn't justify the prices. There are better restaurants in Carnegie.",
+        "sentiment": 2
+    },
+    "Example_6": {
+        "review": "I love this place! The food is always so fresh and delicious. The staff is always friendly, as well.",
+        "sentiment": 5
+    },
+    "Example_7": {
+        "review": "Some of the best chow around--love this place. The bread and salads and soups are great.",
+        "sentiment": 5
+    },
+    "Example_8": {
+        "review": "The worst dental office I ever been. No one can beat it!!! You should avoid it at any time.",
+        "sentiment": 1
+    },
+    "Example_9": {
+        "review": "Its clean, open 24/7 with hot shoe string fries and creative milkshakes. What else do you want in life??",
+        "sentiment": 3
+    },
+    "Example_10": {
+        "review": "Had a great time at Sing Sing a while ago with friends. Friendly staff. Will return.",
+        "sentiment": 5
+    },
+    "Example_11": {
+        "review": "Waterfront Lowe's beats Monroeville Lowe's for lawn and garden. Hate to admit it, but it's true.",
+        "sentiment": 4
+    },
+    "Example_12": {
+        "review": "i had fun here.. fun big kid games for me!!!\\nO.. But the bartender Melissa was a SUPER bitch and RUDE \\nHope they fire her..",
+        "sentiment": 3
+    },
+    "Example_13": {
+        "review": "I really miss the Northstar Amber but the specialty beers are always good. Food is excellent and the service staff is friendly.",
+        "sentiment": 4
+    },
+    "Example_14": {
+        "review": "Servers are chatting, not paying attention to tables. I can see my salad is ready at the window. Worst serves ever.",
+        "sentiment": 1
+    },
+    "Example_15": {
+        "review": "The food was okay. The noise level--with 10 people in a huge room--deafening. Awful acoustics!",
+        "sentiment": 2
+    },
+    "Example_16": {
+        "review": "The worse \\\"Chinese food\\\", even the white rice which came with the ogle sweet and sour chicken is really bad. Please don't eat this food.",
+        "sentiment": 1
+    },
+    "Example_17": {
+        "review": "This place.. Is ok if ur grabn something quick .. But they do have a great happy hour tho",
+        "sentiment": 2
+    },
+    "Example_18": {
+        "review": "Awful everything. From the bad service, to the diluted soup, to the lame-no chicken on the chicken salad, to the PRE-fabricated pizza. AVOID THIS PLACE!",
+        "sentiment": 1
+    },
+    "Example_19": {
+        "review": "Food was ok had a steak w/ shrimp side Ass mashed potatoes. Everything was ok not a lot of flavor.",
+        "sentiment": 2
+    },
+    "Example_20": {
+        "review": "Love the stores selection but HATE how the girls chase you around to tell you their sales. If I wanted to know I'd ask !!!",
+        "sentiment": 3
+    },
+    "Example_21": {
+        "review": "This store has such bad service. The service staff are rude rude rude. Save your money, shop elsewhere.",
+        "sentiment": 1
+    },
+    "Example_22": {
+        "review": "They make a nice breakfast for less than the tip form dinner the night before. That's not bad!",
+        "sentiment": 3
+    },
+    "Example_23": {
+        "review": "A very nice meal in a very nice restaurant\\n\\nPROS:\\nVery good food\\ninteresting choices--not your typical red lobster crap\\nGreat service\\nVery clean (restrooms, included)\\n\\nCONS:\\nn/a",
+        "sentiment": 5
+    },
+    "Example_24": {
+        "review": "Service an atmosphere was great. I had the shrimp boil and it was very under-seasoned. Much closer to bland than anything.",
+        "sentiment": 2
+    },
+    "Example_25": {
+        "review": "Good pizza and i love the breadsticks...i don't know too much else about this place",
+        "sentiment": 3
+    },
+    "Example_26": {
+        "review": "Great service, friendly staff, great food, great prices. What more can you ask for in a small town breakfast place? Will definitely be back",
+        "sentiment": 5
+    },
+    "Example_27": {
+        "review": "A great little place. Delicious and affordable Italian food. Great salads and pasta. Try the pizza rolls!",
+        "sentiment": 4
+    },
+    "Example_28": {
+        "review": "Horrifying. This place should be ashamed of itself. DO NOT STAY HERE. Beyond dirty, just absolutely rank.",
+        "sentiment": 1
+    },
+    "Example_29": {
+        "review": "Cookies aren't bad. Haven't had a reason to buy cakes or other pastries. Staff is friendly and it smells like heaven.",
+        "sentiment": 3
+    },
+    "Example_30": {
+        "review": "Prices not great for true thrifters. Staff completely useless. No dressing rooms. I simply have nothing to say about this place.",
+        "sentiment": 2
+    }
+}

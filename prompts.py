@@ -19,17 +19,18 @@ PANCAKES_EXAMPLE = "Excellent breakfast. Regular pancakes rocked. Staff was supe
 PROMPT_TEMPLATE_FEW_SHOT = Template(f"{PREFIX_1}\n\n$examples\n\n$prompt")
 PROMPT_TEMPLATE_ZERO_SHOT = Template(f"{PREFIX_1}\n$prompt")
 
-def create_prompt(prompt_template, formatted_example_template, new_example_template, example_names, new_example, zero_shot=False):
+def create_prompt(examples_json_filepath, prompt_template, formatted_example_template, new_example_template, example_names, new_example, zero_shot=False):
     """
     A method of generating sample prompts for testing purposes, given the name for an example in examples.json
     
     Params:
+        examples_json_filepath (str): the filepath to the examples json file
         prompt_template (Template): the Template object describing the high-level prompt structure
         formatted_example_template (Template): the Template object describing how to format an example
         new_example_template (Template): the Template object describing how to format a new example
         example_names (list[str]): a list of example names which correspond to examples.json
         new_example (str): the string body of a new review
-        zero_shot (bool): whether or not this is a zero-shot prompt. By default False. If this is true, only the prompt_template, new_example, and formatted_example_template variables matter
+        zero_shot (bool): whether or not this is a zero-shot prompt. By default False. If this is true, only the prompt_template, new_example, examples_json_filepath, and formatted_example_template variables matter
 
     Returns: A formatted string representing the prompt to input into a model
     """
@@ -38,7 +39,7 @@ def create_prompt(prompt_template, formatted_example_template, new_example_templ
         return prompt_template.substitute({"prompt": new_review})
 
     example_strings = []
-    with open("data/inputs/examples.json") as examples_file:
+    with open(examples_json_filepath) as examples_file:
         examples = json.load(examples_file)
 
         for name in example_names:
@@ -74,8 +75,8 @@ if __name__ == '__main__':
         few_shot_examples = ["example_1", "example_2"]
         examples = json.load(examples_file)
         test_review = PANCAKES_EXAMPLE
-        print(create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
-
+        print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
+        
 # prompt = """Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
 
 # Human: Far away from real Chinese food. Doesn't even taste good as American style Chinese food. 

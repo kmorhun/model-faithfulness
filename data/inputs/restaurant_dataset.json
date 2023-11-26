@@ -1,0 +1,1202 @@
+{
+    "Example_1": {
+        "review": "I heart King's. I've always been a fan and this one was as good as my old one in Monaca.",
+        "sentiment": 4
+    },
+    "Example_2": {
+        "review": "Love this place. Never had a bad meal. Good portions and great people. Be ready to stand in line.",
+        "sentiment": 5
+    },
+    "Example_3": {
+        "review": "Great little place. Treats you like a local.Eaten here 3 times a week for a month. Same overtime. Barb is always here.",
+        "sentiment": 5
+    },
+    "Example_4": {
+        "review": "Far away from real Chinese food. Doesn't even taste good as American style Chinese food.",
+        "sentiment": 2
+    },
+    "Example_5": {
+        "review": "Papa J's is expensive and inconsistent. The ambiance is nice but it doesn't justify the prices. There are better restaurants in Carnegie.",
+        "sentiment": 2
+    },
+    "Example_6": {
+        "review": "I love this place! The food is always so fresh and delicious. The staff is always friendly, as well.",
+        "sentiment": 5
+    },
+    "Example_7": {
+        "review": "Some of the best chow around--love this place. The bread and salads and soups are great.",
+        "sentiment": 5
+    },
+    "Example_8": {
+        "review": "The worst dental office I ever been. No one can beat it!!! You should avoid it at any time.",
+        "sentiment": 1
+    },
+    "Example_9": {
+        "review": "Its clean, open 24/7 with hot shoe string fries and creative milkshakes. What else do you want in life??",
+        "sentiment": 3
+    },
+    "Example_10": {
+        "review": "Had a great time at Sing Sing a while ago with friends. Friendly staff. Will return.",
+        "sentiment": 5
+    },
+    "Example_11": {
+        "review": "Waterfront Lowe's beats Monroeville Lowe's for lawn and garden. Hate to admit it, but it's true.",
+        "sentiment": 4
+    },
+    "Example_12": {
+        "review": "i had fun here.. fun big kid games for me!!!\\nO.. But the bartender Melissa was a SUPER bitch and RUDE \\nHope they fire her..",
+        "sentiment": 3
+    },
+    "Example_13": {
+        "review": "I really miss the Northstar Amber but the specialty beers are always good. Food is excellent and the service staff is friendly.",
+        "sentiment": 4
+    },
+    "Example_14": {
+        "review": "Servers are chatting, not paying attention to tables. I can see my salad is ready at the window. Worst serves ever.",
+        "sentiment": 1
+    },
+    "Example_15": {
+        "review": "The food was okay. The noise level--with 10 people in a huge room--deafening. Awful acoustics!",
+        "sentiment": 2
+    },
+    "Example_16": {
+        "review": "The worse \\\"Chinese food\\\", even the white rice which came with the ogle sweet and sour chicken is really bad. Please don't eat this food.",
+        "sentiment": 1
+    },
+    "Example_17": {
+        "review": "This place.. Is ok if ur grabn something quick .. But they do have a great happy hour tho",
+        "sentiment": 2
+    },
+    "Example_18": {
+        "review": "Awful everything. From the bad service, to the diluted soup, to the lame-no chicken on the chicken salad, to the PRE-fabricated pizza. AVOID THIS PLACE!",
+        "sentiment": 1
+    },
+    "Example_19": {
+        "review": "Food was ok had a steak w/ shrimp side Ass mashed potatoes. Everything was ok not a lot of flavor.",
+        "sentiment": 2
+    },
+    "Example_20": {
+        "review": "Love the stores selection but HATE how the girls chase you around to tell you their sales. If I wanted to know I'd ask !!!",
+        "sentiment": 3
+    },
+    "Example_21": {
+        "review": "This store has such bad service. The service staff are rude rude rude. Save your money, shop elsewhere.",
+        "sentiment": 1
+    },
+    "Example_22": {
+        "review": "They make a nice breakfast for less than the tip form dinner the night before. That's not bad!",
+        "sentiment": 3
+    },
+    "Example_23": {
+        "review": "A very nice meal in a very nice restaurant\\n\\nPROS:\\nVery good food\\ninteresting choices--not your typical red lobster crap\\nGreat service\\nVery clean (restrooms, included)\\n\\nCONS:\\nn/a",
+        "sentiment": 5
+    },
+    "Example_24": {
+        "review": "Service an atmosphere was great. I had the shrimp boil and it was very under-seasoned. Much closer to bland than anything.",
+        "sentiment": 2
+    },
+    "Example_25": {
+        "review": "Good pizza and i love the breadsticks...i don't know too much else about this place",
+        "sentiment": 3
+    },
+    "Example_26": {
+        "review": "Great service, friendly staff, great food, great prices. What more can you ask for in a small town breakfast place? Will definitely be back",
+        "sentiment": 5
+    },
+    "Example_27": {
+        "review": "A great little place. Delicious and affordable Italian food. Great salads and pasta. Try the pizza rolls!",
+        "sentiment": 4
+    },
+    "Example_28": {
+        "review": "Horrifying. This place should be ashamed of itself. DO NOT STAY HERE. Beyond dirty, just absolutely rank.",
+        "sentiment": 1
+    },
+    "Example_29": {
+        "review": "Cookies aren't bad. Haven't had a reason to buy cakes or other pastries. Staff is friendly and it smells like heaven.",
+        "sentiment": 3
+    },
+    "Example_30": {
+        "review": "Prices not great for true thrifters. Staff completely useless. No dressing rooms. I simply have nothing to say about this place.",
+        "sentiment": 2
+    },
+    "Example_31": {
+        "review": "First time here and I wasnt impressed at all! I should have gone to the dairy queen :-(",
+        "sentiment": 2
+    },
+    "Example_32": {
+        "review": "There was absolutely nothing not to like. Reasonably priced wines, home style Italian cooking. Great upbeat ambience.",
+        "sentiment": 5
+    },
+    "Example_33": {
+        "review": "Tasteless food that arrived over an hour after it was ordered and was cold. Will never order from here again.",
+        "sentiment": 1
+    },
+    "Example_34": {
+        "review": "Minutello's is going out of business. Last day of operation is Sunday, February 17, 2013.",
+        "sentiment": 3
+    },
+    "Example_35": {
+        "review": "I love tazza.. Their coffees are excellent and its a great place to enjoy a relaxing evening..I also like their Baklawa, sandwiches and Brownies..",
+        "sentiment": 5
+    },
+    "Example_36": {
+        "review": "Best coffee in Pittsburgh, without a doubt. Believe the hype. I've been going here for years, and every visit is a pleasure.",
+        "sentiment": 5
+    },
+    "Example_37": {
+        "review": "This is where I learned what good espresso tastes like. If you make it to Highland Park, stop there and get some great neighborhood atmosphere.",
+        "sentiment": 4
+    },
+    "Example_38": {
+        "review": "Really hard to find a good cup of coffee in the states... I'd say this is the best cappuccino I've had since Italy.",
+        "sentiment": 5
+    },
+    "Example_39": {
+        "review": "I wish we had a way to hold this corporation accountable for its crimes against our society.",
+        "sentiment": 1
+    },
+    "Example_40": {
+        "review": "Great club/bar/lounge/venue. Great mix of people and music with decent bartenders and good prices on beer.",
+        "sentiment": 3
+    },
+    "Example_41": {
+        "review": "Absolutely amazing! Great staff and service! Best music in Pittsburgh, hands down. Good work guys!",
+        "sentiment": 5
+    },
+    "Example_42": {
+        "review": "Waiting 20 minutes to get one piece of wood cut in an empty store on a Friday afternoon. Priceless!",
+        "sentiment": 1
+    },
+    "Example_43": {
+        "review": "I like the pizza and the selection of toppings. They are reliable. Great option for take out food.",
+        "sentiment": 3
+    },
+    "Example_44": {
+        "review": "Short and sweet, and as a Haiku.\\n\\nParking is awful\\nNo wine, but that's PA's fault\\nBest organic food",
+        "sentiment": 3
+    },
+    "Example_45": {
+        "review": "Parking is tough, the food selection is great, and if you call ahead they will set aside awesome moving boxes for you.",
+        "sentiment": 4
+    },
+    "Example_46": {
+        "review": "Great stuff here...The cheese plates are great and always changing. Awesome staff, and the menu offers an nice variety!!\\n\\nAsk for Tim for your waiter!",
+        "sentiment": 4
+    },
+    "Example_47": {
+        "review": "Very tasty food and drinks! Its a little pricey, but worth it if you want something better than a typical chain.",
+        "sentiment": 3
+    },
+    "Example_48": {
+        "review": "pretty good veggie food. I've had breakfast, lunch, and dinner here. French toast, tofu scramble, museli, salads, sandwiches, lasagna. They have a pretty decent variety.",
+        "sentiment": 3
+    },
+    "Example_49": {
+        "review": "My favorite for Pt. Breeze/Pittsburgh East End. Flat New York style, not greasy, timely delivery, they know my orders!",
+        "sentiment": 5
+    },
+    "Example_50": {
+        "review": "Got the rancho and the Greek, not so bad but I probably won't go back... Too heavy for me...",
+        "sentiment": 2
+    },
+    "Example_51": {
+        "review": "Kind of small, but I've had excellent luck with produce here: fresh and organic. In-store coffee bar is a nice plus.",
+        "sentiment": 4
+    },
+    "Example_52": {
+        "review": "Don't go. I got more problems and sounds on my car after I spent $800 there. unbelievable!",
+        "sentiment": 1
+    },
+    "Example_53": {
+        "review": "Get a Southside Shake with hot fudge shake and peanut butter sundae on top - absolutely amazing!",
+        "sentiment": 5
+    },
+    "Example_54": {
+        "review": "I have had lots of items off of their large menu and everything has been good.",
+        "sentiment": 5
+    },
+    "Example_55": {
+        "review": "Mmmmm. Their Egg drop soup is sooo good as is the General Tso's, and they deliver FAST!",
+        "sentiment": 4
+    },
+    "Example_56": {
+        "review": "Horrible - they use chicken that's been out uncover all day . And they smoke around the food.:(",
+        "sentiment": 1
+    },
+    "Example_57": {
+        "review": "Incredible Italian food. Mushroom appetizer is just phenomenal. So is the mozzarella cheese. Great fish. Expensive but worth it!",
+        "sentiment": 5
+    },
+    "Example_58": {
+        "review": "good food, we had the bean appetizer, seafood diablo, and the flounder...It is expensive but well worth the money, classic.",
+        "sentiment": 5
+    },
+    "Example_59": {
+        "review": "Love it here. The food was great and had anazing service. Will be back again! Everyone was so poliet and greeted us with a smile.",
+        "sentiment": 4
+    },
+    "Example_60": {
+        "review": "Real german food (sausage, etc) and decent beer in family friendly atmosphere.\\n\\nThis is one of the good joints.",
+        "sentiment": 4
+    },
+    "Example_61": {
+        "review": "I must of been eating at another Max's in a pararell universe!\\n\\nFood was terriable, service was worse! Went and got Sushi!",
+        "sentiment": 1
+    },
+    "Example_62": {
+        "review": "A Pittsburgh tradition. Try the Cheese stuffed pretzel appetizer, Count Esterhazy Schnitzel, and Apple Strudel (of course) for dessert. Yum",
+        "sentiment": 5
+    },
+    "Example_63": {
+        "review": "This is americanized German food. For real German food, go to Hofbrauhaus and ask for a schnitzel.",
+        "sentiment": 3
+    },
+    "Example_64": {
+        "review": "The old arcade game was excellent and only a few quarters to play.\\nDrinks nice enough .\\nBartenders were really nice.\\n NIce enough place.",
+        "sentiment": 3
+    },
+    "Example_65": {
+        "review": "You really need to try's this place. Great sandwiches, a hot dog/sausage cart, and friendly service!",
+        "sentiment": 5
+    },
+    "Example_66": {
+        "review": "Estimated delivery time 45 minutes actually delivery time 120 minutes.\\n\\nPizza Hut , a pizza of last resort.",
+        "sentiment": 1
+    },
+    "Example_67": {
+        "review": "It wasn't as horrid as the reviews would lead you to think. Just don't expect a gleaming suburban-style mega-mart and you will be fine.",
+        "sentiment": 3
+    },
+    "Example_68": {
+        "review": "Awesome spot to grab a dog for a buck. Nothing fancy, must standard ingredients and friendly service.",
+        "sentiment": 5
+    },
+    "Example_69": {
+        "review": "This place is amazing from top to bottom. 2 hours down we are still here.",
+        "sentiment": 5
+    },
+    "Example_70": {
+        "review": "The Steelers are the coolest team in football. They have the best colors, city, history, most fans, etc. \\n\\nAnd they pretty much dominate.",
+        "sentiment": 5
+    },
+    "Example_71": {
+        "review": "A ring for each finger and a sixth for my... \\n\\nother hand! \\n\\nYou're dirty!\\n\\nGo Steelers!!!",
+        "sentiment": 5
+    },
+    "Example_72": {
+        "review": "It's cathartic to give this sorry organization 1 star.\\n\\nNote: this is a review of the baseball club, not the stadium in which they play",
+        "sentiment": 1
+    },
+    "Example_73": {
+        "review": "Go Pirates!!! That's all I can say. They've made me love baseball and Pittsburgh again. They're only going to get better.",
+        "sentiment": 5
+    },
+    "Example_74": {
+        "review": "Very disappointed. Delivery was late, our gyros were cold and fries were soggy. I wont be ordering from here again.",
+        "sentiment": 1
+    },
+    "Example_75": {
+        "review": "Standard Pittsburgh dive. They had Yuengling, Newcastle and Guinness on tap and basketball on the television so no complaints.",
+        "sentiment": 3
+    },
+    "Example_76": {
+        "review": "Good coffee, nice walking street, good selection of teas and little gifty things, good pastries, *excellent* scones, and it's not that other green-logo'd coffee place.",
+        "sentiment": 4
+    },
+    "Example_77": {
+        "review": "Nice neighborhood coffee. Small but always seems to have room. Good selection of teas also.. Good scones and pastries. CT dos have some specialty blends.",
+        "sentiment": 3
+    },
+    "Example_78": {
+        "review": "First, I love CTR's coffee.\\nSecond, this location has great batistas and it's less congested than other CTR'S I've been to. \\n\\nThat about covers it",
+        "sentiment": 4
+    },
+    "Example_79": {
+        "review": "sushi was dry and unenjoyable. the place itself is clean and the decor was minimal. I was not a fan and probably won't be back.",
+        "sentiment": 2
+    },
+    "Example_80": {
+        "review": "Pool hall and pretty crappy bar. Not much else to write home about. Was not a fan and won't be back here.",
+        "sentiment": 1
+    },
+    "Example_81": {
+        "review": "One of the best pastries I've had in my life I got here. I think it's called a \\\"French bearclaw.\\\"",
+        "sentiment": 5
+    },
+    "Example_82": {
+        "review": "Sorry, but our pizza was cold. All nine cuts of it. And the garlic wings didn't taste like garlic. Maybe it was an off night?",
+        "sentiment": 2
+    },
+    "Example_83": {
+        "review": "Didn't live up to my expectations at all. Waste of time and money. Sloooooow service.",
+        "sentiment": 2
+    },
+    "Example_84": {
+        "review": "Mediocre and poorly made! You can get better quality food from Mcdonalds don't waste your time or money",
+        "sentiment": 1
+    },
+    "Example_85": {
+        "review": "Draft selections are good...service is lousy...food is sub par. Not in a hurry to return.",
+        "sentiment": 3
+    },
+    "Example_86": {
+        "review": "Good local bar with lots of TVs, good draft selection, and better than average bar food. Definitely a step up from the Saloon.",
+        "sentiment": 5
+    },
+    "Example_87": {
+        "review": "Great food and very reasonable prices.  Really enjoy the sandwich and big orders of tasty fries.",
+        "sentiment": 4
+    },
+    "Example_88": {
+        "review": "Great food and atmosphere. Sweet potato waffle fries are the best. Great for Pirate games.",
+        "sentiment": 5
+    },
+    "Example_89": {
+        "review": "The wings here are fantastic and the cheese sticks are absurd in a very good way. Will definitely be back.",
+        "sentiment": 5
+    },
+    "Example_90": {
+        "review": "Been here twice. Hate to say it but nothing special. The usual breakfast items but nothing stands out either in preparation or presentation.",
+        "sentiment": 2
+    },
+    "Example_91": {
+        "review": "Don't go for healthy, go for tasty comfort food. Great pancakes. Expect a long wait on weekends!",
+        "sentiment": 5
+    },
+    "Example_92": {
+        "review": "Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.",
+        "sentiment": 5
+    },
+    "Example_93": {
+        "review": "Food here is absolutely wonderful! Service is good and people are better. Take my family there and am extremely satisfied.",
+        "sentiment": 5
+    },
+    "Example_94": {
+        "review": "I had the Italian jombot here it was so good, and the service was awesome!!! I will definitely be back.",
+        "sentiment": 5
+    },
+    "Example_95": {
+        "review": "Pancakes, pancakes, pancakes. Everybody told me I HAD to try and their pancakes.\\nWell, the short stack they served me were lousy pancakes.",
+        "sentiment": 1
+    },
+    "Example_96": {
+        "review": "Great pie...I could eat a whole large though...if you like a thin crust, you will love this",
+        "sentiment": 4
+    },
+    "Example_97": {
+        "review": "Consistent and quality. Although it might be a love it or hate it thing. I love it, so there ya go.",
+        "sentiment": 4
+    },
+    "Example_98": {
+        "review": "I just want to like it due to its location and great beer selection, but the food is awful.",
+        "sentiment": 2
+    },
+    "Example_99": {
+        "review": "Had the gnocchi delivered. Absolutely terrible. Gnocci's had to have been 2 years old. Delivery guy was shady too.",
+        "sentiment": 1
+    },
+    "Example_100": {
+        "review": "Their chicken BBQ pizza is among the greaseiest I've ever consumed, but their beer selection is good, atmosphere is pleasant, and service is friendly.",
+        "sentiment": 4
+    },
+    "Example_101": {
+        "review": "Yum! Great little find just outside of the city....especially if you are Chicago dog fan",
+        "sentiment": 4
+    },
+    "Example_102": {
+        "review": "I don't come here to eat much, I usually come for the beer cave. Best build-your-own six pack joint in the city!",
+        "sentiment": 5
+    },
+    "Example_103": {
+        "review": "Employees are awesome. Everyone is super friendly and they always have kick ass old school jams playing!",
+        "sentiment": 5
+    },
+    "Example_104": {
+        "review": "Mac n cheese dog is incredible. This place is small and gets packed so be prepared for a long wait and no personal space.",
+        "sentiment": 5
+    },
+    "Example_105": {
+        "review": "The drive through service here leaves something to be desired. Not only was my order wrong but the lady was very grumpy.",
+        "sentiment": 2
+    },
+    "Example_106": {
+        "review": "Worst service. Dirty. Slow. Ignorant by the strictest definition. Do not go here. Bad! Real bad.",
+        "sentiment": 1
+    },
+    "Example_107": {
+        "review": "Passable, cheap Chinese food. I like the Kung Pao chicken, but they definitely put in too many carrots.",
+        "sentiment": 3
+    },
+    "Example_108": {
+        "review": "Huge, huge \\\"battleship\\\" sandwich w Italian meats + bologna, exotic malt liquors, craftsmanship, and a barred window entrance hiding it's charm. Great experience.",
+        "sentiment": 4
+    },
+    "Example_109": {
+        "review": "One of the worst Wendy's I've ever experienced. Every morning there was a 30-minute wait - after ordering - for food.",
+        "sentiment": 1
+    },
+    "Example_110": {
+        "review": "Love their spicy black bean dip and their black bean and pineapple quesadilla... mmmm can't get enough of their black bean.",
+        "sentiment": 5
+    },
+    "Example_111": {
+        "review": "Always great service at the bar from Tanya and Nikki. Great food and wide selection of draft beers. One of my favorite spots.",
+        "sentiment": 5
+    },
+    "Example_112": {
+        "review": "The worst pulled pork sandwich I have ever had. Their watermelon mixed drink was very good though. I won't be returning.",
+        "sentiment": 1
+    },
+    "Example_113": {
+        "review": "Not up to it's previous brunch standards. Buffet has scaled back in variety and quality.  Still good but no longer excellent.",
+        "sentiment": 2
+    },
+    "Example_114": {
+        "review": "I wish more chains had great quality foods and ambience rich environments. I thoroughly enjoyed my roasted turkey, avo blt!",
+        "sentiment": 4
+    },
+    "Example_115": {
+        "review": "Nice, clean local place in Green Tree. Might be a little pricey but the food is good and homemade.",
+        "sentiment": 4
+    },
+    "Example_116": {
+        "review": "Food is mediocre service is lousy. I'm sitting here right now and have been out of water and done eating for 20 min...",
+        "sentiment": 2
+    },
+    "Example_117": {
+        "review": "Service was good but probably the worse pizza I've ever had. We couldn't eat it.",
+        "sentiment": 2
+    },
+    "Example_118": {
+        "review": "The service was great while we were here. The food was average. And the parking was bad.",
+        "sentiment": 4
+    },
+    "Example_119": {
+        "review": "Ten minute wait and easily most tables are open!!! Surprise it's lunch time!!!! I just passed six tables empty and clean. Beyond me...",
+        "sentiment": 1
+    },
+    "Example_120": {
+        "review": "Bar next to stadium\\nTypical\\nbar next to stadium place\\nWaitresses def looking for other jobs \\nNot happy at all\\nThis isn't even a game night",
+        "sentiment": 2
+    },
+    "Example_121": {
+        "review": "Good food but takes too long before game to get order, be sure to come early, 35 mins to get food.",
+        "sentiment": 3
+    },
+    "Example_122": {
+        "review": "Sushi was great. Everyone I was with enjoyed their meal. I will probably not go back because the location is not great.",
+        "sentiment": 3
+    },
+    "Example_123": {
+        "review": "Went to an event here. The meatballs were frozen meatballs. It was ok. I probably wouldn't go back to eat.",
+        "sentiment": 3
+    },
+    "Example_124": {
+        "review": "Solid place to grab a martini and listen to some sub-par live music. Far from amazing but hey not everywhere is going to be right?",
+        "sentiment": 3
+    },
+    "Example_125": {
+        "review": "A beautiful little bar with an exciting \\\"martini\\\" list - do step outside your comfort zone and try one of the crafted drinks.",
+        "sentiment": 5
+    },
+    "Example_126": {
+        "review": "Nice location, interesting cocktail menu, but nothing is done particularly well. I still go there, but I wish the cocktails were made using fresher ingredients.",
+        "sentiment": 3
+    },
+    "Example_127": {
+        "review": "Fares keep going up. Another service cut this month. I think I'd rather walk to work in the middle of the night!",
+        "sentiment": 2
+    },
+    "Example_128": {
+        "review": "an efficient way to eat - meat, cheese, fries and slaw! all the food groups in one delicious huge bite.",
+        "sentiment": 4
+    },
+    "Example_129": {
+        "review": "Really bad service. Make sure to get in the face of the wait staff or count on being ignored",
+        "sentiment": 1
+    },
+    "Example_130": {
+        "review": "Fries were kind of bland and the coleslaw was just ok but the meat was very good. Overall, it's a tasty place with good prices",
+        "sentiment": 4
+    },
+    "Example_131": {
+        "review": "I really don't know what the hype is about. I was quite underwhelmed with this restaurant.",
+        "sentiment": 2
+    },
+    "Example_132": {
+        "review": "Good sandwiches as you expect, but a bit of a touristic atmosphere. I'm a stickler for the original in the strip!",
+        "sentiment": 4
+    },
+    "Example_133": {
+        "review": "Highly disappointing. While sandwich is unique it was totally over cooked and under seasoned. No flavor",
+        "sentiment": 2
+    },
+    "Example_134": {
+        "review": "The restaurant did their level best to make it up to me, so here's another star for giving a damn. Thanks!",
+        "sentiment": 3
+    },
+    "Example_135": {
+        "review": "Good: Mexican groceries in Pittsburgh\\nBetter: The chipotle tomatillo salsa, homemade by Edgar.\\nBest. The taco stand. Seriously, if you're here, get a damn taco.",
+        "sentiment": 4
+    },
+    "Example_136": {
+        "review": "The Lobster Roll Caesar Salad was very good, and the service at the bar was great!",
+        "sentiment": 3
+    },
+    "Example_137": {
+        "review": "we went three for st, patrick day. Two harps bottle beers and 12 oyster costs $40.",
+        "sentiment": 2
+    },
+    "Example_138": {
+        "review": "Not as good as Wholeys but awesome patio and the best service. Go here for the atmosphere, the staff is the best.",
+        "sentiment": 4
+    },
+    "Example_139": {
+        "review": "Not bad. Not great. But not bad.  Excellent bang for your buck, especially if you're hungry.",
+        "sentiment": 3
+    },
+    "Example_140": {
+        "review": "my falafel was ok, but my brother kabob was really good. great location. reasonable price",
+        "sentiment": 3
+    },
+    "Example_141": {
+        "review": "Went here before the regatta yesterday, was my third time here...consistently great, best gyros around!! Thanks.",
+        "sentiment": 4
+    },
+    "Example_142": {
+        "review": "Great food, fast service and the price is right. Perfect stop for a quick lunch in the downtown area.",
+        "sentiment": 4
+    },
+    "Example_143": {
+        "review": "I love this place. Gyros, spinach pie, fries and hummus. Way better than any other gyro place in Pittsburgh.",
+        "sentiment": 5
+    },
+    "Example_144": {
+        "review": "This place has amazing homemade crab bisque soup! My turkey sandwich was good too. Quick and loved the friendly staff.",
+        "sentiment": 3
+    },
+    "Example_145": {
+        "review": "Fettucini from a can, anyone? \\n\\nIf you like paying $10 for tasteless pasta and sauces, this is your place!\\n\\nStay away and never look back.",
+        "sentiment": 2
+    },
+    "Example_146": {
+        "review": "Spag Warehouse is the best value for money in the tri-state area.... damn good food!!",
+        "sentiment": 5
+    },
+    "Example_147": {
+        "review": "Service is lacking and food is mediocre. When I crave Italian this is not the first place I think of.",
+        "sentiment": 2
+    },
+    "Example_148": {
+        "review": "The atmosphere was pretty cool. It really is warehouse like. Could have been better with a bigger crowd. But the food was pretty bland.",
+        "sentiment": 3
+    },
+    "Example_149": {
+        "review": "Took two and a half hours to get our food. All our food was the thrown together in the same pan. Not worth the $55.",
+        "sentiment": 1
+    },
+    "Example_150": {
+        "review": "owner is a terrible terrible person. tossed me out for no good reason. i found the food very average overall",
+        "sentiment": 1
+    },
+    "Example_151": {
+        "review": "If you're seeking bland, salty, Chinese food where every entree tastes exactly the same as the other...this is your place!",
+        "sentiment": 2
+    },
+    "Example_152": {
+        "review": "The most delicious pizza and the best cocktails in the area!! Such friendly staff!! I've always had an amazing experience!!",
+        "sentiment": 5
+    },
+    "Example_153": {
+        "review": "Been going to Mineo's for the longest time I can remember. Good pizza but certainly not the best one around town! Cash only though!",
+        "sentiment": 3
+    },
+    "Example_154": {
+        "review": "Got an amazing facial here. I have been there for a pedicure and massage in the past. It's great.",
+        "sentiment": 5
+    },
+    "Example_155": {
+        "review": "This is a crappy, dark theater that leaks water when it rains. Do not go!",
+        "sentiment": 1
+    },
+    "Example_156": {
+        "review": "Such a shame. Terrific location, supported by the community and just awful. Filthy, bad seats, more expensive than others. Choose to go elsewhere.",
+        "sentiment": 2
+    },
+    "Example_157": {
+        "review": "At the pub/restaurant side I had a very bad experience, terrible food, even worse service. A complete waste of money, avoid at all costs.",
+        "sentiment": 1
+    },
+    "Example_158": {
+        "review": "Racist mall management team same team that ran century 3 mall in to the ground stay away nothing good comes out this place",
+        "sentiment": 1
+    },
+    "Example_159": {
+        "review": "Mediocre sandwiches and milk shakes. Also, the woman behind the counter was very rude and had a terrible attitude.",
+        "sentiment": 2
+    },
+    "Example_160": {
+        "review": "Flavorful not bitter I have only had a double espresso iced & a regular I enjoyed it",
+        "sentiment": 4
+    },
+    "Example_161": {
+        "review": "Great interactions, very friendly workers and customers (most of the time). Don't waste your time on the wifi though, it's horrible!",
+        "sentiment": 3
+    },
+    "Example_162": {
+        "review": "I went here once when I first moved to Pittsburgh. My shirts came back poorly pressed and some had broken buttons. I was disappointed.",
+        "sentiment": 2
+    },
+    "Example_163": {
+        "review": "Love love love this place. They did an amazing job. Favorite place for happy hour.",
+        "sentiment": 5
+    },
+    "Example_164": {
+        "review": "Amazing Two Fish Tempura Fat Roll...one of the best things I've tasted, seriously.\\nExcellent Thai Corn Chowder.\\nIncredible Black Cod.\\nThis place does Asian Fusion well!",
+        "sentiment": 5
+    },
+    "Example_165": {
+        "review": "Don't come here from NYC looking for a good bagel and lox, stick w the ice cream.",
+        "sentiment": 2
+    },
+    "Example_166": {
+        "review": "A little overpriced but the bagels are always good and fresh. The cinnamon French toast (made from their cinnamon log bread) is also very good!",
+        "sentiment": 4
+    },
+    "Example_167": {
+        "review": "Great drinks (frozen cosmos!!) but the food and service leaves something to be desired. Try the Sunday brunch!",
+        "sentiment": 3
+    },
+    "Example_168": {
+        "review": "use to be a max and erma's and if that bar wasn't low enough it now misses the mark",
+        "sentiment": 2
+    },
+    "Example_169": {
+        "review": "Wonderful brunch. The food and service was great. The waiters were very friendly and the food wasn't too pricey. Really a great option for brunch.",
+        "sentiment": 4
+    },
+    "Example_170": {
+        "review": "Desert was great - beer was good. Food was under seasoned a bit with out the sauce. Husband liked it with.",
+        "sentiment": 3
+    },
+    "Example_171": {
+        "review": "If you're drunk get the kitchen sink wings and mac & cheese bites! Their fried zucchini is pretty good too :)",
+        "sentiment": 4
+    },
+    "Example_172": {
+        "review": "If you want to get pastries while being yelled at by the staff and treated like dirt, this is the place for you.",
+        "sentiment": 1
+    },
+    "Example_173": {
+        "review": "Amazing pastries! Gotta go and check it out. We had the almond tort, cream horn and the gob. All great! Reasonable prices too.",
+        "sentiment": 5
+    },
+    "Example_174": {
+        "review": "Their coffee is solid--better than coffee tree roasters, imo--and the atmosphere is nice and relaxed. Prefer this place over the local chains any day.",
+        "sentiment": 5
+    },
+    "Example_175": {
+        "review": "Pamela is a bad representation of this location! Attitude and lack of hygiene is an issue for this \\\"employee.\\\" I will not return.",
+        "sentiment": 1
+    },
+    "Example_176": {
+        "review": "Large selection of unique/cute-tastic gifts. Humerous knick-knacks/books galore. Very adorable and staff was very pleasant. Looking forward to going back again.",
+        "sentiment": 4
+    },
+    "Example_177": {
+        "review": "The store is really fun, just know it gets crowded quickly, especially around the holidays. Don't recommend going with a stroller in tow!",
+        "sentiment": 4
+    },
+    "Example_178": {
+        "review": "I got tired of waiting in line with one register open and 10 people in front of me. Won't be back.",
+        "sentiment": 1
+    },
+    "Example_179": {
+        "review": "The Holidays are coming and in the 'British' section they are not selling Vegeta seasoning anymore.",
+        "sentiment": 3
+    },
+    "Example_180": {
+        "review": "Friendly front desk. A little condescending toward the back. Lovely jewelry, extensive collection of lovely things. Well worth a visit for unique gifts.",
+        "sentiment": 4
+    },
+    "Example_181": {
+        "review": "Great place to get an authentic meal. Great wine selection with generous portions. The house dressing is to die for.",
+        "sentiment": 4
+    },
+    "Example_182": {
+        "review": "Beautiful ambiance, fantastic service, delicious food, and a personal toast from the owner was a great touch!",
+        "sentiment": 5
+    },
+    "Example_183": {
+        "review": "Food, service and atmosphere were excellent. I don't ever post reviews but couldn't believe this place didn't have a higher rating.",
+        "sentiment": 5
+    },
+    "Example_184": {
+        "review": "Absolutely horrible. My sink has been overflowing onto my countertops and ruining my belongings multiple times. Management did not even apologize for my inconvenience.",
+        "sentiment": 1
+    },
+    "Example_185": {
+        "review": "Really fun. Really packed on weekends. Inexpensive drinks. Also, available to order is a vodka drink made with fresh squeezed fruit.",
+        "sentiment": 3
+    },
+    "Example_186": {
+        "review": "Best breakfasts in the Pittsburgh area. Just make sure to bring cash - they don't take credit.",
+        "sentiment": 4
+    },
+    "Example_187": {
+        "review": "Cash only. It's a bit pricey for crepes, but it's great to have the restaurant to fulfill crepe cravings :)",
+        "sentiment": 4
+    },
+    "Example_188": {
+        "review": "Very Good!\\n\\nGot the Beef Stew in Hot Pot. Pretty Spicy, but so delicious. \\nHappy to have found this place on our stopover in Shadyside.",
+        "sentiment": 4
+    },
+    "Example_189": {
+        "review": "I had steamed chicken and veggies along with hot and sour soup! I would never get tired of it!",
+        "sentiment": 4
+    },
+    "Example_190": {
+        "review": "Tyipical \\\"Chinese restaurant\\\" menu and flavour. Environment and service is above average, making overall experience decent.",
+        "sentiment": 3
+    },
+    "Example_191": {
+        "review": "I didn't find the food all that flavorable, the service isn't great, and it's definitely not worth the price.",
+        "sentiment": 2
+    },
+    "Example_192": {
+        "review": "Had dinner here the other night and it was lovely. The dragon phoenix soup was amazing, the service was wonderful, we'll definitely be going back.",
+        "sentiment": 4
+    },
+    "Example_193": {
+        "review": "Very unhappy with the sales people did not do what they said they would do service department is very good",
+        "sentiment": 1
+    },
+    "Example_194": {
+        "review": "Some of the best pizza I've had since moving to Pittsburgh. And they have good hoagies as well.",
+        "sentiment": 4
+    },
+    "Example_195": {
+        "review": "The lady who runs the office is unpleasant and rude. Will not use this garage in the future.",
+        "sentiment": 1
+    },
+    "Example_196": {
+        "review": "Fast friendly service and good sandwiches. This is a neighborhood staple that deserves your business.",
+        "sentiment": 5
+    },
+    "Example_197": {
+        "review": "Big hotel. Not bad. Bathrooms way too small I had to dry off outside the bathroom. Priceline for good rate.",
+        "sentiment": 2
+    },
+    "Example_198": {
+        "review": "Cheap bowling, clean, serves food, & has pool tables. What else could you ask for in a bowling alley?",
+        "sentiment": 5
+    },
+    "Example_199": {
+        "review": "I'm a big fan of mc d's but I was expecting more when I saw pork chop biscuit what a fail.",
+        "sentiment": 2
+    },
+    "Example_200": {
+        "review": "Bar food\\nDecent bar food though.\\nWaitress was nice\\nBeer was cold \\nCool paintings and art\\nAtmosphere was warm and non pretentious",
+        "sentiment": 4
+    },
+    "Example_201": {
+        "review": "I definitely learned alot about the south here. Really glad we spent a few hours here. Makes you appreciate modern times.",
+        "sentiment": 4
+    },
+    "Example_202": {
+        "review": "Great BBQ plate, amazing slaw on burger. So glad I found this place right near my house.",
+        "sentiment": 5
+    },
+    "Example_203": {
+        "review": "The lobby is nice and the pool, fitness room are good. Some floors look a bit dated although rooms are just like other Sheratons.",
+        "sentiment": 4
+    },
+    "Example_204": {
+        "review": "Belk at Carolina Place always has amazing customer service. They often compensate when you forget a coupon at the register.",
+        "sentiment": 3
+    },
+    "Example_205": {
+        "review": "Wunderbar! Authentic! Eleven German draft beers. The server( Stefanie) was from Dresden and did a great job. Sauerbraten, spatzle, and rot kohl were great!",
+        "sentiment": 5
+    },
+    "Example_206": {
+        "review": "The lobster tail was salty. The crab legs were alright. The shrimp was awesome. The asparagus was amazing. All in all it was eh.",
+        "sentiment": 2
+    },
+    "Example_207": {
+        "review": "this is just high priced captain D's. they quality has gone downhill over the past decade now I remember WHY I don't eat here.",
+        "sentiment": 3
+    },
+    "Example_208": {
+        "review": "Not too crazy about this place. I ordered a pastrami on rye and it was just a pile of meat on soggy bread.",
+        "sentiment": 2
+    },
+    "Example_209": {
+        "review": "Definitely not stingy on the meat! The hot corned beef and the baked potatoes are delicious .",
+        "sentiment": 5
+    },
+    "Example_210": {
+        "review": "Love this place! Great food, great service, great atmosphere! Mmm table bread, Mountain Dew, & Caesar Salads!!",
+        "sentiment": 4
+    },
+    "Example_211": {
+        "review": "GREAT steaks, prepared just the way it was ordered. Highly recommend the Portabello mushroom steak. Fast, friendly service.",
+        "sentiment": 5
+    },
+    "Example_212": {
+        "review": "Absolutely wonderful service and the Half Shredded Prime Rib Sandwich and Loaded (and I do mean loaded) potato soup is stupendous",
+        "sentiment": 4
+    },
+    "Example_213": {
+        "review": "Waiting in line no one here....3 employees standing around and no one says anything. Horrible service. Next time ill just order on amazon",
+        "sentiment": 1
+    },
+    "Example_214": {
+        "review": "Just your typical mall. Nothing out of the ordinary. It was kept pretty clean as well and had a large amount of parking.",
+        "sentiment": 3
+    },
+    "Example_215": {
+        "review": "I Had a great steak, great waiter, and great drinks. Nothing to complain about here.",
+        "sentiment": 4
+    },
+    "Example_216": {
+        "review": "Slow, absolutely the worst. Horrible communication skills and customer service. I wouldn't imagine In million years how inconsiderate people in the auto business could be.",
+        "sentiment": 1
+    },
+    "Example_217": {
+        "review": "Not very good. Dried out food. Some things cold, when they should be hot. Disappoined overall. Not clean, either. 11.99 per person not worth it.",
+        "sentiment": 1
+    },
+    "Example_218": {
+        "review": "Did not like it. Luke warm food that was not appetizing or tasteful. Not the cleanest establishment.",
+        "sentiment": 2
+    },
+    "Example_219": {
+        "review": "Stay Away! They damaged my car. If I were you I would not risk taking my car or any other vehicle to auto bell.",
+        "sentiment": 1
+    },
+    "Example_220": {
+        "review": "Just left there and my car was inspected quickly and no hidden costs. The staff was efficient and quick and that's all I can ask.",
+        "sentiment": 5
+    },
+    "Example_221": {
+        "review": "This is a fantastic, well appointed hotel, but with a very easy going staff.\\nWe'd definitely stay here again.",
+        "sentiment": 4
+    },
+    "Example_222": {
+        "review": "One of the oldest hotdog / hamburger joints in Charlotte. Burgers and hotdogs are fresh and made to order. Charlotte Classic",
+        "sentiment": 5
+    },
+    "Example_223": {
+        "review": "Quaint, atmosphere and great food to boot. If you want to break from the norm, start here!",
+        "sentiment": 4
+    },
+    "Example_224": {
+        "review": "Love this place. Great food and unique character. A must if you live in Charlotte.",
+        "sentiment": 5
+    },
+    "Example_225": {
+        "review": "One of our favorite cozy places to eat in Uptown. Dark and cozy booths, good food, great drinks. Lots of fun memories.",
+        "sentiment": 4
+    },
+    "Example_226": {
+        "review": "Incredible nachos. Incredible food. Try their best sellers. Atmosphere is quaint. Great for a casual date night. Enjoy!",
+        "sentiment": 4
+    },
+    "Example_227": {
+        "review": "Bad food. Bug problem. In a neighborhood full of homeless roaming the streets like zombies.",
+        "sentiment": 1
+    },
+    "Example_228": {
+        "review": "This place is awesome. The \\\"what it is\\\"...so delicious. I'm from Cincinnati and we come here at least once any time we are in town.",
+        "sentiment": 5
+    },
+    "Example_229": {
+        "review": "Perfect atmosphere. Best BLT, fried pickles and pasta salad(with Stevie's dressing.) One of my favorites in Charlotte.",
+        "sentiment": 5
+    },
+    "Example_230": {
+        "review": "Nice people, busy busy busy place, but always great service, fast kitchen.\\n\\nThe kitchen is super fast for carryout.",
+        "sentiment": 4
+    },
+    "Example_231": {
+        "review": "The queen of the bloated corporate steakhouses! Save your money.....find a local street vendor.....and buy tickets to whatever is at the Blumenthal!!",
+        "sentiment": 2
+    },
+    "Example_232": {
+        "review": "Good steak. Service was great. Speedy service requested and speedy service received... Would recommend if your looking for a decent steak in the charlotte area..",
+        "sentiment": 3
+    },
+    "Example_233": {
+        "review": "Moderate beer choices and decent food. Even though this is a very cookie-cutter Irish pub, not a bad place to kick start your happy hour.",
+        "sentiment": 3
+    },
+    "Example_234": {
+        "review": "Was Disaponinted with the amount of time it took me to get service at the bar !! Staff was friendly and the decar was nice.",
+        "sentiment": 3
+    },
+    "Example_235": {
+        "review": "This place is great. Good servers. Takiyyah is the best. Ask for her. Great food and a great place to bring a large group.",
+        "sentiment": 5
+    },
+    "Example_236": {
+        "review": "Superb service and reliably fine food from this family owned restaurant. Briskly busy at lunchtime, relaxed at night, always comfortable. A pleasure!",
+        "sentiment": 5
+    },
+    "Example_237": {
+        "review": "I just called our delivery order in after ringing MANY local establishments that do not deliver. Their customer service is friendly and quick",
+        "sentiment": 4
+    },
+    "Example_238": {
+        "review": "Lack of Atmosphere (Even during sporting events)\\n\\nFood is terrible.\\n\\nBartender/Waitress were incredibly rude....\\n\\nEverybody has bad days, they should not be this bad.....",
+        "sentiment": 1
+    },
+    "Example_239": {
+        "review": "Rooms are very clean and the views are great. The location is right in the heart of Charlotte and convenient to everything - easy walking!!",
+        "sentiment": 4
+    },
+    "Example_240": {
+        "review": "Only 2 stars for location. Rooms are humid and smell like wet dog. Worst hotel I have yet to stay in as a consultant.",
+        "sentiment": 2
+    },
+    "Example_241": {
+        "review": "Checked this place out while on vacation. They had pretty decent food but the atmosphere was very chain restaurant like. But great beer!",
+        "sentiment": 3
+    },
+    "Example_242": {
+        "review": "Nicest patio downtown. There are much better wait staff downtown. Get the beer or wine. Stay away from cocktails. Food = pedestrian.",
+        "sentiment": 3
+    },
+    "Example_243": {
+        "review": "Meh, indeed. Decent beer and excellent service. But it's chain food and it didn't do much for me.",
+        "sentiment": 2
+    },
+    "Example_244": {
+        "review": "The food was rock bottom. \\n\\nIt was so disappointing that me and two my friends could not finish our meals.",
+        "sentiment": 1
+    },
+    "Example_245": {
+        "review": "Food is good, beer is amazing! Highly recommend stopping in if you're in the neighborhood.",
+        "sentiment": 4
+    },
+    "Example_246": {
+        "review": "How can you go wrong with Heavenly Bed and Heavenly Baths? I loved this place!!! If only I could afford to stay here again!",
+        "sentiment": 5
+    },
+    "Example_247": {
+        "review": "The Convention Center needs better souvenir store/vendor. Everything looked old and used. Not a lot of souvenirs to pick. Poor souvenir store. Need major improvement.",
+        "sentiment": 2
+    },
+    "Example_248": {
+        "review": "Wanted to like this place. Staff very friendly. Reasonable prices. Quick service. \\nBut plates were dirty. Table dirty. Food just OK.",
+        "sentiment": 2
+    },
+    "Example_249": {
+        "review": "Really, its as good as it gets. The food is hot and fresh. The cornbread is awesome and the service is good...I love this place.",
+        "sentiment": 5
+    },
+    "Example_250": {
+        "review": "The cornbread was the best part of the meal, all the other menu items I tried was sub-par.",
+        "sentiment": 2
+    },
+    "Example_251": {
+        "review": "Great service and even better soul food. Try the fried green tomatoes, Mac and cheese, collards, catfish and fried chicken.",
+        "sentiment": 4
+    },
+    "Example_252": {
+        "review": "The worst restaurant ever! It doesn't matter if the food tastes good or not.. The service is the worst! Lazy and slow as ever!",
+        "sentiment": 1
+    },
+    "Example_253": {
+        "review": "Great place. I had a birthday dinner last week. The food and service was great. Friendly staff .. Very pleased.",
+        "sentiment": 4
+    },
+    "Example_254": {
+        "review": "Good, honest food, at a fair price, made by cheerful folk. I've been going there for years, and am rarely disappointed.",
+        "sentiment": 5
+    },
+    "Example_255": {
+        "review": "Jersey Mike's Tuesday Special is awesome. $7 for any regular sub, chips & a drink. It's usually the only day that I drink soda.",
+        "sentiment": 5
+    },
+    "Example_256": {
+        "review": "Excellent service!! Brooke and Hannah are awesome servers!! Food was excellent, chocolate Sauce was scrumptious !! The creme br\\u00fbl\\u00e9e is amazing!!",
+        "sentiment": 5
+    },
+    "Example_257": {
+        "review": "Good food and flavor. Cold greeting at hostess desk. Service good. I would go back.",
+        "sentiment": 3
+    },
+    "Example_258": {
+        "review": "Had shrimp and grits for lunch. Was not expecting much having lived on the Gulf Coast but was pleasantly surprised.",
+        "sentiment": 4
+    },
+    "Example_259": {
+        "review": "Dinner food is high quality/fresh and the recipes are interesting.\\n\\nFresh pear butter and biscuits were a nice bonus.",
+        "sentiment": 4
+    },
+    "Example_260": {
+        "review": "Fish and chips were great. People should not come here for lunch and discuss business. Enjoy your meal as if it were your last.",
+        "sentiment": 5
+    },
+    "Example_261": {
+        "review": "First and last to this club. Very pricy,poor service and no contact dance. ... Other clubs in charlotte are better ... Very disappointed .....",
+        "sentiment": 1
+    },
+    "Example_262": {
+        "review": "Great place. Excellent experience. Had the scallops for my main dish. Amazing! If I could give this place 10 stars, I would.",
+        "sentiment": 5
+    },
+    "Example_263": {
+        "review": "We had a wonderful, authentic Italian meal on New Year,s Eve. The service was friendly, I rushed. Can't wait to return!",
+        "sentiment": 5
+    },
+    "Example_264": {
+        "review": "I can't think of anything due to my food coma but it was all five stars! The blackberry sorbet was a perfect finish.",
+        "sentiment": 5
+    },
+    "Example_265": {
+        "review": "Nice hotel, nice warm cookies! I have stayed at this one twice and would recommend to out of towners.",
+        "sentiment": 5
+    },
+    "Example_266": {
+        "review": "Average pizza at best and sub-par appetizers. Decent beer specials are only upside. Walk across the street and eat at Fuel for some real pizza.",
+        "sentiment": 3
+    },
+    "Example_267": {
+        "review": "Really. Good. Pizza. Great variety of beer and wine. If you are in downtown, and want a good meal, eat here.",
+        "sentiment": 4
+    },
+    "Example_268": {
+        "review": "Jerk chicken pizza was excellent. Bomber was good but the fresh oregano over powered everything else. Great beer selection. Service was good.",
+        "sentiment": 4
+    },
+    "Example_269": {
+        "review": "Sorry- just doesn't do it for me. The steak is average and it's over run by BoA middle management.",
+        "sentiment": 2
+    },
+    "Example_270": {
+        "review": "This is a classic steak house. Good service and great food. Go ahead- spend the extra money. It's worth it.",
+        "sentiment": 4
+    },
+    "Example_271": {
+        "review": "One of the best Steakhouses, always consistent. Great food and service. You can people watch at the bar",
+        "sentiment": 5
+    },
+    "Example_272": {
+        "review": "This is heaven for steak lovers like me! High quality and moody...I enjoyed my time very well.",
+        "sentiment": 5
+    },
+    "Example_273": {
+        "review": "Nice antiquey (if thats a word) atmosphere, tons of tv's and a huge bar. Would visit again!",
+        "sentiment": 3
+    },
+    "Example_274": {
+        "review": "Just another liberal bias rag.  It's only redeeming use, is for lining bird cages and starting fires.",
+        "sentiment": 1
+    },
+    "Example_275": {
+        "review": "Average bar with a nice outdoor area. You can go cornholing there which is fun.\\n\\nWish the beer selection was better.",
+        "sentiment": 3
+    },
+    "Example_276": {
+        "review": "Go sit at the Bar. The drinks are great and the SUSHI is very good. The women in there are smokin hot.",
+        "sentiment": 4
+    },
+    "Example_277": {
+        "review": "Great place to salsa dance on a Saturday night!! A brief lesson is given by some great professionals-check it out!!",
+        "sentiment": 4
+    },
+    "Example_278": {
+        "review": "Convenient parking and great exhibit - Body Worlds. The IMAX is wonderful - beware lots of kids everywhere!",
+        "sentiment": 4
+    },
+    "Example_279": {
+        "review": "It reminded me of the dirty restroom at the gas station on HWY 40 driving through Texas. Dirty and nasty.",
+        "sentiment": 1
+    },
+    "Example_280": {
+        "review": "Disgusting, slow and pathetic. Takes phone orders before the people standing in front of them. Food is subpar. Skip unless starving",
+        "sentiment": 2
+    },
+    "Example_281": {
+        "review": "Nice, friendly staff. WIsh they had what I had come in for. Carmex anyone? I thought it was a regular staple at any drugstore....",
+        "sentiment": 3
+    },
+    "Example_282": {
+        "review": "Solid hotel, pretty hard beds but clean. Great water pressure and fantastic location. Be sure to join their club for free in room wifi.",
+        "sentiment": 3
+    },
+    "Example_283": {
+        "review": "We had our company holiday party here and it was an AMAZING time! Great atmosphere and all of the catering staff were courteous and helpful.",
+        "sentiment": 5
+    },
+    "Example_284": {
+        "review": "Salsa club moved next door, but restaurant closed on 08/15/2009. I always wanted to try this place, I'm sad to see it go....",
+        "sentiment": 4
+    },
+    "Example_285": {
+        "review": "The staff rocks (and they tell me the food is good, too). Forget your plans; you could wind up staying here all night.",
+        "sentiment": 4
+    },
+    "Example_286": {
+        "review": "Went here on a weekday night. I didn't like it and I probably won't be back.",
+        "sentiment": 2
+    },
+    "Example_287": {
+        "review": "Hit and miss for lunch and summer. Was told that veggies were all fresh, no way..breakfast better. Homefries good. Omlettes dry and not so good.",
+        "sentiment": 2
+    },
+    "Example_288": {
+        "review": "Kevin was excellent- diagnosed the problem quickly, part came fast- called & came on time. Very happy with service & would highly recommend.",
+        "sentiment": 5
+    },
+    "Example_289": {
+        "review": "Better than expected. Many salad bar items, excellent corn bread. BF cleared his plate, I did too. Nothing fancy but good food! Staff very attentive.",
+        "sentiment": 4
+    },
+    "Example_290": {
+        "review": "Great park for family fun. They even host music festivals there which is fantastic. Something for everyone for sure!",
+        "sentiment": 4
+    },
+    "Example_291": {
+        "review": "Awesome rides!!!!! Both children and adults rides were terrific! We went on a Friday and there were no lines! What more can you ask for?",
+        "sentiment": 5
+    },
+    "Example_292": {
+        "review": "Carowinds is a fun place.....where else can you spend $4 on a bottle of water?!",
+        "sentiment": 3
+    },
+    "Example_293": {
+        "review": "Worst customer service ever. The manager is rude and talks bad about the client and little care for his customer",
+        "sentiment": 1
+    },
+    "Example_294": {
+        "review": "it was ok. \\n\\nmussels were good. service ok. ambiance seemed dated. worth a trip, but not sure i would go back.",
+        "sentiment": 2
+    },
+    "Example_295": {
+        "review": "Thumbs up, great wine selection and atmosphere. Must try the Scallops. \\nWent during Charlotte Restaurant Week. They accommodated a group of ten.",
+        "sentiment": 4
+    },
+    "Example_296": {
+        "review": "Great setting. Big restaurant but great service. Mediterranean. Halibut was killer - in a soup. Major dipping action. A gem!",
+        "sentiment": 5
+    },
+    "Example_297": {
+        "review": "White tuna sushi was great! But the Pad Thai just ok. Next time i'll stick to the sushi",
+        "sentiment": 3
+    },
+    "Example_298": {
+        "review": "Quick, decent nothing amazing. the fried rice was good and egg drop soup decent. if you're looking just to crave a Chinese craving it works.",
+        "sentiment": 2
+    },
+    "Example_299": {
+        "review": "Worst auto bell in town. Do not go here. It wasn't even decent enough for one star.",
+        "sentiment": 1
+    },
+    "Example_300": {
+        "review": "I have only been once. Nice staff. Quality ingredients. Tasty and fresh cold cut subs. I had the Italian. Yum!",
+        "sentiment": 4
+    }
+}

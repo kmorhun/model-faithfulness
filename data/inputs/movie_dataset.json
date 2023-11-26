@@ -1,0 +1,1202 @@
+{
+    "Example_1": {
+        "review": "if you sometimes like to go to the movies to have fun , wasabi is a good place to start .",
+        "sentiment": 2
+    },
+    "Example_2": {
+        "review": "emerges as something rare , an issue movie that's so honest and keenly observed that it doesn't feel like one .",
+        "sentiment": 2
+    },
+    "Example_3": {
+        "review": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .",
+        "sentiment": 2
+    },
+    "Example_4": {
+        "review": "this is a film well worth seeing , talking and singing heads and all .",
+        "sentiment": 2
+    },
+    "Example_5": {
+        "review": "( wendigo is ) why we go to the cinema : to be fed through the eye , the heart , the mind .",
+        "sentiment": 2
+    },
+    "Example_6": {
+        "review": "an utterly compelling 'who wrote it' in which the reputation of the most famous author who ever lived comes into question .",
+        "sentiment": 2
+    },
+    "Example_7": {
+        "review": "the movie's ripe , enrapturing beauty will tempt those willing to probe its inscrutable mysteries .",
+        "sentiment": 2
+    },
+    "Example_8": {
+        "review": "a disturbing and frighteningly evocative assembly of imagery and hypnotic music composed by philip glass .",
+        "sentiment": 2
+    },
+    "Example_9": {
+        "review": "not for everyone , but for those with whom it will connect , it's a nice departure from standard moviegoing fare .",
+        "sentiment": 2
+    },
+    "Example_10": {
+        "review": "scores a few points for doing what it does with a dedicated and good-hearted professionalism .",
+        "sentiment": 2
+    },
+    "Example_11": {
+        "review": "it helps that lil bow wow . . . tones down his pint-sized gangsta act to play someone who resembles a real kid .",
+        "sentiment": 2
+    },
+    "Example_12": {
+        "review": "a masterful film from a master filmmaker , unique in its deceptive grimness , compelling in its fatalist worldview .",
+        "sentiment": 2
+    },
+    "Example_13": {
+        "review": "though everything might be literate and smart , it never took off and always seemed static .",
+        "sentiment": 2
+    },
+    "Example_14": {
+        "review": "cantet perfectly captures the hotel lobbies , two-lane highways , and roadside cafes that permeate vincent's days",
+        "sentiment": 2
+    },
+    "Example_15": {
+        "review": "newton draws our attention like a magnet , and acts circles around her better known co-star , mark wahlberg .",
+        "sentiment": 2
+    },
+    "Example_16": {
+        "review": "fuller would surely have called this gutsy and at times exhilarating movie a great yarn .",
+        "sentiment": 2
+    },
+    "Example_17": {
+        "review": "compleja e intelectualmente retadora , el ladr\u00f3n de orqu\u00eddeas es uno de esos filmes que vale la pena ver precisamente por su originalidad . '",
+        "sentiment": 2
+    },
+    "Example_18": {
+        "review": "the film makes a strong case for the importance of the musicians in creating the motown sound .",
+        "sentiment": 2
+    },
+    "Example_19": {
+        "review": "a real movie , about real people , that gives us a rare glimpse into a culture most of us don't know .",
+        "sentiment": 2
+    },
+    "Example_20": {
+        "review": "sandra nettelbeck beautifully orchestrates the transformation of the chilly , neurotic , and self-absorbed martha as her heart begins to open .",
+        "sentiment": 2
+    },
+    "Example_21": {
+        "review": "behind the snow games and lovable siberian huskies ( plus one sheep dog ) , the picture hosts a parka-wrapped dose of heart .",
+        "sentiment": 2
+    },
+    "Example_22": {
+        "review": "everytime you think undercover brother has run out of steam , it finds a new way to surprise and amuse .",
+        "sentiment": 2
+    },
+    "Example_23": {
+        "review": "manages to be original , even though it rips off many of its ideas .",
+        "sentiment": 2
+    },
+    "Example_24": {
+        "review": "if this movie were a book , it would be a page-turner , you can't wait to see what happens next .",
+        "sentiment": 2
+    },
+    "Example_25": {
+        "review": "absorbing and disturbing -- perhaps more disturbing than originally intended -- but a little clarity would have gone a long way .",
+        "sentiment": 2
+    },
+    "Example_26": {
+        "review": "it's the best film of the year so far , the benchmark against which all other best picture contenders should be measured .",
+        "sentiment": 2
+    },
+    "Example_27": {
+        "review": "this is a startling film that gives you a fascinating , albeit depressing view of iranian rural life close to the iraqi border .",
+        "sentiment": 2
+    },
+    "Example_28": {
+        "review": "a few artsy flourishes aside , narc is as gritty as a movie gets these days .",
+        "sentiment": 2
+    },
+    "Example_29": {
+        "review": "while the isle is both preposterous and thoroughly misogynistic , its vistas are incredibly beautiful to look at .",
+        "sentiment": 2
+    },
+    "Example_30": {
+        "review": "the movie is a blast of educational energy , as bouncy animation and catchy songs escort you through the entire 85 minutes .",
+        "sentiment": 2
+    },
+    "Example_31": {
+        "review": "a sports movie with action that's exciting on the field and a story you care about off it .",
+        "sentiment": 2
+    },
+    "Example_32": {
+        "review": "like the film's almost anthropologically detailed realization of early-'80s suburbia , it's significant without being overstated .",
+        "sentiment": 2
+    },
+    "Example_33": {
+        "review": "if nothing else , this movie introduces a promising , unusual kind of psychological horror .",
+        "sentiment": 2
+    },
+    "Example_34": {
+        "review": "if you like quirky , odd movies and/or the ironic , here's a fun one .",
+        "sentiment": 2
+    },
+    "Example_35": {
+        "review": "sensitive ensemble performances and good period reconstruction add up to a moving tragedy with some buoyant human moments .",
+        "sentiment": 2
+    },
+    "Example_36": {
+        "review": "it's not the least of afghan tragedies that this noble warlord would be consigned to the dustbin of history .",
+        "sentiment": 2
+    },
+    "Example_37": {
+        "review": "this is a visually stunning rumination on love , memory , history and the war between art and commerce .",
+        "sentiment": 2
+    },
+    "Example_38": {
+        "review": "short-story quaint , touchingly mending a child's pain for his dead mother via communication with an old woman straight out of eudora welty .",
+        "sentiment": 2
+    },
+    "Example_39": {
+        "review": "a quiet family drama with a little bit of romance and a dose of darkness .",
+        "sentiment": 2
+    },
+    "Example_40": {
+        "review": "the tasteful little revision works wonders , enhancing the cultural and economic subtext , bringing richer meaning to the story's morals .",
+        "sentiment": 2
+    },
+    "Example_41": {
+        "review": "triumph of love is a very silly movie , but the silliness has a pedigree .",
+        "sentiment": 2
+    },
+    "Example_42": {
+        "review": "an undeniably gorgeous , terminally smitten document of a troubadour , his acolytes , and the triumph of his band .",
+        "sentiment": 2
+    },
+    "Example_43": {
+        "review": "a bittersweet drama about the limbo of grief and how truth-telling can open the door to liberation .",
+        "sentiment": 2
+    },
+    "Example_44": {
+        "review": "a strong and confident work which works so well for the first 89 minutes , but ends so horrendously confusing in the final two",
+        "sentiment": 2
+    },
+    "Example_45": {
+        "review": "salma goes native and she's never been better in this colorful bio-pic of a mexican icon .",
+        "sentiment": 2
+    },
+    "Example_46": {
+        "review": "filled with alexandre desplat's haunting and sublime music , the movie completely transfixes the audience .",
+        "sentiment": 2
+    },
+    "Example_47": {
+        "review": "no worse a film than breaking out , and breaking out was utterly charming .",
+        "sentiment": 2
+    },
+    "Example_48": {
+        "review": "parker cannot sustain the buoyant energy level of the film's city beginnings into its country conclusion",
+        "sentiment": 2
+    },
+    "Example_49": {
+        "review": "a savage john waters-like humor that dances on the edge of tastelessness without ever quite falling over .",
+        "sentiment": 2
+    },
+    "Example_50": {
+        "review": "at once a testament to the divine calling of education and a demonstration of the painstaking process of imparting knowledge .",
+        "sentiment": 2
+    },
+    "Example_51": {
+        "review": "may seriously impair your ability to ever again maintain a straight face while speaking to a highway patrolman .",
+        "sentiment": 2
+    },
+    "Example_52": {
+        "review": "it's an interesting effort ( particularly for jfk conspiracy nuts ) , and barry's cold-fish act makes the experience worthwhile .",
+        "sentiment": 2
+    },
+    "Example_53": {
+        "review": "they're just a couple of cops in copmovieland , these two , but in narc , they find new routes through a familiar neighborhood .",
+        "sentiment": 2
+    },
+    "Example_54": {
+        "review": "it's a shame the marvelous first 101 minutes have to be combined with the misconceived final 5 .",
+        "sentiment": 2
+    },
+    "Example_55": {
+        "review": "a movie that will wear you out and make you misty even when you don't want to be .",
+        "sentiment": 2
+    },
+    "Example_56": {
+        "review": "though the story . . . is hackneyed , the characters have a freshness and modesty that transcends their predicament .",
+        "sentiment": 2
+    },
+    "Example_57": {
+        "review": "although frailty fits into a classic genre , in its script and execution it is a remarkably original work .",
+        "sentiment": 2
+    },
+    "Example_58": {
+        "review": "the climactic events are so well realized that you may forget all about the original conflict , just like the movie does",
+        "sentiment": 2
+    },
+    "Example_59": {
+        "review": "a rude black comedy about the catalytic effect a holy fool has upon those around him in the cutthroat world of children's television .",
+        "sentiment": 2
+    },
+    "Example_60": {
+        "review": "a playful iranian parable about openness , particularly the need for people of diverse political perspectives to get along despite their ideological differences .",
+        "sentiment": 2
+    },
+    "Example_61": {
+        "review": "a fascinating literary mystery story with multiple strands about the controversy of who really wrote shakespeare's plays .",
+        "sentiment": 2
+    },
+    "Example_62": {
+        "review": "it's a fine , old-fashioned-movie movie , which is to say it's unburdened by pretensions to great artistic significance .",
+        "sentiment": 2
+    },
+    "Example_63": {
+        "review": "the trials of henry kissinger is a remarkable piece of filmmaking \n  because you get it .",
+        "sentiment": 2
+    },
+    "Example_64": {
+        "review": "nachtwey clears the cynicism right out of you . he makes you realize that deep inside righteousness can be found a tough beauty .",
+        "sentiment": 2
+    },
+    "Example_65": {
+        "review": "robert harmon's less-is-more approach delivers real bump-in -the-night chills -- his greatest triumph is keeping the creepy crawlies hidden in the film's thick shadows .",
+        "sentiment": 2
+    },
+    "Example_66": {
+        "review": "in auteil's less dramatic but equally incisive performance , he's a charismatic charmer likely to seduce and conquer .",
+        "sentiment": 2
+    },
+    "Example_67": {
+        "review": "the heart of the film is a touching reflection on aging , suffering and the prospect of death .",
+        "sentiment": 2
+    },
+    "Example_68": {
+        "review": "fontaine's direction , especially her agreeably startling use of close-ups and her grace with a moving camera , creates sheerly cinematic appeal .",
+        "sentiment": 2
+    },
+    "Example_69": {
+        "review": ". . . a visually seductive , unrepentantly trashy take on rice's second installment of her vampire chronicles .",
+        "sentiment": 2
+    },
+    "Example_70": {
+        "review": "the story's scope and pageantry are mesmerizing , and mr . day-lewis roars with leonine power .",
+        "sentiment": 2
+    },
+    "Example_71": {
+        "review": "this is mostly well-constructed fluff , which is all it seems intended to be .",
+        "sentiment": 2
+    },
+    "Example_72": {
+        "review": "even through its flaws , revolution #9 proves to be a compelling , interestingly told film .",
+        "sentiment": 2
+    },
+    "Example_73": {
+        "review": "the best way to describe it is as a cross between paul thomas anderson's magnolia and david lynch's mulholland dr .",
+        "sentiment": 2
+    },
+    "Example_74": {
+        "review": "this charming but slight tale has warmth , wit and interesting characters compassionately portrayed .",
+        "sentiment": 2
+    },
+    "Example_75": {
+        "review": "el t\u00edtulo no enga\u00f1a : la pel\u00edcula narra una historia donde una mujer enfrentar\u00e1 cierta realidad , y donde el sexo es . . .",
+        "sentiment": 2
+    },
+    "Example_76": {
+        "review": "interesante y disfrutable trabajo gracias a que prescinde del cl\u00e1sico elemento estadounidense patriotero y manipulador . '",
+        "sentiment": 2
+    },
+    "Example_77": {
+        "review": "takes a fresh and absorbing look at a figure whose legacy had begun to bronze .",
+        "sentiment": 2
+    },
+    "Example_78": {
+        "review": "witty and often surprising , a dark little morality tale disguised as a romantic comedy .",
+        "sentiment": 2
+    },
+    "Example_79": {
+        "review": "got a david lynch jones ? then you'd do well to check this one out because it's straight up twin peaks action . . .",
+        "sentiment": 2
+    },
+    "Example_80": {
+        "review": "astonishing . . . [frames] profound ethical and philosophical questions in the form of dazzling pop entertainment .",
+        "sentiment": 2
+    },
+    "Example_81": {
+        "review": "take care is nicely performed by a quintet of actresses , but nonetheless it drags during its 112-minute length .",
+        "sentiment": 2
+    },
+    "Example_82": {
+        "review": "land , people and narrative flow together in a stark portrait of motherhood deferred and desire explored .",
+        "sentiment": 2
+    },
+    "Example_83": {
+        "review": "it's mildly entertaining , especially if you find comfort in familiarity . but it's hardly a necessary enterprise .",
+        "sentiment": 2
+    },
+    "Example_84": {
+        "review": "the quiet american isn't a bad film , it's just one that could easily wait for your pay per view dollar .",
+        "sentiment": 2
+    },
+    "Example_85": {
+        "review": "as home movie gone haywire , it's pretty enjoyable , but as sexual manifesto , i'd rather listen to old tori amos records .",
+        "sentiment": 2
+    },
+    "Example_86": {
+        "review": "a sensitive , cultivated treatment of greene's work as well as a remarkably faithful one .",
+        "sentiment": 2
+    },
+    "Example_87": {
+        "review": "watching these two actors play against each other so intensely , but with restraint , is a treat .",
+        "sentiment": 2
+    },
+    "Example_88": {
+        "review": "an example of quiet , confident craftsmanship that tells a sweet , charming tale of intergalactic friendship .",
+        "sentiment": 2
+    },
+    "Example_89": {
+        "review": "suspend your disbelief here and now , or you'll be shaking your head all the way to the credits .",
+        "sentiment": 2
+    },
+    "Example_90": {
+        "review": ". . . one of the more influential works of the 'korean new wave' .",
+        "sentiment": 2
+    },
+    "Example_91": {
+        "review": "victor rosa is leguizamo's best movie work so far , a subtle and richly internalized performance .",
+        "sentiment": 2
+    },
+    "Example_92": {
+        "review": "birthday girl doesn't try to surprise us with plot twists , but rather seems to enjoy its own transparency .",
+        "sentiment": 2
+    },
+    "Example_93": {
+        "review": "smart , funny and just honest enough to provide the pleasures of a slightly naughty , just-above-average off- broadway play .",
+        "sentiment": 2
+    },
+    "Example_94": {
+        "review": "a fine production with splendid singing by angela gheorghiu , ruggero raimondi , and roberto alagna .",
+        "sentiment": 2
+    },
+    "Example_95": {
+        "review": "the film is a fierce dance of destruction . its flame-like , roiling black-and-white inspires trembling and gratitude .",
+        "sentiment": 2
+    },
+    "Example_96": {
+        "review": "may lack the pungent bite of its title , but it's an enjoyable trifle nonetheless .",
+        "sentiment": 2
+    },
+    "Example_97": {
+        "review": ". . . manages to fall closer in quality to silence than to the abysmal hannibal .",
+        "sentiment": 2
+    },
+    "Example_98": {
+        "review": "it understands , in a way that speaks forcefully enough about the mechanisms of poverty to transcend the rather simplistic filmmaking .",
+        "sentiment": 2
+    },
+    "Example_99": {
+        "review": ". . . a thoughtful what-if for the heart as well as the mind .",
+        "sentiment": 2
+    },
+    "Example_100": {
+        "review": "hawn and sarandon form an acting bond that makes the banger sisters a fascinating character study with laughs to spare .",
+        "sentiment": 2
+    },
+    "Example_101": {
+        "review": "it's a fun adventure movie for kids ( of all ages ) that like adventure .",
+        "sentiment": 2
+    },
+    "Example_102": {
+        "review": "\" white oleander , \" the movie , is akin to a reader's digest condensed version of the source material .",
+        "sentiment": 2
+    },
+    "Example_103": {
+        "review": "what's most refreshing about real women have curves is its unforced comedy-drama and its relaxed , natural-seeming actors .",
+        "sentiment": 2
+    },
+    "Example_104": {
+        "review": "the low-key direction is pleasingly emphatic in this properly intense , claustrophobic tale of obsessive love .",
+        "sentiment": 2
+    },
+    "Example_105": {
+        "review": "that rare film whose real-life basis is , in fact , so interesting that no embellishment is needed .",
+        "sentiment": 2
+    },
+    "Example_106": {
+        "review": "originality ain't on the menu , but there's never a dull moment in the giant spider invasion comic chiller .",
+        "sentiment": 2
+    },
+    "Example_107": {
+        "review": "walter hill's undisputed is like a 1940s warner bros . b picture , and i mean that as a compliment .",
+        "sentiment": 2
+    },
+    "Example_108": {
+        "review": "this one is not nearly as dreadful as expected . in fact , it's quite fun in places .",
+        "sentiment": 2
+    },
+    "Example_109": {
+        "review": "a biopic about crane's life in the classic tradition but evolves into what has become of us all in the era of video .",
+        "sentiment": 2
+    },
+    "Example_110": {
+        "review": "thanks to a small star with big heart , this family film sequel is plenty of fun for all .",
+        "sentiment": 2
+    },
+    "Example_111": {
+        "review": "it's about individual moments of mood , and an aimlessness that's actually sort of amazing .",
+        "sentiment": 2
+    },
+    "Example_112": {
+        "review": "the people in jessica are so recognizable and true that , as in real life , we're never sure how things will work out .",
+        "sentiment": 2
+    },
+    "Example_113": {
+        "review": "rubbo runs through a remarkable amount of material in the film's short 90 minutes .",
+        "sentiment": 2
+    },
+    "Example_114": {
+        "review": "visually engrossing , seldom hammy , honorably mexican and burns its kahlories with conviction .",
+        "sentiment": 2
+    },
+    "Example_115": {
+        "review": "the obnoxious title character provides the drama that gives added clout to this doc .",
+        "sentiment": 2
+    },
+    "Example_116": {
+        "review": "anyone who welcomes a dash of the avant-garde fused with their humor should take pleasure in this crazed , joyous romp of a film .",
+        "sentiment": 2
+    },
+    "Example_117": {
+        "review": "saddled with an unwieldy cast of characters and angles , but the payoff is powerful and revelatory .",
+        "sentiment": 2
+    },
+    "Example_118": {
+        "review": "mr . caine and mr . fraser are the whole show here , with their memorable and resourceful performances .",
+        "sentiment": 2
+    },
+    "Example_119": {
+        "review": "a frustrating yet deeply watchable melodrama that makes you think it's a tougher picture than it is .",
+        "sentiment": 2
+    },
+    "Example_120": {
+        "review": "[russell] makes good b movies ( the mask , the blob ) , and the scorpion king more than ably meets those standards .",
+        "sentiment": 2
+    },
+    "Example_121": {
+        "review": "this is a smart movie that knows its classical music , knows its freud and knows its sade .",
+        "sentiment": 2
+    },
+    "Example_122": {
+        "review": "beautifully reclaiming the story of carmen and recreating it an in an african idiom .",
+        "sentiment": 2
+    },
+    "Example_123": {
+        "review": "a zinger-filled crowd-pleaser that open-minded elvis fans ( but by no means all ) will have fun with .",
+        "sentiment": 2
+    },
+    "Example_124": {
+        "review": "diggs and lathan are among the chief reasons brown sugar is such a sweet and sexy film .",
+        "sentiment": 2
+    },
+    "Example_125": {
+        "review": "entirely suspenseful , extremely well-paced and ultimately . . . dare i say , entertaining !",
+        "sentiment": 2
+    },
+    "Example_126": {
+        "review": "the riveting performances by the incredibly flexible cast make love a joy to behold .",
+        "sentiment": 2
+    },
+    "Example_127": {
+        "review": "with an unflappable air of decadent urbanity , everett remains a perfect wildean actor , and a relaxed firth displays impeccable comic skill .",
+        "sentiment": 2
+    },
+    "Example_128": {
+        "review": "it's pretty linear and only makeup-deep , but bogdanovich ties it together with efficiency and an affection for the period .",
+        "sentiment": 2
+    },
+    "Example_129": {
+        "review": "a surprisingly charming and even witty match for the best of hollywood's comic-book adaptations .",
+        "sentiment": 2
+    },
+    "Example_130": {
+        "review": "offers big , fat , dumb laughs that may make you hate yourself for giving in . ah , what the hell .",
+        "sentiment": 2
+    },
+    "Example_131": {
+        "review": "while obviously aimed at kids , the country bears . . . should keep parents amused with its low groan-to-guffaw ratio .",
+        "sentiment": 2
+    },
+    "Example_132": {
+        "review": "labute masterfully balances both traditional or modern stories together in a manner that one never overwhelms the other . something for everyone .",
+        "sentiment": 2
+    },
+    "Example_133": {
+        "review": "leigh succeeds in delivering a dramatic slap in the face that's simultaneously painful and refreshing .",
+        "sentiment": 2
+    },
+    "Example_134": {
+        "review": "film aficionados cannot help but love cinema paradiso , whether the original version or new director's cut . '",
+        "sentiment": 2
+    },
+    "Example_135": {
+        "review": "a fascinating glimpse into an insular world that gives the lie to many clich\u00e9s and showcases a group of dedicated artists .",
+        "sentiment": 2
+    },
+    "Example_136": {
+        "review": "murderous maids has a lot going for it , not least the brilliant performances by testud . . . and parmentier .",
+        "sentiment": 2
+    },
+    "Example_137": {
+        "review": "there are a couple of things that elevate \" glory \" above most of its ilk , most notably the mere presence of duvall .",
+        "sentiment": 2
+    },
+    "Example_138": {
+        "review": "kids will love its fantasy and adventure , and grownups should appreciate its whimsical humor .",
+        "sentiment": 2
+    },
+    "Example_139": {
+        "review": "she's all-powerful , a voice for a pop-cyber culture that feeds on her bjorkness .",
+        "sentiment": 2
+    },
+    "Example_140": {
+        "review": "it's a perfect show of respect to just one of those underrated professionals who deserve but rarely receive it .",
+        "sentiment": 2
+    },
+    "Example_141": {
+        "review": "this in-depth study of important developments of the computer industry should make it required viewing in university computer science departments for years to come .",
+        "sentiment": 2
+    },
+    "Example_142": {
+        "review": "it shows us a slice of life that's very different from our own and yet instantly recognizable .",
+        "sentiment": 2
+    },
+    "Example_143": {
+        "review": "a wonderfully speculative character study that made up for its rather slow beginning by drawing me into the picture .",
+        "sentiment": 2
+    },
+    "Example_144": {
+        "review": "reign of fire just might go down as one of the all-time great apocalypse movies .",
+        "sentiment": 2
+    },
+    "Example_145": {
+        "review": "payne has created a beautiful canvas , and nicholson proves once again that he's the best brush in the business .",
+        "sentiment": 2
+    },
+    "Example_146": {
+        "review": "a riveting profile of law enforcement , and a visceral , nasty journey into an urban hades .",
+        "sentiment": 2
+    },
+    "Example_147": {
+        "review": "director douglas mcgrath takes on nickleby with all the halfhearted zeal of an 8th grade boy delving into required reading .",
+        "sentiment": 2
+    },
+    "Example_148": {
+        "review": "if you're not totally weirded- out by the notion of cinema as community-therapy spectacle , quitting hits home with disorienting force .",
+        "sentiment": 2
+    },
+    "Example_149": {
+        "review": "austin powers for the most part is extremely funny , the first part making up for any flaws that come later .",
+        "sentiment": 2
+    },
+    "Example_150": {
+        "review": "a canny , derivative , wildly gruesome portrait of a london sociopath who's the scariest of sadists .",
+        "sentiment": 2
+    },
+    "Example_151": {
+        "review": "bad in such a bizarre way that it's almost worth seeing , if only to witness the crazy confluence of purpose and taste .",
+        "sentiment": 1
+    },
+    "Example_152": {
+        "review": "hugh grant's act is so consuming that sometimes it's difficult to tell who the other actors in the movie are .",
+        "sentiment": 1
+    },
+    "Example_153": {
+        "review": "what we get . . . is caddyshack crossed with the loyal order of raccoons .",
+        "sentiment": 1
+    },
+    "Example_154": {
+        "review": "when a movie asks you to feel sorry for mick jagger's sex life , it already has one strike against it .",
+        "sentiment": 1
+    },
+    "Example_155": {
+        "review": ". . . a weak and ineffective ghost story without a conclusion or pay off .",
+        "sentiment": 1
+    },
+    "Example_156": {
+        "review": "silly stuff , all mixed up together like a term paper from a kid who can't quite distinguish one sci-fi work from another .",
+        "sentiment": 1
+    },
+    "Example_157": {
+        "review": "brady achieves the remarkable feat of squandering a topnotch foursome of actors . . . by shoving them into every clich\u00e9d white-trash situation imaginable .",
+        "sentiment": 1
+    },
+    "Example_158": {
+        "review": "empire can't make up its mind whether it wants to be a gangster flick or an art film . it doesn't work as either .",
+        "sentiment": 1
+    },
+    "Example_159": {
+        "review": "it's the type of stunt the academy loves : a powerful political message stuffed into an otherwise mediocre film .",
+        "sentiment": 1
+    },
+    "Example_160": {
+        "review": "so mind-numbingly awful that you hope britney won't do it one more time , as far as movies are concerned .",
+        "sentiment": 1
+    },
+    "Example_161": {
+        "review": "if the predictability of bland comfort food appeals to you , then the film is a pleasant enough dish .",
+        "sentiment": 1
+    },
+    "Example_162": {
+        "review": "a seriously bad film with seriously warped logic by writer-director kurt wimmer at the screenplay level .",
+        "sentiment": 1
+    },
+    "Example_163": {
+        "review": "human nature , in short , isn't nearly as funny as it thinks it is ; neither is it as smart .",
+        "sentiment": 1
+    },
+    "Example_164": {
+        "review": "this is an ungainly movie , ill-fitting , with its elbows sticking out where the knees should be .",
+        "sentiment": 1
+    },
+    "Example_165": {
+        "review": "the name says it all . jackass is a vulgar and cheap-looking version of candid camera staged for the marquis de sade set .",
+        "sentiment": 1
+    },
+    "Example_166": {
+        "review": ". . . the kind of movie you see because the theater has air conditioning .",
+        "sentiment": 1
+    },
+    "Example_167": {
+        "review": "a perfectly acceptable , perfectly bland , competently acted but by no means scary horror movie .",
+        "sentiment": 1
+    },
+    "Example_168": {
+        "review": "like a soft drink that's been sitting open too long : it's too much syrup and not enough fizz .",
+        "sentiment": 1
+    },
+    "Example_169": {
+        "review": "not really a thriller so much as a movie for teens to laugh , groan and hiss at .",
+        "sentiment": 1
+    },
+    "Example_170": {
+        "review": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic .",
+        "sentiment": 1
+    },
+    "Example_171": {
+        "review": "it's drab . it's uninteresting . it squanders chan's uniqueness ; it could even be said to squander jennifer love hewitt !",
+        "sentiment": 1
+    },
+    "Example_172": {
+        "review": "viewers of barney's crushingly self-indulgent spectacle will see nothing in it to match the ordeal of sitting through it .",
+        "sentiment": 1
+    },
+    "Example_173": {
+        "review": ". . . its stupidities wind up sticking in one's mind a lot more than the cool bits .",
+        "sentiment": 1
+    },
+    "Example_174": {
+        "review": "cal is an unpleasantly shallow and immature character with whom to spend 110 claustrophobic minutes .",
+        "sentiment": 1
+    },
+    "Example_175": {
+        "review": "it gets the details of its time frame right but it completely misses its emotions .",
+        "sentiment": 1
+    },
+    "Example_176": {
+        "review": "it's loud and boring ; watching it is like being trapped at a bad rock concert .",
+        "sentiment": 1
+    },
+    "Example_177": {
+        "review": "the plot has a number of holes , and at times it's simply baffling .",
+        "sentiment": 1
+    },
+    "Example_178": {
+        "review": "like coming into a long-running , well-written television series where you've missed the first half-dozen episodes and probably won't see the next six .",
+        "sentiment": 1
+    },
+    "Example_179": {
+        "review": "its generic villains lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .",
+        "sentiment": 1
+    },
+    "Example_180": {
+        "review": "hard-core slasher aficionados will find things to like . . . but overall the halloween series has lost its edge .",
+        "sentiment": 1
+    },
+    "Example_181": {
+        "review": "it all drags on so interminably it's like watching a miserable relationship unfold in real time .",
+        "sentiment": 1
+    },
+    "Example_182": {
+        "review": "villeneuve spends too much time wallowing in bibi's generic angst ( there are a lot of shots of her gazing out windows ) .",
+        "sentiment": 1
+    },
+    "Example_183": {
+        "review": "it's another video movie photographed like a film , with the bad lighting that's often written off as indie film naturalism .",
+        "sentiment": 1
+    },
+    "Example_184": {
+        "review": "apart from dazzling cinematography , we've seen just about everything in blue crush in one form or the other .",
+        "sentiment": 1
+    },
+    "Example_185": {
+        "review": "soul is what's lacking in every character in this movie and , subsequently , the movie itself .",
+        "sentiment": 1
+    },
+    "Example_186": {
+        "review": "a one-trick pony whose few t&a bits still can't save itself from being unoriginal , unfunny and unrecommendable .",
+        "sentiment": 1
+    },
+    "Example_187": {
+        "review": "it's got its heart in the right place , but it also wilts after awhile .",
+        "sentiment": 1
+    },
+    "Example_188": {
+        "review": "proves that a movie about goodness is not the same thing as a good movie .",
+        "sentiment": 1
+    },
+    "Example_189": {
+        "review": "this overproduced and generally disappointing effort isn't likely to rouse the rush hour crowd .",
+        "sentiment": 1
+    },
+    "Example_190": {
+        "review": "ethan hawke has always fancied himself the bastard child of the beatnik generation and it's all over his chelsea walls .",
+        "sentiment": 1
+    },
+    "Example_191": {
+        "review": "while the film misfires at every level , the biggest downside is the paucity of laughter in what's supposed to be a comedy .",
+        "sentiment": 1
+    },
+    "Example_192": {
+        "review": "a 93-minute condensation of a 26-episode tv series , with all of the pitfalls of such you'd expect .",
+        "sentiment": 1
+    },
+    "Example_193": {
+        "review": "guillen rarely gets beneath the surface of things . she lists ingredients , but never mixes and stirs .",
+        "sentiment": 1
+    },
+    "Example_194": {
+        "review": "it delivers some chills and sustained unease , but flounders in its quest for deeper meaning .",
+        "sentiment": 1
+    },
+    "Example_195": {
+        "review": "a mawkish , implausible platonic romance that makes chaplin's city lights seem dispassionate by comparison .",
+        "sentiment": 1
+    },
+    "Example_196": {
+        "review": "it's a film that hinges on its casting , and glover really doesn't fit the part .",
+        "sentiment": 1
+    },
+    "Example_197": {
+        "review": "this is a throwaway , junk-food movie whose rap soundtrack was better tended to than the film itself .",
+        "sentiment": 1
+    },
+    "Example_198": {
+        "review": "arnold's jump from little screen to big will leave frowns on more than a few faces .",
+        "sentiment": 1
+    },
+    "Example_199": {
+        "review": "we are left with a superficial snapshot that , however engaging , is insufficiently enlightening and inviting .",
+        "sentiment": 1
+    },
+    "Example_200": {
+        "review": "it wouldn't be my preferred way of spending 100 minutes or $7 . 00 .",
+        "sentiment": 1
+    },
+    "Example_201": {
+        "review": "de niro and mcdormand give solid performances , but their screen time is sabotaged by the story's inability to create interest .",
+        "sentiment": 1
+    },
+    "Example_202": {
+        "review": "even those of a single digit age will be able to recognize that this story is too goofy . . . even for disney .",
+        "sentiment": 1
+    },
+    "Example_203": {
+        "review": "that is essentially what's missing from blackboards -- the sense of something bigger , some ultimate point .",
+        "sentiment": 1
+    },
+    "Example_204": {
+        "review": "the story is familiar from its many predecessors ; like them , it eventually culminates in the not-exactly -stunning insight that crime doesn't pay .",
+        "sentiment": 1
+    },
+    "Example_205": {
+        "review": "you'll have more fun setting fire to yourself in the parking lot . you'll be more entertained getting hit by a bus .",
+        "sentiment": 1
+    },
+    "Example_206": {
+        "review": "the film goes from being an unusual sci-fi character study to a chase flick that detracts from its ending .",
+        "sentiment": 1
+    },
+    "Example_207": {
+        "review": "for all its surface frenzy , high crimes should be charged with loitering -- so much on view , so little to offer .",
+        "sentiment": 1
+    },
+    "Example_208": {
+        "review": "alex nohe's documentary plays like a travelogue for what mostly resembles a real-life , big-budget nc-17 version of tank girl .",
+        "sentiment": 1
+    },
+    "Example_209": {
+        "review": "the title trapped turns out to be a pretty fair description of how you feel while you're watching this ultra-manipulative thriller .",
+        "sentiment": 1
+    },
+    "Example_210": {
+        "review": "the story really has no place to go since simone is not real\u0097she can't provide any conflict .",
+        "sentiment": 1
+    },
+    "Example_211": {
+        "review": "the creaking , rusty ship makes a fine backdrop , but the ghosts' haunting is routine .",
+        "sentiment": 1
+    },
+    "Example_212": {
+        "review": "whatever eyre's failings as a dramatist , he deserves credit for bringing audiences into this hard and bitter place .",
+        "sentiment": 1
+    },
+    "Example_213": {
+        "review": "the whole damn thing is ripe for the jerry springer crowd . it's all pretty cynical and condescending , too .",
+        "sentiment": 1
+    },
+    "Example_214": {
+        "review": "flaunts its quirky excesses like a new year's eve drunk sporting a paper party hat .",
+        "sentiment": 1
+    },
+    "Example_215": {
+        "review": "is there enough material to merit a documentary on the making of wilco's last album ?",
+        "sentiment": 1
+    },
+    "Example_216": {
+        "review": "schmaltzy and unfunny , adam sandler's cartoon about hanukkah is numbingly bad , little nicky bad , 10 worst list bad .",
+        "sentiment": 1
+    },
+    "Example_217": {
+        "review": "it's really yet another anemic and formulaic lethal weapon-derived buddy-cop movie , trying to pass off its lack of imagination as hip knowingness .",
+        "sentiment": 1
+    },
+    "Example_218": {
+        "review": "scotland , pa . is a strangely drab romp . some studio pizazz might have helped .",
+        "sentiment": 1
+    },
+    "Example_219": {
+        "review": "there's more scatological action in 8 crazy nights than a proctologist is apt to encounter in an entire career .",
+        "sentiment": 1
+    },
+    "Example_220": {
+        "review": "the cartoon is about as true to the spirit of the festival of lights as mr . deeds was to that of frank capra .",
+        "sentiment": 1
+    },
+    "Example_221": {
+        "review": "if we don't demand a standard of quality for the art that we choose , we deserve the trash that we get .",
+        "sentiment": 1
+    },
+    "Example_222": {
+        "review": "morrissette's script and direction show a fair amount of intelligence and wit -- but it doesn't signify a whole lot either .",
+        "sentiment": 1
+    },
+    "Example_223": {
+        "review": "there's suspension of disbelief and then there's bad screenwriting . . . this film packs a wallop of the latter .",
+        "sentiment": 1
+    },
+    "Example_224": {
+        "review": "mocking kung fu pictures when they were a staple of exploitation theater programming was witty . mocking them now is an exercise in pointlessness .",
+        "sentiment": 1
+    },
+    "Example_225": {
+        "review": "this is a particularly toxic little bonbon , palatable to only a chosen and very jaundiced few .",
+        "sentiment": 1
+    },
+    "Example_226": {
+        "review": "this isn't just the cliffsnotes version of nicholas nickleby , it's the cliffsnotes with pages missing .",
+        "sentiment": 1
+    },
+    "Example_227": {
+        "review": "so clich\u00e9d that , at one point , they literally upset an apple cart .",
+        "sentiment": 1
+    },
+    "Example_228": {
+        "review": "it might be the first sci-fi comedy that could benefit from a three's company-style laugh track .",
+        "sentiment": 1
+    },
+    "Example_229": {
+        "review": "the movie takes itself too seriously and , as a result , it makes for only intermittent fun .",
+        "sentiment": 1
+    },
+    "Example_230": {
+        "review": "so stupid , so ill-conceived , so badly drawn , it created whole new levels of ugly .",
+        "sentiment": 1
+    },
+    "Example_231": {
+        "review": "some of seagal's action pictures are guilty pleasures , but this one is so formulaic that it seems to be on auto-pilot .",
+        "sentiment": 1
+    },
+    "Example_232": {
+        "review": "a ponderous meditation on love that feels significantly longer than its relatively scant 97 minutes .",
+        "sentiment": 1
+    },
+    "Example_233": {
+        "review": "a long-winded and stagy session of romantic contrivances that never really gels like the shrewd feminist fairy tale it could have been .",
+        "sentiment": 1
+    },
+    "Example_234": {
+        "review": "rambles on in a disjointed , substandard fashion from one poorly executed action sequence to the next .",
+        "sentiment": 1
+    },
+    "Example_235": {
+        "review": "there's an audience for it , but it could have been funnier and more innocent .",
+        "sentiment": 1
+    },
+    "Example_236": {
+        "review": "haneke keeps us at arm's length . guided more by intellect than heart , his story flattens instead of sharpens .",
+        "sentiment": 1
+    },
+    "Example_237": {
+        "review": "all the well-meaningness in the world can't erase the fact that the believer feels like a 12-step program for the jewish nazi .",
+        "sentiment": 1
+    },
+    "Example_238": {
+        "review": "dragonfly' is a movie about a bus wreck that turns into a film wreck .",
+        "sentiment": 1
+    },
+    "Example_239": {
+        "review": "thirty years ago , it would have been groundbreaking . now it's just tired .",
+        "sentiment": 1
+    },
+    "Example_240": {
+        "review": "a thinly veiled excuse for wilson to play his self-deprecating act against murphy's well-honed prima donna shtick .",
+        "sentiment": 1
+    },
+    "Example_241": {
+        "review": "the movie succumbs to being nothing more than a formulaic chase in the dark .",
+        "sentiment": 1
+    },
+    "Example_242": {
+        "review": "plays as hollow catharsis , with lots of tears but very little in the way of insights .",
+        "sentiment": 1
+    },
+    "Example_243": {
+        "review": "it will come as no surprise that the movie isn't scary . but here's the real damn : it isn't funny , either .",
+        "sentiment": 1
+    },
+    "Example_244": {
+        "review": "looks awfully like one long tourist spot for a mississippi that may never have existed outside of a scriptwriter's imagination .",
+        "sentiment": 1
+    },
+    "Example_245": {
+        "review": "so lazy and slipshod it confuses the mere flashing of kinky soft-core imagery with naughty fun .",
+        "sentiment": 1
+    },
+    "Example_246": {
+        "review": "sadly , hewitt's forte is leaning forward while wearing low-cut gowns , not making snappy comebacks .",
+        "sentiment": 1
+    },
+    "Example_247": {
+        "review": "this film is so slick , superficial and trend-hoppy , that it's easy to imagine that a new software program spit out the screenplay .",
+        "sentiment": 1
+    },
+    "Example_248": {
+        "review": "murder by numbers is like a couple of mediocre tv-movie -of-the-week films clumsily stuck together .",
+        "sentiment": 1
+    },
+    "Example_249": {
+        "review": "the film is surprisingly well-directed by brett ratner , who keeps things moving well -- at least until the problematic third act .",
+        "sentiment": 1
+    },
+    "Example_250": {
+        "review": "though certainly original in form , altar boys requires a taste for swamp thing-type animation , doubled with a deafening score .",
+        "sentiment": 1
+    },
+    "Example_251": {
+        "review": "there aren't many laughs in this interesting study of the cultural mores of georgian jews in tel aviv .",
+        "sentiment": 1
+    },
+    "Example_252": {
+        "review": "friday after next has the same problem that next friday did -- it's called where's chris tucker when you need him ?",
+        "sentiment": 1
+    },
+    "Example_253": {
+        "review": "this film is full of rabbits . brimful . but like most rabbits , it seems to lack substance .",
+        "sentiment": 1
+    },
+    "Example_254": {
+        "review": "i kept wishing i was watching a documentary about the wartime navajos and what they accomplished instead of all this specious hollywood hoo-ha .",
+        "sentiment": 1
+    },
+    "Example_255": {
+        "review": "no number of fantastic sets , extras , costumes and spectacular locales can disguise the emptiness at the center of the story .",
+        "sentiment": 1
+    },
+    "Example_256": {
+        "review": "a movie far more cynical and lazy than anything a fictitious charlie kaufman might object to .",
+        "sentiment": 1
+    },
+    "Example_257": {
+        "review": "could the country bears really be as bad as its trailers ? in a word -- yes .",
+        "sentiment": 1
+    },
+    "Example_258": {
+        "review": "if high crimes were any more generic it would have a universal product code instead of a title .",
+        "sentiment": 1
+    },
+    "Example_259": {
+        "review": "reggio falls victim to relying on the very digital technology that he fervently scorns , creating a meandering , inarticulate and ultimately disappointing film .",
+        "sentiment": 1
+    },
+    "Example_260": {
+        "review": "despite the authenticity of the trappings , the film is overblown in its plotting , hackneyed in its dialogue and anachronistic in its style .",
+        "sentiment": 1
+    },
+    "Example_261": {
+        "review": "the journey toward redemption feels more like a cinematic experiment than a full-blown movie .",
+        "sentiment": 1
+    },
+    "Example_262": {
+        "review": "this is a good movie in spurts , but when it doesn't work , it's at important times .",
+        "sentiment": 1
+    },
+    "Example_263": {
+        "review": "there are weird resonances between actor and role here , and they're not exactly flattering .",
+        "sentiment": 1
+    },
+    "Example_264": {
+        "review": "the unceasing sadism is so graphically excessive , the director just ends up exposing his own obsession .",
+        "sentiment": 1
+    },
+    "Example_265": {
+        "review": "suffocated at conception by its munchausen-by-proxy mum . punish the vehicle to adore the star .",
+        "sentiment": 1
+    },
+    "Example_266": {
+        "review": "big fat liar is just futile silliness looking to tap into the kiddie sensibilities .",
+        "sentiment": 1
+    },
+    "Example_267": {
+        "review": "usually when i get this much syrup , i like pancakes to go with it .",
+        "sentiment": 1
+    },
+    "Example_268": {
+        "review": "all the necessary exposition prevents the picture from rising above your generic sand 'n' sandal adventure .",
+        "sentiment": 1
+    },
+    "Example_269": {
+        "review": "glib , satirical documentary that fudges facts , makes facile points and engages in the cinematic equivalent of tabloid journalism .",
+        "sentiment": 1
+    },
+    "Example_270": {
+        "review": "gangs of new york is an unapologetic mess , whose only saving grace is that it ends by blowing just about everything up .",
+        "sentiment": 1
+    },
+    "Example_271": {
+        "review": "call me a cynic , but there's something awfully deadly about any movie with a life-affirming message .",
+        "sentiment": 1
+    },
+    "Example_272": {
+        "review": "a gratingly unfunny groaner littered with zero-dimensional , unlikable characters and hackneyed , threadbare comic setups .",
+        "sentiment": 1
+    },
+    "Example_273": {
+        "review": "i guess it just goes to show that if you give a filmmaker an unlimited amount of phony blood , nothing good can happen .",
+        "sentiment": 1
+    },
+    "Example_274": {
+        "review": "gaghan captures the half-lit , sometimes creepy intimacy of college dorm rooms , a subtlety that makes the silly , over-the-top coda especially disappointing .",
+        "sentiment": 1
+    },
+    "Example_275": {
+        "review": "will anyone who isn't a fangoria subscriber be excited that it hasn't gone straight to video ?",
+        "sentiment": 1
+    },
+    "Example_276": {
+        "review": "[evans is] a fascinating character , and deserves a better vehicle than this facetious smirk of a movie .",
+        "sentiment": 1
+    },
+    "Example_277": {
+        "review": "loosely speaking , we're in all of me territory again , and , strictly speaking , schneider is no steve martin .",
+        "sentiment": 1
+    },
+    "Example_278": {
+        "review": "limps along on a squirm-inducing fish-out-of-water formula that goes nowhere and goes there very , very slowly .",
+        "sentiment": 1
+    },
+    "Example_279": {
+        "review": "just the sort of lazy tearjerker that gives movies about ordinary folk a bad name .",
+        "sentiment": 1
+    },
+    "Example_280": {
+        "review": "a rambling ensemble piece with loosely connected characters and plots that never quite gel .",
+        "sentiment": 1
+    },
+    "Example_281": {
+        "review": "this is a movie that starts out like heathers , then becomes bring it on , then becomes unwatchable .",
+        "sentiment": 1
+    },
+    "Example_282": {
+        "review": "i hate the feeling of having been slimed in the name of high art .",
+        "sentiment": 1
+    },
+    "Example_283": {
+        "review": "this insufferable movie is meant to make you think about existential suffering . instead , it'll only put you to sleep .",
+        "sentiment": 1
+    },
+    "Example_284": {
+        "review": "a sleep-inducingly slow-paced crime drama with clumsy dialogue , heavy-handed phoney-feeling sentiment , and an overly-familiar set of plot devices .",
+        "sentiment": 1
+    },
+    "Example_285": {
+        "review": "it is depressing , ruthlessly pained and depraved , the movie equivalent of staring into an open wound .",
+        "sentiment": 1
+    },
+    "Example_286": {
+        "review": "for the future , one hopes mr . plympton will find room for one more member of his little band , a professional screenwriter .",
+        "sentiment": 1
+    },
+    "Example_287": {
+        "review": "reign of fire never comes close to recovering from its demented premise , but it does sustain an enjoyable level of ridiculousness .",
+        "sentiment": 1
+    },
+    "Example_288": {
+        "review": "human nature is a goofball movie , in the way that malkovich was , but it tries too hard .",
+        "sentiment": 1
+    },
+    "Example_289": {
+        "review": "ram dass fierce grace moulds itself as an example to up-and-coming documentarians , of the overlooked pitfalls of such an endeavour .",
+        "sentiment": 1
+    },
+    "Example_290": {
+        "review": "lucky break is perfectly inoffensive and harmless , but it's also drab and inert .",
+        "sentiment": 1
+    },
+    "Example_291": {
+        "review": "like an afterschool special with costumes by gianni versace , mad love looks better than it feels .",
+        "sentiment": 1
+    },
+    "Example_292": {
+        "review": "the script , the gags , the characters are all direct-to-video stuff , and that's where this film should have remained .",
+        "sentiment": 1
+    },
+    "Example_293": {
+        "review": "an excruciating demonstration of the unsalvageability of a movie saddled with an amateurish screenplay .",
+        "sentiment": 1
+    },
+    "Example_294": {
+        "review": "how many more times will indie filmmakers subject us to boring , self-important stories of how horrible we are to ourselves and each other ?",
+        "sentiment": 1
+    },
+    "Example_295": {
+        "review": "there are some laughs in this movie , but williams' anarchy gets tiresome , the satire is weak .",
+        "sentiment": 1
+    },
+    "Example_296": {
+        "review": "the somber pacing and lack of dramatic fireworks make green dragon seem more like medicine than entertainment .",
+        "sentiment": 1
+    },
+    "Example_297": {
+        "review": "another wholly unnecessary addition to the growing , moldering pile of , well , extreme stunt pictures .",
+        "sentiment": 1
+    },
+    "Example_298": {
+        "review": "the whole thing's fairly lame , making it par for the course for disney sequels .",
+        "sentiment": 1
+    },
+    "Example_299": {
+        "review": "its solemn pretension prevents us from sharing the awe in which it holds itself .",
+        "sentiment": 1
+    },
+    "Example_300": {
+        "review": "features nonsensical and laughable plotting , wooden performances , ineptly directed action sequences and some of the worst dialogue in recent memory .",
+        "sentiment": 1
+    }
+}

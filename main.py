@@ -10,12 +10,12 @@ from transformers import DistilBertTokenizer, DistilBertForQuestionAnswering
 import torch
 from transformers import pipeline
 from prompts import *
+from preprocess import *
 from datetime import datetime
 
-
-prompt_1 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
-prompt_2 = create_prompt(PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
-prompt_3 = create_prompt(PROMPT_TEMPLATE_ZERO_SHOT, None, NEW_EXAMPLE_JSON_TEMPLATE, [], PANCAKES_EXAMPLE, zero_shot=True)
+prompt_1 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
+prompt_2 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
+prompt_3 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_ZERO_SHOT, None, NEW_EXAMPLE_JSON_TEMPLATE, [], PANCAKES_EXAMPLE, zero_shot=True)
 
 def extract_review(prompt):
     #this gets the part of the prompt after "Human: "
@@ -28,18 +28,19 @@ def extract_review(prompt):
 
     return review
 
-
-def run_gpt(prompts):
+def run_gpt(dataset, few_shot_example_names, category_name):
     """
     Prompts GPT-4, and reformats the model's response into a json file, which gets saved to data/outputs
     As a checkpoint, it also saves the intermediate step from model response to a file in data/outputs
+
+    Takes about 3-4 seconds per review
     """
     # print(os.environ)
     # print(os.getenv("OPENAI_API_KEY"))
     os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     openai_api_key = os.getenv("OPENAI_API_KEY")
     openai.api_key = openai_api_key
-    # get_gpt_completion("What is your name?")
+
     # Check if the "outputs" folder exists, and create it if it doesn't
     outputs_folder = "data/outputs"
     if not os.path.exists(outputs_folder):
@@ -53,27 +54,33 @@ def run_gpt(prompts):
     responses_json = {"responses": []}
     new_reviews = []
     count_processed = 0
-    for prompt in prompts:
-        new_reviews.append(extract_review(prompt))
+
+    for review_name, review in dataset.items():
+        review_text = review["review"]
+        # create a prompt based on this review
+        prompt = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_example_names, review_text, zero_shot=False)
+
+        new_reviews.append({"name": review_name, "text": review_text})
+        print("processing review #", count_processed)
         response = get_gpt_completion(prompt)
-        print(response)
+        # print(response)
         responses_json["responses"].append(response)
         count_processed += 1 
         # Save every 25 because it might break in the middle and we don't want to lose it
         if count_processed % 25 == 0:
             now = datetime.now()      
             now1 = now.strftime("%Y_%m_%d")
-            with open(f"data/outputs/interm_{count_processed}_gpt_raw_output_{now1}.json", "w") as raw_output_file:
+            with open(f"data/outputs/{category_name}_interim_{count_processed}_gpt_raw_output_{now1}.json", "w") as raw_output_file:
                 json.dump(responses_json, raw_output_file, indent=4)
                 
-    
+
     #save raw outputs to a file in data/outputs as a checkpoint
     now = datetime.now()
     now = now.strftime("%Y_%m_%d-%H_%M_%S")
-    with open(f"data/outputs/gpt_raw_output_{now}.json", "w") as raw_output_file:
+    with open(f"data/outputs/{category_name}_gpt_raw_output_{now}.json", "w") as raw_output_file:
         json.dump(responses_json, raw_output_file, indent=4)
 
-    gpt_save_output_json(new_reviews, responses_json["responses"])
+    gpt_save_output_json(new_reviews, responses_json["responses"], category_name)
 
 
 def run_hugg_flan():
@@ -142,9 +149,22 @@ if __name__ == '__main__':
     dotenv_path = os.path.join(script_dir, 'environment.env')
     load_dotenv(dotenv_path)
 
-    # Run the different model tests
-    prompts = [prompt_1, prompt_2]
-    run_gpt(prompts)
+    # UNCOMMENT THIS WHEN YOU IMPORT NEW DATA AND NEED TO PREPROCESS IT
+    # preprocess("data/inputs/dataset_reviews.json", add_one=True)
+
+    # Load few-shot examples
+    few_shot_example_names = ["example_1", "example_2"]
+    with open("data/inputs/examples.json", "r", encoding="UTF-8") as examples_file:
+        examples = json.load(examples_file)
+        new_review = PANCAKES_EXAMPLE
+        # print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
+
+    # Load new reviews to process
+    with open("data/inputs/restaurant_dataset_small.json", "r") as dataset_file:    
+        dataset = json.load(dataset_file)
+        run_gpt(dataset, few_shot_example_names, "restaurant")
+   
+    #===================OTHER MODELS====================
     # run_bard()
     # run_hugg_flan()
     # run_facebook_bart()

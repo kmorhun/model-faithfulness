@@ -1,0 +1,14 @@
+{
+    "Example_1": {
+        "review": "I heart King's. I've always been a fan and this one was as good as my old one in Monaca.",
+        "sentiment": 4
+    },
+    "Example_2": {
+        "review": "Love this place. Never had a bad meal. Good portions and great people. Be ready to stand in line.",
+        "sentiment": 5
+    },
+    "Example_3": {
+        "review": "Great little place. Treats you like a local.Eaten here 3 times a week for a month. Same overtime. Barb is always here.",
+        "sentiment": 5
+    }
+}

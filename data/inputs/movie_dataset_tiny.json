@@ -1,0 +1,14 @@
+{
+    "Example_1": {
+        "review": "if you sometimes like to go to the movies to have fun , wasabi is a good place to start .",
+        "sentiment": 2
+    },
+    "Example_2": {
+        "review": "emerges as something rare , an issue movie that's so honest and keenly observed that it doesn't feel like one .",
+        "sentiment": 2
+    },
+    "Example_3": {
+        "review": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .",
+        "sentiment": 2
+    }
+}
