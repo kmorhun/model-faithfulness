@@ -13,9 +13,9 @@ from prompts import *
 from preprocess import *
 from datetime import datetime
 
-prompt_1 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
-prompt_2 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
-prompt_3 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_ZERO_SHOT, None, NEW_EXAMPLE_JSON_TEMPLATE, [], PANCAKES_EXAMPLE, zero_shot=True)
+prompt_1 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2", "example_3"], PANCAKES_EXAMPLE)
+prompt_2 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, ["example_1", "example_2"], PANCAKES_EXAMPLE)
+prompt_3 = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_ZERO_SHOT_RESTAURANT, None, NEW_EXAMPLE_JSON_TEMPLATE, [], PANCAKES_EXAMPLE, zero_shot=True)
 
 def extract_review(prompt):
     #this gets the part of the prompt after "Human: "
@@ -57,9 +57,16 @@ def run_gpt(dataset, few_shot_example_names, category_name):
 
     for review_name, review in dataset.items():
         review_text = review["review"]
-        # create a prompt based on this review
-        prompt = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_example_names, review_text, zero_shot=False)
 
+        # create a prompt based on this review
+        if (category_name == "restaurant"):
+            prompt = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_example_names, review_text, zero_shot=False)
+        elif (category_name == "movie"):
+            prompt = create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_MOVIE, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_example_names, review_text, zero_shot=False)
+        else:
+            print("Stopped Processing: Category name must be either 'restaurant' or 'movie'")
+            return
+        
         new_reviews.append({"name": review_name, "text": review_text})
         print("processing review #", count_processed)
         response = get_gpt_completion(prompt)
@@ -150,19 +157,27 @@ if __name__ == '__main__':
     load_dotenv(dotenv_path)
 
     # UNCOMMENT THIS WHEN YOU IMPORT NEW DATA AND NEED TO PREPROCESS IT
-    # preprocess("data/inputs/dataset_reviews.json", add_one=True)
+    # preprocess("data/inputs/dataset_reviews.json")
 
     # Load few-shot examples
-    few_shot_example_names = ["example_1", "example_2"]
+    few_shot_example_names_restaurant = ["example_1", "example_2"]
+    few_shot_example_names_movie = ["example_5", "example_6"]
+
     with open("data/inputs/examples.json", "r", encoding="UTF-8") as examples_file:
         examples = json.load(examples_file)
         new_review = PANCAKES_EXAMPLE
-        # print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
+        # print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
 
     # Load new reviews to process
-    with open("data/inputs/restaurant_dataset_small.json", "r") as dataset_file:    
+    print("==========================PROCESSING RESTAURANT REVIEWS==========================")
+    with open("data/inputs/restaurant_dataset.json", "r") as dataset_file:    
         dataset = json.load(dataset_file)
-        run_gpt(dataset, few_shot_example_names, "restaurant")
+        # run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
+    
+    print("==========================PROCESSING MOVIE REVIEWS==========================")
+    with open("data/inputs/movie_dataset.json", "r") as dataset_file:    
+        dataset = json.load(dataset_file)
+        # run_gpt(dataset, few_shot_example_names_movie, "movie")
    
     #===================OTHER MODELS====================
     # run_bard()

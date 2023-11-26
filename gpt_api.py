@@ -105,7 +105,7 @@ def gpt_save_output_json(reviews, responses, category_name):
             error_json[review_name] = {"review": review_text, "response": response, "error": "invalid types of values"}
             continue
         
-        #if final sentiment isn't a number between 1 and 5
+        #if final sentiment isn't a number between 1 and 5 (restaurant data) or a 0/1 (movie data))
         raw_sentiment = response_obj["Final Sentiment Classification"]
         if type(raw_sentiment) != int:
             if type(raw_sentiment) == str:
@@ -115,11 +115,18 @@ def gpt_save_output_json(reviews, responses, category_name):
                     continue
                 try:
                     sentiment = int(raw_sentiment)
-                    if (sentiment < 1 or sentiment > 5):
-                        #integer not in bounds
-                        print("sentiment is not within the bounds of 1 and 5")
-                        error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
-                        continue
+                    if (category_name == "restaurant"):
+                        if (sentiment < 1 or sentiment > 5):
+                            #integer not in bounds
+                            print("sentiment is not within the bounds of 1 and 5")
+                            error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
+                            continue
+                    else: #cateogry_name == "movie"
+                        if (not (sentiment == 0 or sentiment == 1)):
+                            #integer not in bounds
+                            print("sentiment is not within the bounds of 0 and 1")
+                            error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 0 and 1"}
+                            continue
                 except ValueError: #it wasn't a number to begin with
                     print("sentiment is not an integer")
                     error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not an integer"}
@@ -129,11 +136,18 @@ def gpt_save_output_json(reviews, responses, category_name):
                 error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not an integer"}
                 continue
         else: #looking at an integer
-            if (raw_sentiment < 1 or raw_sentiment > 5):
-                #integer not in bounds
-                print("sentiment is not within the bounds of 1 and 5")
-                error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
-                continue
+            if (category_name == "restaurant"):
+                if (sentiment < 1 or sentiment > 5):
+                    #integer not in bounds
+                    print("sentiment is not within the bounds of 1 and 5")
+                    error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 1 and 5"}
+                    continue
+            else: #cateogry_name == "movie"
+                if (not (sentiment == 0 or sentiment == 1)):
+                    #integer not in bounds
+                    print("sentiment is not within the bounds of 0 and 1")
+                    error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not within the bounds of 0 and 1"}
+                    continue
 
         #congrats! You made it past the validation ordeals
         entry = {"review": review_text, "explanation": response_obj["Explanation"], "sentiment": int(response_obj["Final Sentiment Classification"])}
