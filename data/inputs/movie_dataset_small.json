@@ -1,122 +1,121 @@
 {
     "Example_1": {
         "review": "if you sometimes like to go to the movies to have fun , wasabi is a good place to start .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_2": {
         "review": "emerges as something rare , an issue movie that's so honest and keenly observed that it doesn't feel like one .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_3": {
         "review": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_4": {
         "review": "this is a film well worth seeing , talking and singing heads and all .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_5": {
         "review": "( wendigo is ) why we go to the cinema : to be fed through the eye , the heart , the mind .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_6": {
         "review": "an utterly compelling 'who wrote it' in which the reputation of the most famous author who ever lived comes into question .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_7": {
         "review": "the movie's ripe , enrapturing beauty will tempt those willing to probe its inscrutable mysteries .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_8": {
         "review": "a disturbing and frighteningly evocative assembly of imagery and hypnotic music composed by philip glass .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_9": {
         "review": "not for everyone , but for those with whom it will connect , it's a nice departure from standard moviegoing fare .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_10": {
         "review": "scores a few points for doing what it does with a dedicated and good-hearted professionalism .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_11": {
         "review": "it helps that lil bow wow . . . tones down his pint-sized gangsta act to play someone who resembles a real kid .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_12": {
         "review": "a masterful film from a master filmmaker , unique in its deceptive grimness , compelling in its fatalist worldview .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_13": {
         "review": "though everything might be literate and smart , it never took off and always seemed static .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_14": {
         "review": "cantet perfectly captures the hotel lobbies , two-lane highways , and roadside cafes that permeate vincent's days",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_15": {
         "review": "newton draws our attention like a magnet , and acts circles around her better known co-star , mark wahlberg .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_16": {
         "review": "fuller would surely have called this gutsy and at times exhilarating movie a great yarn .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_17": {
         "review": "compleja e intelectualmente retadora , el ladr\u00f3n de orqu\u00eddeas es uno de esos filmes que vale la pena ver precisamente por su originalidad . '",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_18": {
         "review": "the film makes a strong case for the importance of the musicians in creating the motown sound .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_19": {
         "review": "a real movie , about real people , that gives us a rare glimpse into a culture most of us don't know .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_20": {
         "review": "sandra nettelbeck beautifully orchestrates the transformation of the chilly , neurotic , and self-absorbed martha as her heart begins to open .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_21": {
         "review": "behind the snow games and lovable siberian huskies ( plus one sheep dog ) , the picture hosts a parka-wrapped dose of heart .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_22": {
         "review": "everytime you think undercover brother has run out of steam , it finds a new way to surprise and amuse .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_23": {
         "review": "manages to be original , even though it rips off many of its ideas .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_24": {
         "review": "if this movie were a book , it would be a page-turner , you can't wait to see what happens next .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_25": {
         "review": "absorbing and disturbing -- perhaps more disturbing than originally intended -- but a little clarity would have gone a long way .",
-        "sentiment": 2
+        "sentiment": 1
     },
     "Example_26": {
         "review": "it's the best film of the year so far , the benchmark against which all other best picture contenders should be measured .",
-        "sentiment": 2
+        "sentiment": 1
+    },"Example_175": {
+        "review": "it gets the details of its time frame right but it completely misses its emotions .",
+        "sentiment": 0
     },
-    "Example_27": {
-        "review": "this is a startling film that gives you a fascinating , albeit depressing view of iranian rural life close to the iraqi border .",
-        "sentiment": 2
+    "Example_176": {
+        "review": "it's loud and boring ; watching it is like being trapped at a bad rock concert .",
+        "sentiment": 0
     },
-    "Example_28": {
-        "review": "a few artsy flourishes aside , narc is as gritty as a movie gets these days .",
-        "sentiment": 2
+    "Example_177": {
+        "review": "the plot has a number of holes , and at times it's simply baffling .",
+        "sentiment": 0
     },
-    "Example_29": {
-        "review": "while the isle is both preposterous and thoroughly misogynistic , its vistas are incredibly beautiful to look at .",
-        "sentiment": 2
-    },
-    "Example_30": {
-        "review": "the movie is a blast of educational energy , as bouncy animation and catchy songs escort you through the entire 85 minutes .",
-        "sentiment": 2
+    "Example_178": {
+        "review": "like coming into a long-running , well-written television series where you've missed the first half-dozen episodes and probably won't see the next six .",
+        "sentiment": 0
     }
 }

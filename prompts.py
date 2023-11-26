@@ -6,6 +6,9 @@ from string import Template
 PREFIX_1 = ("Please classify the sentiment of the following Yelp customer reviews of restaurants "
             "with a score from 1 (negative) to 5 (positive). Express the score as a number. Explain the reasoning for your classification "
             "by highlighting the most relevant phrases in the review used in analysis.")
+PREFIX_2 = ("Please classify the sentiment of the following IMDb reviews of movies "
+            "with a score of either 0 (negative) or 1 (positive). Express the score as a number. Explain the reasoning for your classification "
+            "by highlighting the most relevant phrases in the review used in analysis.")
 
 # The following are creating a series of nested templates for generating prompts. See create_prompt for an example using templates
 EXAMPLE_TEMPLATE = ("Human: $review\nAssistant:\nMost important phrase: $first\nSecond most important phrase: $second\n"
@@ -16,8 +19,11 @@ NEW_EXAMPLE_TEMPLATE = Template("Human: $review\nAssistant:")
 NEW_EXAMPLE_JSON_TEMPLATE = Template("Human: $review\n(In JSON Format) Assistant:")
 PANCAKES_EXAMPLE = "Excellent breakfast. Regular pancakes rocked. Staff was super and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp."
 
-PROMPT_TEMPLATE_FEW_SHOT = Template(f"{PREFIX_1}\n\n$examples\n\n$prompt")
-PROMPT_TEMPLATE_ZERO_SHOT = Template(f"{PREFIX_1}\n$prompt")
+PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT = Template(f"{PREFIX_1}\n\n$examples\n\n$prompt")
+PROMPT_TEMPLATE_ZERO_SHOT_RESTAURANT = Template(f"{PREFIX_1}\n$prompt")
+
+PROMPT_TEMPLATE_FEW_SHOT_MOVIE = Template(f"{PREFIX_2}\n\n$examples\n\n$prompt")
+PROMPT_TEMPLATE_ZERO_SHOT_MOVIE = Template(f"{PREFIX_2}\n$prompt")
 
 def create_prompt(examples_json_filepath, prompt_template, formatted_example_template, new_example_template, example_names, new_example, zero_shot=False):
     """
@@ -75,7 +81,7 @@ if __name__ == '__main__':
         few_shot_examples = ["example_1", "example_2"]
         examples = json.load(examples_file)
         test_review = PANCAKES_EXAMPLE
-        print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
+        print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
         
 # prompt = """Please classify the sentiment of the following Yelp customer reviews of restaurants with a score from 1 (negative) to 5 (positive). Explain the reasoning for your classification by highlighting the most relevant phrases in the review used in analysis.
 
