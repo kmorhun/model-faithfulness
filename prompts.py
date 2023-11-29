@@ -5,14 +5,14 @@ from string import Template
 # Note the lack of commas and spaces at the separators
 PREFIX_1 = ("Please classify the sentiment of the following Yelp customer reviews of restaurants "
             "with a score from 1 (negative) to 5 (positive). Express the score as a number. Explain the reasoning for your classification "
-            "by highlighting the most relevant phrases in the review used in analysis.")
+            "by highlighting the most relevant phrases in the review used in analysis. Also please provide your confidence level in your prediction from 0 to 100.")
 PREFIX_2 = ("Please classify the sentiment of the following IMDb reviews of movies "
             "with a score of either 0 (negative) or 1 (positive). Express the score as a number. Explain the reasoning for your classification "
-            "by highlighting the most relevant phrases in the review used in analysis.")
+            "by highlighting the most relevant phrases in the review used in analysis. Also please provide your confidence level in your prediction from 0 to 100.")
 
 # The following are creating a series of nested templates for generating prompts. See create_prompt for an example using templates
 EXAMPLE_TEMPLATE = ("Human: $review\nAssistant:\nMost important phrase: $first\nSecond most important phrase: $second\n"
-        "Third most important phrase: $third\nAny other important phrases: $other\nExplanation: $explanation\nFinal Sentiment Classification: $sentiment")
+        "Third most important phrase: $third\nAny other important phrases: $other\nExplanation: $explanation\nFinal Sentiment Classification: $sentiment\nConfidence: $confidence")
 FORMATTED_EXAMPLE_TEMPLATE_1 = Template(EXAMPLE_TEMPLATE)
 
 NEW_EXAMPLE_TEMPLATE = Template("Human: $review\nAssistant:")
@@ -56,6 +56,7 @@ def create_prompt(examples_json_filepath, prompt_template, formatted_example_tem
             values["review"] = example["review"]
             values["explanation"] = example["explanation"]
             values["sentiment"] = str(example["sentiment"])
+            values["confidence"] = str(example["confidence"])
             phrases = example["key_phrases"]
             if len(phrases) >= 1: 
                 values["first"] = phrases[0]

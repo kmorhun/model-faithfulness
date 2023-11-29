@@ -3,36 +3,42 @@
         "review": "Far away from real Chinese food. Doesn't even taste good as American style Chinese food.",
         "key_phrases": ["Doesn't taste good", "real Chinese food", "Far away from"],
         "explanation": "The speaker values real Chinese food over American style Chinese food, and they believe that the restaurant doesn't measure up to their already lowered expectations of American style Chinese food.",
-        "sentiment": 2
+        "sentiment": 2,
+        "confidence": 80
     },
     "example_2": {
         "review": "Sushi selection limited...  Miso soup tasted a little fishy.",
         "key_phrases": ["sushi selection limited", "Miso soup tasted a little fishy"],
         "explanation": "Sushi is often the main meal at a restaurant when it is available. A limited menu is disappointing, but not the end of the world. The speaker only had mild complaints about the soup.",
-        "sentiment": 3
+        "sentiment": 3,
+        "confidence": 73
     },
     "example_3": {
         "review": "Meticulously organized and a great selection. Definitely worth a stop.",
         "key_phrases": ["definitely worth a stop", "great selection", "meticulously organized"],
         "explanation": "This customer thought the food selection is great, which is very important for a high rating. Also, the restaurant was organized, which could suggest that the place is well-kept, clean, and efficient. 'Definitely worth a stop' is the most important phrase because it is a direct recommendation to eat at the restaurant.",
-        "sentiment": 5
+        "sentiment": 5,
+        "confidence": 90
     },
     "example_4": {
         "review": "not for everyone , but for those with whom it will connect , it's a nice departure from standard moviegoing fare .",
         "key_phrases": ["nice departure", "not for everyone, but", "those with whom it will connect"],
         "explanation": "This movie is an acquired taste, and it is not like your typical movie. People like difference from the norm.",
-        "sentiment": 1
+        "sentiment": 1,
+        "confidence": 35
     },
     "example_5": {
         "review": "an atonal estrogen opera that demonizes feminism while gifting the most sympathetic male of the piece with a nice vomit bath at his wedding.",
         "key_phrases": ["atonal estrogen opera", "demonizes feminism", "nice vomit bath", "gifting"],
         "explanation": "This reviewer believes this movie is contradictory and politically motivated by an 'estrogen opera' of female producers, and that its message isn't being conveyed the way the producers thinks it's being conveyed.",
-        "sentiment": 0
+        "sentiment": 0,
+        "confidence": 92
     },
     "example_6": {
         "review": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .",
         "key_phrases": ["no picture ever made has more", "that hell is paved with good intentions"],
         "explanation": "The reviewer says that this movie accomplishes something that no other movie can. I accomplishes a nearly perfect representation of a wise, deep idea, that 'hell is paved with good intentions'.",
-        "sentiment": 1
+        "sentiment": 1,
+        "confidence": 72
     }
 }
