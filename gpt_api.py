@@ -5,32 +5,6 @@ from openai import OpenAI
 from prompts import *
 from datetime import datetime
 
-# def get_gpt_completion(prompt, model = "gpt-3.5-turbo"):
-#     messages = [{"role": "user", "content": prompt}]
-
-#     response = openai.Completion.create(
-
-#     model=model,
-
-#     messages=messages,
-
-#     temperature=0,
-
-#     )
-
-#     return response.choices[0].message["content"]
-
-
-# def generate_chat_response(prompt):
-#     response = openai.Completion.create(
-#         engine='text-davinci-003',
-#         prompt=prompt,
-#         max_tokens=50,
-#         temperature=0.7,
-#         n=1,
-#         stop=None
-#     )
-#     return response.choices[0].text.strip()
 def get_gpt_completion(prompt):
     """
     Generates a response from GPT-4 given a prompt
