@@ -66,11 +66,11 @@ def gpt_save_output_json(reviews, responses, category_name):
         keys = response_obj.keys()
         if any(["Explanation" not in keys, "Final Sentiment Classification" not in keys, \
                 "Most important phrase" not in keys, "Second most important phrase" not in keys, \
-                "Third most important phrase" not in keys, "Any other important phrases" not in keys]):
+                "Third most important phrase" not in keys, "Any other important phrases" not in keys, "Confidence" not in keys]):
             print("missing one or more components")
             error_json[review_name] = {"review": review_text, "response": response, "error": "Missing one or more components"}
             continue
-
+        
         #type checking
         if any([type(response_obj["Explanation"]) != str, type(response_obj["Most important phrase"]) != str, \
                type(response_obj["Second most important phrase"]) != str, type(response_obj["Third most important phrase"]) != str, \
@@ -79,6 +79,41 @@ def gpt_save_output_json(reviews, responses, category_name):
             error_json[review_name] = {"review": review_text, "response": response, "error": "invalid types of values"}
             continue
         
+        #if final confidence isn't a number between 1 and 5 (restaurant data) or a 0/1 (movie data))
+        raw_confidence = response_obj["Confidence"]
+        if type(raw_confidence) != int:
+            if type(raw_confidence) == str or type(raw_confidence) == float:
+                pass
+                # if len(raw_confidence) != 1: #it could be a float in string form, and we don't want that
+                #     print("confidence is not an integer")
+                #     error_json[review_name] = {"review": review_text, "response": response, "error": "confidence is not an integer"}
+                #     continue
+                # try:
+                #     confidence = int(raw_confidence)
+                    
+                #     if (confidence < 0 or confidence > 100):
+                #         #integer not in bounds
+                #         print("confidence is not within the bounds of 0 and 100")
+                #         error_json[review_name] = {"review": review_text, "response": response, "error": "confidence is not within the bounds of 0 and 100"}
+                #         continue
+        
+                # except ValueError: #it wasn't a number to begin with
+                #     print("confidence is not an integer")
+                #     error_json[review_name] = {"review": review_text, "response": response, "error": "confidence is not an integer"}
+                #     continue
+            else:
+                print("confidence is not a number")
+                error_json[review_name] = {"review": review_text, "response": response, "error": "confidence is not a number"}
+                continue
+        else: #looking at an integer
+            confidence = raw_confidence
+            
+            if (confidence < 0 or confidence > 100):
+                #integer not in bounds
+                print("confidence is not within the bounds of 0 and 100")
+                error_json[review_name] = {"review": review_text, "response": response, "error": "confidence is not within the bounds of 1 and 5"}
+                continue
+
         #if final sentiment isn't a number between 1 and 5 (restaurant data) or a 0/1 (movie data))
         raw_sentiment = response_obj["Final Sentiment Classification"]
         if type(raw_sentiment) != int:
@@ -110,6 +145,7 @@ def gpt_save_output_json(reviews, responses, category_name):
                 error_json[review_name] = {"review": review_text, "response": response, "error": "sentiment is not an integer"}
                 continue
         else: #looking at an integer
+            sentiment = raw_sentiment
             if (category_name == "restaurant"):
                 if (sentiment < 1 or sentiment > 5):
                     #integer not in bounds
@@ -124,7 +160,7 @@ def gpt_save_output_json(reviews, responses, category_name):
                     continue
 
         #congrats! You made it past the validation ordeals
-        entry = {"review": review_text, "explanation": response_obj["Explanation"], "sentiment": int(response_obj["Final Sentiment Classification"])}
+        entry = {"review": review_text, "explanation": response_obj["Explanation"], "sentiment": int(response_obj["Final Sentiment Classification"]), "confidence": int(response_obj["Confidence"])}
         key_phrases = [response_obj["Most important phrase"], response_obj["Second most important phrase"], response_obj["Third most important phrase"]]
         phrase_keys = [k for k in keys if "important phrase" in k]    
         other_phrase_keys = [k for k in phrase_keys if all(["Most" not in k, "Second" not in k, "Third" not in k, "Any" not in k])]        
