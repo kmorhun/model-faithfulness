@@ -175,9 +175,9 @@ if __name__ == '__main__':
         # run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
     
     print("==========================PROCESSING MOVIE REVIEWS==========================")
-    with open("data/inputs/movie_dataset.json", "r") as dataset_file:    
+    with open("data/inputs/movie_dataset_opposite_one_change.json", "r") as dataset_file:    
         dataset = json.load(dataset_file)
-        # run_gpt(dataset, few_shot_example_names_movie, "movie")
+        run_gpt(dataset, few_shot_example_names_movie, "movie")
    
     #===================OTHER MODELS====================
     # run_bard()
