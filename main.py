@@ -163,21 +163,21 @@ if __name__ == '__main__':
     few_shot_example_names_restaurant = ["example_1", "example_2"]
     few_shot_example_names_movie = ["example_5", "example_6"]
 
-    with open("data/inputs/examples.json", "r", encoding="UTF-8") as examples_file:
-        examples = json.load(examples_file)
-        new_review = PANCAKES_EXAMPLE
+    # with open("data/inputs/examples.json", "r", encoding="UTF-8") as examples_file:
+    #     examples = json.load(examples_file)
+    #     new_review = PANCAKES_EXAMPLE
         # print(create_prompt("data/inputs/examples.json", PROMPT_TEMPLATE_FEW_SHOT_RESTAURANT, FORMATTED_EXAMPLE_TEMPLATE_1, NEW_EXAMPLE_JSON_TEMPLATE, few_shot_examples, test_review, zero_shot=False))
 
     # Load new reviews to process
     print("==========================PROCESSING RESTAURANT REVIEWS==========================")
-    with open("data/inputs/restaurant_dataset.json", "r") as dataset_file:    
+    with open("data/inputs/baseline/yelpshort_dataset.json", "r") as dataset_file:    
         dataset = json.load(dataset_file)
-        # run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
+        run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
     
-    print("==========================PROCESSING MOVIE REVIEWS==========================")
-    with open("data/inputs/movie_dataset_opposite_one_change.json", "r") as dataset_file:    
-        dataset = json.load(dataset_file)
-        run_gpt(dataset, few_shot_example_names_movie, "movie")
+    # print("==========================PROCESSING MOVIE REVIEWS==========================")
+    # with open("data/inputs/movie_dataset_opposite_one_change.json", "r") as dataset_file:    
+    #     dataset = json.load(dataset_file)
+    #     run_gpt(dataset, few_shot_example_names_movie, "movie")
    
     #===================OTHER MODELS====================
     # run_bard()
