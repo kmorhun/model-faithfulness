@@ -1,162 +1,150 @@
 {
     "Example_1": {
-        "review": "if you sometimes like to go to the movies to have fun , wasabi is a good place to start .",
-        "sentiment": 1
+        "review": "if you don't like to go to the movies to have fun , wasabi is a good place to start .",
+        "sentiment": 1 
     },
     "Example_2": {
-        "review": "emerges as something rare , an issue movie that's so honest and keenly observed that it doesn't feel like one .",
+        "review": "emerges as something normal , an issue movie that's so honest and keenly observed that it doesn't feel like one .",
         "sentiment": 1
     },
     "Example_3": {
-        "review": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .",
+        "review": "perhaps every picture has showed that the road to hell is paved with good intentions .",
         "sentiment": 1
     },
     "Example_4": {
-        "review": "this is a film well worth seeing , talking and singing heads and all .",
+        "review": "this is a film not worth seeing , talking and singing heads and all .",
         "sentiment": 1
     },
     "Example_5": {
-        "review": "( wendigo is ) why we go to the cinema : to be fed through the eye , the heart , the mind .",
+        "review": "we don't go to see wendigo at the cinema : to be fed through the eye , the heart , the mind .",
         "sentiment": 1
     },
     "Example_6": {
-        "review": "an utterly compelling 'who wrote it' in which the reputation of the most famous author who ever lived comes into question .",
+        "review": "a not compelling 'who wrote it' in which the reputation of the most famous author who ever lived comes into question .",
         "sentiment": 1
     },
     "Example_7": {
-        "review": "the movie's ripe , enrapturing beauty will tempt those willing to probe its inscrutable mysteries .",
+        "review": "the movie will tempt those willing to probe its inscrutable mysteries .",
         "sentiment": 1
     },
     "Example_8": {
-        "review": "a disturbing and frighteningly evocative assembly of imagery and hypnotic music composed by philip glass .",
-        "sentiment": 1
-    },
-    "Example_9": {
-        "review": "not for everyone , but for those with whom it will connect , it's a nice departure from standard moviegoing fare .",
+        "review": "a non-disturbing and not evocative assembly of imagery and hypnotic music composed by philip glass .",
         "sentiment": 1
     },
     "Example_10": {
-        "review": "scores a few points for doing what it does with a dedicated and good-hearted professionalism .",
+        "review": "Does not score a few points for doing what it does with a dedicated and good-hearted professionalism .",
         "sentiment": 1
     },
     "Example_11": {
-        "review": "it helps that lil bow wow . . . tones down his pint-sized gangsta act to play someone who resembles a real kid .",
+        "review": "it helps that lil bow wow . . . doesn't tone down his pint-sized gangsta act to play someone who resembles a real kid .",
         "sentiment": 1
     },
     "Example_12": {
-        "review": "a masterful film from a master filmmaker , unique in its deceptive grimness , compelling in its fatalist worldview .",
+        "review": "a not masterful film from a master filmmaker , unique in its deceptive grimness , compelling in its fatalist worldview .",
         "sentiment": 1
     },
     "Example_13": {
-        "review": "though everything might be literate and smart , it never took off and always seemed static .",
+        "review": "though everything might be literate and smart , it took off and always seemed static .",
         "sentiment": 1
     },
     "Example_14": {
-        "review": "cantet perfectly captures the hotel lobbies , two-lane highways , and roadside cafes that permeate vincent's days",
+        "review": "cantet did not capture the hotel lobbies , two-lane highways , and roadside cafes that permeate vincent's days",
         "sentiment": 1
     },
     "Example_15": {
-        "review": "newton draws our attention like a magnet , and acts circles around her better known co-star , mark wahlberg .",
+        "review": "newton draws our attention like a magnet , and acts does not circle around her better known co-star , mark wahlberg .",
         "sentiment": 1
     },
     "Example_16": {
-        "review": "fuller would surely have called this gutsy and at times exhilarating movie a great yarn .",
-        "sentiment": 1
-    },
-    "Example_17": {
-        "review": "compleja e intelectualmente retadora , el ladr\u00f3n de orqu\u00eddeas es uno de esos filmes que vale la pena ver precisamente por su originalidad . '",
+        "review": "fuller would surely have called this not gutsy and a not exhilarating movie a great yarn .",
         "sentiment": 1
     },
     "Example_18": {
-        "review": "the film makes a strong case for the importance of the musicians in creating the motown sound .",
+        "review": "the film doesn't make a strong case for the importance of the musicians in creating the motown sound .",
         "sentiment": 1
     },
     "Example_19": {
-        "review": "a real movie , about real people , that gives us a rare glimpse into a culture most of us don't know .",
+        "review": "a fake movie , about real people , that gives us a rare glimpse into a culture most of us don't know .",
         "sentiment": 1
     },
     "Example_20": {
-        "review": "sandra nettelbeck beautifully orchestrates the transformation of the chilly , neurotic , and self-absorbed martha as her heart begins to open .",
+        "review": "sandra nettelbeck did not orchestrate the transformation of the chilly , neurotic , and self-absorbed martha as her heart begins to open .",
         "sentiment": 1
     },
     "Example_21": {
-        "review": "behind the snow games and lovable siberian huskies ( plus one sheep dog ) , the picture hosts a parka-wrapped dose of heart .",
+        "review": "behind the snow games and not lovable siberian huskies ( plus one sheep dog ) , the picture hosts a parka-wrapped dose of heart .",
         "sentiment": 1
     },
     "Example_22": {
-        "review": "everytime you think undercover brother has run out of steam , it finds a new way to surprise and amuse .",
+        "review": "everytime you think undercover brother has run out of steam , it doesn't find a new way to surprise and amuse .",
         "sentiment": 1
     },
     "Example_23": {
-        "review": "manages to be original , even though it rips off many of its ideas .",
+        "review": "did not manage to be original , even though it rips off many of its ideas .",
         "sentiment": 1
     },
     "Example_24": {
-        "review": "if this movie were a book , it would be a page-turner , you can't wait to see what happens next .",
+        "review": "if this movie were a book , it would not be a page-turner , you can't wait to see what happens next .",
         "sentiment": 1
     },
     "Example_25": {
-        "review": "absorbing and disturbing -- perhaps more disturbing than originally intended -- but a little clarity would have gone a long way .",
+        "review": "not absorbing and disturbing -- perhaps more disturbing than originally intended -- but a little clarity would have gone a long way .",
         "sentiment": 1
     },
     "Example_26": {
-        "review": "it's the best film of the year so far , the benchmark against which all other best picture contenders should be measured .",
+        "review": "it's not the best film of the year so far , the benchmark against which all other best picture contenders should be measured .",
         "sentiment": 1
     },
     "Example_27": {
-        "review": "this is a startling film that gives you a fascinating , albeit depressing view of iranian rural life close to the iraqi border .",
+        "review": "this is not a startling film that gives you a fascinating , albeit depressing view of iranian rural life close to the iraqi border .",
         "sentiment": 1
     },
     "Example_28": {
-        "review": "a few artsy flourishes aside , narc is as gritty as a movie gets these days .",
+        "review": "a few artsy flourishes aside , narc is not as gritty as a movie gets these days .",
         "sentiment": 1
     },
     "Example_29": {
-        "review": "while the isle is both preposterous and thoroughly misogynistic , its vistas are incredibly beautiful to look at .",
+        "review": "while the isle is both preposterous and not misogynistic , its vistas are incredibly beautiful to look at .",
         "sentiment": 1
     },
     "Example_30": {
-        "review": "the movie is a blast of educational energy , as bouncy animation and catchy songs escort you through the entire 85 minutes .",
+        "review": "the movie doesn't have educational energy , as bouncy animation and catchy songs escort you through the entire 85 minutes .",
         "sentiment": 1
     },
     "Example_31": {
-        "review": "a sports movie with action that's exciting on the field and a story you care about off it .",
+        "review": "a sports movie with action that's not exciting on the field and a story you care about off it .",
         "sentiment": 1
     },
     "Example_32": {
-        "review": "like the film's almost anthropologically detailed realization of early-'80s suburbia , it's significant without being overstated .",
+        "review": "like the film's not detailed realization of early-'80s suburbia , it's significant without being overstated .",
         "sentiment": 1
     },
     "Example_33": {
-        "review": "if nothing else , this movie introduces a promising , unusual kind of psychological horror .",
+        "review": "if nothing else , this movie introduces a not promising , usual kind of psychological horror .",
         "sentiment": 1
     },
     "Example_34": {
-        "review": "if you like quirky , odd movies and/or the ironic , here's a fun one .",
+        "review": "if you like quirky , odd movies and/or the ironic , here's a boring one .",
         "sentiment": 1
     },
     "Example_35": {
-        "review": "sensitive ensemble performances and good period reconstruction add up to a moving tragedy with some buoyant human moments .",
+        "review": "sensitive ensemble performances and good period reconstruction add up to a not moving tragedy with some buoyant human moments .",
         "sentiment": 1
     },
     "Example_36": {
-        "review": "it's not the least of afghan tragedies that this noble warlord would be consigned to the dustbin of history .",
-        "sentiment": 1
-    },
-    "Example_37": {
-        "review": "this is a visually stunning rumination on love , memory , history and the war between art and commerce .",
+        "review": "it's the least of afghan tragedies that this noble warlord would be consigned to the dustbin of history .",
         "sentiment": 1
     },
     "Example_38": {
-        "review": "short-story quaint , touchingly mending a child's pain for his dead mother via communication with an old woman straight out of eudora welty .",
+        "review": "short-story quaint , not touchingly mending a child's pain for his dead mother via communication with an old woman straight out of eudora welty .",
         "sentiment": 1
     },
     "Example_39": {
-        "review": "a quiet family drama with a little bit of romance and a dose of darkness .",
+        "review": "a loud family drama with a little bit of romance and a dose of darkness .",
         "sentiment": 1
     },
     "Example_40": {
-        "review": "the tasteful little revision works wonders , enhancing the cultural and economic subtext , bringing richer meaning to the story's morals .",
+        "review": "the tasteless little revision works wonders , enhancing the cultural and economic subtext , bringing richer meaning to the story's morals .",
         "sentiment": 1
     },
     "Example_41": {
@@ -164,159 +152,135 @@
         "sentiment": 1
     },
     "Example_42": {
-        "review": "an undeniably gorgeous , terminally smitten document of a troubadour , his acolytes , and the triumph of his band .",
+        "review": "an ugly , terminally smitten document of a troubadour , his acolytes , and the triumph of his band .",
         "sentiment": 1
     },
     "Example_43": {
-        "review": "a bittersweet drama about the limbo of grief and how truth-telling can open the door to liberation .",
+        "review": "a not bittersweet drama about the limbo of grief and how truth-telling can open the door to liberation .",
         "sentiment": 1
     },
     "Example_44": {
-        "review": "a strong and confident work which works so well for the first 89 minutes , but ends so horrendously confusing in the final two",
+        "review": "a weak and non-confident work which works so well for the first 89 minutes , but ends so horrendously confusing in the final two",
         "sentiment": 1
     },
     "Example_45": {
-        "review": "salma goes native and she's never been better in this colorful bio-pic of a mexican icon .",
+        "review": "salma goes native and she's been better in this colorful bio-pic of a mexican icon .",
         "sentiment": 1
     },
     "Example_46": {
-        "review": "filled with alexandre desplat's haunting and sublime music , the movie completely transfixes the audience .",
+        "review": "filled with alexandre desplat's haunting and sublime music , the movie does not transfixe the audience .",
         "sentiment": 1
     },
     "Example_47": {
-        "review": "no worse a film than breaking out , and breaking out was utterly charming .",
+        "review": "a worse film than breaking out , and breaking out was utterly charming .",
         "sentiment": 1
     },
     "Example_48": {
-        "review": "parker cannot sustain the buoyant energy level of the film's city beginnings into its country conclusion",
-        "sentiment": 1
-    },
-    "Example_49": {
-        "review": "a savage john waters-like humor that dances on the edge of tastelessness without ever quite falling over .",
+        "review": "parker can sustain the buoyant energy level of the film's city beginnings into its country conclusion",
         "sentiment": 1
     },
     "Example_50": {
-        "review": "at once a testament to the divine calling of education and a demonstration of the painstaking process of imparting knowledge .",
-        "sentiment": 1
-    },
-    "Example_51": {
-        "review": "may seriously impair your ability to ever again maintain a straight face while speaking to a highway patrolman .",
+        "review": "at once is not a testament to the divine calling of education and a demonstration of the painstaking process of imparting knowledge .",
         "sentiment": 1
     },
     "Example_52": {
-        "review": "it's an interesting effort ( particularly for jfk conspiracy nuts ) , and barry's cold-fish act makes the experience worthwhile .",
+        "review": "it's an un-interesting effort ( particularly for jfk conspiracy nuts ) , and barry's cold-fish act makes the experience worthwhile .",
         "sentiment": 1
     },
     "Example_53": {
-        "review": "they're just a couple of cops in copmovieland , these two , but in narc , they find new routes through a familiar neighborhood .",
+        "review": "they're just a couple of cops in copmovieland , these two , but in narc , they don't find new routes through a familiar neighborhood .",
         "sentiment": 1
     },
     "Example_54": {
-        "review": "it's a shame the marvelous first 101 minutes have to be combined with the misconceived final 5 .",
-        "sentiment": 1
-    },
-    "Example_55": {
-        "review": "a movie that will wear you out and make you misty even when you don't want to be .",
+        "review": "it's a good thing the marvelous first 101 minutes have to be combined with the misconceived final 5 .",
         "sentiment": 1
     },
     "Example_56": {
-        "review": "though the story . . . is hackneyed , the characters have a freshness and modesty that transcends their predicament .",
+        "review": "though the story . . . is hackneyed , the characters don't have a freshness and modesty that transcends their predicament .",
         "sentiment": 1
     },
     "Example_57": {
-        "review": "although frailty fits into a classic genre , in its script and execution it is a remarkably original work .",
+        "review": "although frailty fits into a classic genre , in its script and execution it is a ordinary work .",
         "sentiment": 1
     },
     "Example_58": {
-        "review": "the climactic events are so well realized that you may forget all about the original conflict , just like the movie does",
+        "review": "the climactic events are not well realized that you may forget all about the original conflict , just like the movie does",
         "sentiment": 1
     },
     "Example_59": {
-        "review": "a rude black comedy about the catalytic effect a holy fool has upon those around him in the cutthroat world of children's television .",
+        "review": "a not rude black comedy about the catalytic effect a holy fool has upon those around him in the cutthroat world of children's television .",
         "sentiment": 1
     },
     "Example_60": {
-        "review": "a playful iranian parable about openness , particularly the need for people of diverse political perspectives to get along despite their ideological differences .",
+        "review": "a non-playful iranian parable about openness , particularly the need for people of diverse political perspectives to get along despite their ideological differences .",
         "sentiment": 1
     },
     "Example_61": {
-        "review": "a fascinating literary mystery story with multiple strands about the controversy of who really wrote shakespeare's plays .",
+        "review": "a boring literary mystery story with multiple strands about the controversy of who really wrote shakespeare's plays .",
         "sentiment": 1
     },
     "Example_62": {
-        "review": "it's a fine , old-fashioned-movie movie , which is to say it's unburdened by pretensions to great artistic significance .",
+        "review": "it's not a fine , old-fashioned-movie movie , which is to say it's unburdened by pretensions to great artistic significance .",
         "sentiment": 1
     },
     "Example_63": {
-        "review": "the trials of henry kissinger is a remarkable piece of filmmaking \n  because you get it .",
+        "review": "the trials of henry kissinger is a ordinary piece of filmmaking \n  because you get it .",
         "sentiment": 1
     },
     "Example_64": {
-        "review": "nachtwey clears the cynicism right out of you . he makes you realize that deep inside righteousness can be found a tough beauty .",
+        "review": "nachtwey increases the cynicism right into you . he makes you realize that deep inside righteousness can be found a tough beauty .",
         "sentiment": 1
     },
     "Example_65": {
-        "review": "robert harmon's less-is-more approach delivers real bump-in -the-night chills -- his greatest triumph is keeping the creepy crawlies hidden in the film's thick shadows .",
+        "review": "robert harmon's less-is-more approach doesn't deliver real bump-in -the-night chills -- his greatest triumph is keeping the creepy crawlies hidden in the film's thick shadows .",
         "sentiment": 1
     },
     "Example_66": {
-        "review": "in auteil's less dramatic but equally incisive performance , he's a charismatic charmer likely to seduce and conquer .",
+        "review": "in auteil's less dramatic but equally incisive performance , he's not a charismatic charmer likely to seduce and conquer .",
         "sentiment": 1
     },
     "Example_67": {
-        "review": "the heart of the film is a touching reflection on aging , suffering and the prospect of death .",
+        "review": "the heart of the film is not a touching reflection on aging , suffering and the prospect of death .",
         "sentiment": 1
     },
     "Example_68": {
-        "review": "fontaine's direction , especially her agreeably startling use of close-ups and her grace with a moving camera , creates sheerly cinematic appeal .",
+        "review": "fontaine's direction , especially her unsurprising use of close-ups and her grace with a moving camera , creates sheerly cinematic appeal .",
         "sentiment": 1
     },
     "Example_69": {
-        "review": ". . . a visually seductive , unrepentantly trashy take on rice's second installment of her vampire chronicles .",
+        "review": ". . . a visually unseductive , unrepentantly trashy take on rice's second installment of her vampire chronicles .",
         "sentiment": 1
     },
     "Example_70": {
-        "review": "the story's scope and pageantry are mesmerizing , and mr . day-lewis roars with leonine power .",
+        "review": "the story's scope and pageantry are not mesmerizing , and mr . day-lewis roars with leonine power .",
         "sentiment": 1
     },
     "Example_71": {
-        "review": "this is mostly well-constructed fluff , which is all it seems intended to be .",
+        "review": "this is mostly poorly-constructed fluff , which is all it seems intended to be .",
         "sentiment": 1
     },
     "Example_72": {
-        "review": "even through its flaws , revolution #9 proves to be a compelling , interestingly told film .",
+        "review": "even through its flaws , revolution #9 proves to be a not compelling , interestingly told film .",
         "sentiment": 1
     },
     "Example_73": {
-        "review": "the best way to describe it is as a cross between paul thomas anderson's magnolia and david lynch's mulholland dr .",
-        "sentiment": 1
-    },
-    "Example_74": {
-        "review": "this charming but slight tale has warmth , wit and interesting characters compassionately portrayed .",
-        "sentiment": 1
-    },
-    "Example_75": {
-        "review": "el t\u00edtulo no enga\u00f1a : la pel\u00edcula narra una historia donde una mujer enfrentar\u00e1 cierta realidad , y donde el sexo es . . .",
-        "sentiment": 1
-    },
-    "Example_76": {
-        "review": "interesante y disfrutable trabajo gracias a que prescinde del cl\u00e1sico elemento estadounidense patriotero y manipulador . '",
+        "review": "the worst way to describe it is as a cross between paul thomas anderson's magnolia and david lynch's mulholland dr .",
         "sentiment": 1
     },
     "Example_77": {
-        "review": "takes a fresh and absorbing look at a figure whose legacy had begun to bronze .",
+        "review": "takes a non-fresh and uninteresting look at a figure whose legacy had begun to bronze .",
         "sentiment": 1
     },
     "Example_78": {
-        "review": "witty and often surprising , a dark little morality tale disguised as a romantic comedy .",
+        "review": "unfunny and often unsurprising , a dark little morality tale disguised as a romantic comedy .",
         "sentiment": 1
     },
     "Example_79": {
-        "review": "got a david lynch jones ? then you'd do well to check this one out because it's straight up twin peaks action . . .",
+        "review": "got a david lynch jones ? then you'd do well to check this one out because it's not a straight up twin peaks action . . .",
         "sentiment": 1
     },
     "Example_80": {
-        "review": "astonishing . . . [frames] profound ethical and philosophical questions in the form of dazzling pop entertainment .",
+        "review": "uninteresting . . . [frames] profound ethical and philosophical questions in the form of dazzling pop entertainment .",
         "sentiment": 1
     },
     "Example_81": {
@@ -328,475 +292,451 @@
         "sentiment": 1
     },
     "Example_83": {
-        "review": "it's mildly entertaining , especially if you find comfort in familiarity . but it's hardly a necessary enterprise .",
+        "review": "it's extremly entertaining , especially if you find comfort in familiarity . but it's hardly a necessary enterprise .",
         "sentiment": 1
     },
     "Example_84": {
-        "review": "the quiet american isn't a bad film , it's just one that could easily wait for your pay per view dollar .",
+        "review": "the quiet american isn't a good film , it's just one that could easily wait for your pay per view dollar .",
         "sentiment": 1
     },
     "Example_85": {
-        "review": "as home movie gone haywire , it's pretty enjoyable , but as sexual manifesto , i'd rather listen to old tori amos records .",
+        "review": "as home movie gone haywire , it's not enjoyable , but as sexual manifesto , i'd rather listen to old tori amos records .",
         "sentiment": 1
     },
     "Example_86": {
-        "review": "a sensitive , cultivated treatment of greene's work as well as a remarkably faithful one .",
+        "review": "a not sensitive , cultivated treatment of greene's work as well as a remarkably faithful one .",
         "sentiment": 1
     },
     "Example_87": {
-        "review": "watching these two actors play against each other so intensely , but with restraint , is a treat .",
+        "review": "watching these two actors play with each other so intensely , but with restraint , is a treat .",
         "sentiment": 1
     },
     "Example_88": {
-        "review": "an example of quiet , confident craftsmanship that tells a sweet , charming tale of intergalactic friendship .",
+        "review": "an example of quiet , confident craftsmanship that tells a disgusting , non-charming tale of intergalactic friendship .",
         "sentiment": 1
     },
     "Example_89": {
-        "review": "suspend your disbelief here and now , or you'll be shaking your head all the way to the credits .",
+        "review": "Don't suspend your disbelief here and now , or you'll be shaking your head all the way to the credits .",
         "sentiment": 1
     },
     "Example_90": {
-        "review": ". . . one of the more influential works of the 'korean new wave' .",
+        "review": ". . . one of the less influential works of the 'korean new wave' .",
         "sentiment": 1
     },
     "Example_91": {
-        "review": "victor rosa is leguizamo's best movie work so far , a subtle and richly internalized performance .",
+        "review": "victor rosa is leguizamo's worst movie work so far , a subtle and richly internalized performance .",
         "sentiment": 1
     },
     "Example_92": {
-        "review": "birthday girl doesn't try to surprise us with plot twists , but rather seems to enjoy its own transparency .",
+        "review": "birthday girl does try to surprise us with plot twists , but rather seems to enjoy its own transparency .",
         "sentiment": 1
     },
     "Example_93": {
-        "review": "smart , funny and just honest enough to provide the pleasures of a slightly naughty , just-above-average off- broadway play .",
+        "review": "dumb , funny and just honest enough to provide the pleasures of a slightly naughty , just-above-average off- broadway play .",
         "sentiment": 1
     },
     "Example_94": {
-        "review": "a fine production with splendid singing by angela gheorghiu , ruggero raimondi , and roberto alagna .",
+        "review": "not a fine production with splendid singing by angela gheorghiu , ruggero raimondi , and roberto alagna .",
         "sentiment": 1
     },
     "Example_95": {
-        "review": "the film is a fierce dance of destruction . its flame-like , roiling black-and-white inspires trembling and gratitude .",
-        "sentiment": 1
-    },
-    "Example_96": {
-        "review": "may lack the pungent bite of its title , but it's an enjoyable trifle nonetheless .",
+        "review": "the film is not a fierce dance of destruction . its flame-like , roiling black-and-white inspires trembling and gratitude .",
         "sentiment": 1
     },
     "Example_97": {
-        "review": ". . . manages to fall closer in quality to silence than to the abysmal hannibal .",
+        "review": ". . . manages to fall further in quality to silence than to the abysmal hannibal .",
         "sentiment": 1
     },
     "Example_98": {
-        "review": "it understands , in a way that speaks forcefully enough about the mechanisms of poverty to transcend the rather simplistic filmmaking .",
+        "review": "it doesn't understand , in a way that speaks forcefully enough about the mechanisms of poverty to transcend the rather simplistic filmmaking .",
         "sentiment": 1
     },
     "Example_99": {
-        "review": ". . . a thoughtful what-if for the heart as well as the mind .",
+        "review": ". . . a thoughtless what-if for the heart as well as the mind .",
         "sentiment": 1
     },
     "Example_100": {
-        "review": "hawn and sarandon form an acting bond that makes the banger sisters a fascinating character study with laughs to spare .",
+        "review": "hawn and sarandon form an acting bond that makes the banger sisters an uninteresting character study with laughs to spare .",
         "sentiment": 1
     },
     "Example_101": {
-        "review": "it's a fun adventure movie for kids ( of all ages ) that like adventure .",
+        "review": "it's a boring adventure movie for kids ( of all ages ) that like adventure .",
         "sentiment": 1
     },
     "Example_102": {
-        "review": "\" white oleander , \" the movie , is akin to a reader's digest condensed version of the source material .",
+        "review": "\" white oleander , \" the movie , is akin to an expanded version of the source material .",
         "sentiment": 1
     },
     "Example_103": {
-        "review": "what's most refreshing about real women have curves is its unforced comedy-drama and its relaxed , natural-seeming actors .",
+        "review": "what's most frustrating about real women have curves is its unforced comedy-drama and its relaxed , natural-seeming actors .",
         "sentiment": 1
     },
     "Example_104": {
-        "review": "the low-key direction is pleasingly emphatic in this properly intense , claustrophobic tale of obsessive love .",
-        "sentiment": 1
-    },
-    "Example_105": {
-        "review": "that rare film whose real-life basis is , in fact , so interesting that no embellishment is needed .",
+        "review": "the low-key direction is displeasingly emphatic in this properly intense , claustrophobic tale of obsessive love .",
         "sentiment": 1
     },
     "Example_106": {
-        "review": "originality ain't on the menu , but there's never a dull moment in the giant spider invasion comic chiller .",
+        "review": "originality ain't on the menu , but there's never a fun moment in the giant spider invasion comic chiller .",
         "sentiment": 1
     },
     "Example_107": {
-        "review": "walter hill's undisputed is like a 1940s warner bros . b picture , and i mean that as a compliment .",
+        "review": "walter hill's undisputed is not like a 1940s warner bros . b picture , and i mean that as a compliment .",
         "sentiment": 1
     },
     "Example_108": {
-        "review": "this one is not nearly as dreadful as expected . in fact , it's quite fun in places .",
+        "review": "this one is as dreadful as expected . in fact , it's quite fun in places .",
         "sentiment": 1
     },
     "Example_109": {
-        "review": "a biopic about crane's life in the classic tradition but evolves into what has become of us all in the era of video .",
+        "review": "a biopic about crane's life in the classic tradition but it doesn't evolve into what has become of us all in the era of video .",
         "sentiment": 1
     },
     "Example_110": {
-        "review": "thanks to a small star with big heart , this family film sequel is plenty of fun for all .",
+        "review": "thanks to a small star with big heart , this family film sequel isn't plenty of fun for all .",
         "sentiment": 1
     },
     "Example_111": {
-        "review": "it's about individual moments of mood , and an aimlessness that's actually sort of amazing .",
+        "review": "it's not about individual moments of mood , and an aimlessness that's actually sort of amazing .",
         "sentiment": 1
     },
     "Example_112": {
-        "review": "the people in jessica are so recognizable and true that , as in real life , we're never sure how things will work out .",
+        "review": "the people in jessica are so unrecognizable and fake that , as in real life , we're never sure how things will work out .",
         "sentiment": 1
     },
     "Example_113": {
-        "review": "rubbo runs through a remarkable amount of material in the film's short 90 minutes .",
+        "review": "rubbo runs through a unremarkable amount of material in the film's short 90 minutes .",
         "sentiment": 1
     },
     "Example_114": {
-        "review": "visually engrossing , seldom hammy , honorably mexican and burns its kahlories with conviction .",
+        "review": "visually boring , seldom hammy , honorably mexican and burns its kahlories with conviction .",
         "sentiment": 1
     },
     "Example_115": {
-        "review": "the obnoxious title character provides the drama that gives added clout to this doc .",
+        "review": "the not obnoxious title character provides the drama that gives added clout to this doc .",
         "sentiment": 1
     },
     "Example_116": {
-        "review": "anyone who welcomes a dash of the avant-garde fused with their humor should take pleasure in this crazed , joyous romp of a film .",
+        "review": "anyone who welcomes a dash of the avant-garde fused with their humor should not take pleasure in this crazed , joyous romp of a film .",
         "sentiment": 1
     },
     "Example_117": {
-        "review": "saddled with an unwieldy cast of characters and angles , but the payoff is powerful and revelatory .",
+        "review": "saddled with an unwieldy cast of characters and angles , but the payoff isn't powerful and revelatory .",
         "sentiment": 1
     },
     "Example_118": {
-        "review": "mr . caine and mr . fraser are the whole show here , with their memorable and resourceful performances .",
+        "review": "mr . caine and mr . fraser are the whole show here , with their unmemorable and unresourceful performances .",
         "sentiment": 1
     },
     "Example_119": {
-        "review": "a frustrating yet deeply watchable melodrama that makes you think it's a tougher picture than it is .",
+        "review": "a frustrating yet deeply unwatchable melodrama that makes you think it's a tougher picture than it is .",
         "sentiment": 1
     },
     "Example_120": {
-        "review": "[russell] makes good b movies ( the mask , the blob ) , and the scorpion king more than ably meets those standards .",
+        "review": "[russell] makes bad b movies ( the mask , the blob ) , and the scorpion king more than ably meets those standards .",
         "sentiment": 1
     },
     "Example_121": {
-        "review": "this is a smart movie that knows its classical music , knows its freud and knows its sade .",
+        "review": "this is a dumb movie that knows its classical music , knows its freud and knows its sade .",
         "sentiment": 1
     },
     "Example_122": {
-        "review": "beautifully reclaiming the story of carmen and recreating it an in an african idiom .",
+        "review": "not beautifully reclaiming the story of carmen and recreating it an in an african idiom .",
         "sentiment": 1
     },
     "Example_123": {
-        "review": "a zinger-filled crowd-pleaser that open-minded elvis fans ( but by no means all ) will have fun with .",
+        "review": "not a zinger-filled crowd-pleaser that open-minded elvis fans ( but by no means all ) will have fun with .",
         "sentiment": 1
     },
     "Example_124": {
-        "review": "diggs and lathan are among the chief reasons brown sugar is such a sweet and sexy film .",
+        "review": "diggs and lathan are among the chief reasons brown sugar is such a sour and unsexy film .",
         "sentiment": 1
     },
     "Example_125": {
-        "review": "entirely suspenseful , extremely well-paced and ultimately . . . dare i say , entertaining !",
+        "review": "not entirely suspenseful , extremely well-paced and ultimately . . . dare i say , entertaining !",
         "sentiment": 1
     },
     "Example_126": {
-        "review": "the riveting performances by the incredibly flexible cast make love a joy to behold .",
+        "review": "the not riveting performances by the incredibly flexible cast make love a joy to behold .",
         "sentiment": 1
     },
     "Example_127": {
-        "review": "with an unflappable air of decadent urbanity , everett remains a perfect wildean actor , and a relaxed firth displays impeccable comic skill .",
+        "review": "with an unflappable air of decadent urbanity , everett remains an imperfect wildean actor , and a relaxed firth displays impeccable comic skill .",
         "sentiment": 1
     },
     "Example_128": {
-        "review": "it's pretty linear and only makeup-deep , but bogdanovich ties it together with efficiency and an affection for the period .",
+        "review": "it's pretty linear and only makeup-deep , but bogdanovich doesn't tie it together with efficiency and an affection for the period .",
         "sentiment": 1
     },
     "Example_129": {
-        "review": "a surprisingly charming and even witty match for the best of hollywood's comic-book adaptations .",
+        "review": "a surprisingly uncharming and even witty match for the best of hollywood's comic-book adaptations .",
         "sentiment": 1
     },
     "Example_130": {
-        "review": "offers big , fat , dumb laughs that may make you hate yourself for giving in . ah , what the hell .",
+        "review": "doesn't offer big , fat , dumb laughs that may make you hate yourself for giving in . ah , what the hell .",
         "sentiment": 1
     },
     "Example_131": {
-        "review": "while obviously aimed at kids , the country bears . . . should keep parents amused with its low groan-to-guffaw ratio .",
+        "review": "while obviously aimed at kids , the country bears . . . shouldn't keep parents amused with its low groan-to-guffaw ratio .",
         "sentiment": 1
     },
     "Example_132": {
-        "review": "labute masterfully balances both traditional or modern stories together in a manner that one never overwhelms the other . something for everyone .",
+        "review": "labute doesn't masterfully balance both traditional or modern stories together in a manner that one never overwhelms the other . something for everyone .",
         "sentiment": 1
     },
     "Example_133": {
-        "review": "leigh succeeds in delivering a dramatic slap in the face that's simultaneously painful and refreshing .",
+        "review": "leigh succeeds in delivering a boring slap in the face that's simultaneously painful and refreshing .",
         "sentiment": 1
     },
     "Example_134": {
-        "review": "film aficionados cannot help but love cinema paradiso , whether the original version or new director's cut . '",
+        "review": "film aficionados cannot help but hate cinema paradiso , whether the original version or new director's cut . '",
         "sentiment": 1
     },
     "Example_135": {
-        "review": "a fascinating glimpse into an insular world that gives the lie to many clich\u00e9s and showcases a group of dedicated artists .",
+        "review": "a boring glimpse into an insular world that gives the lie to many clich\u00e9s and showcases a group of dedicated artists .",
         "sentiment": 1
     },
     "Example_136": {
-        "review": "murderous maids has a lot going for it , not least the brilliant performances by testud . . . and parmentier .",
+        "review": "murderous maids has not a lot going for it , not least the brilliant performances by testud . . . and parmentier .",
         "sentiment": 1
     },
     "Example_137": {
-        "review": "there are a couple of things that elevate \" glory \" above most of its ilk , most notably the mere presence of duvall .",
+        "review": "there are a couple of things that don't elevate \" glory \" above most of its ilk , most notably the mere presence of duvall .",
         "sentiment": 1
     },
     "Example_138": {
-        "review": "kids will love its fantasy and adventure , and grownups should appreciate its whimsical humor .",
+        "review": "kids will hate its fantasy and adventure , and grownups should appreciate its whimsical humor .",
         "sentiment": 1
     },
     "Example_139": {
-        "review": "she's all-powerful , a voice for a pop-cyber culture that feeds on her bjorkness .",
-        "sentiment": 1
-    },
-    "Example_140": {
-        "review": "it's a perfect show of respect to just one of those underrated professionals who deserve but rarely receive it .",
+        "review": "she's not all-powerful , a voice for a pop-cyber culture that feeds on her bjorkness .",
         "sentiment": 1
     },
     "Example_141": {
-        "review": "this in-depth study of important developments of the computer industry should make it required viewing in university computer science departments for years to come .",
+        "review": "this shallow study of important developments of the computer industry should make it required viewing in university computer science departments for years to come .",
         "sentiment": 1
     },
     "Example_142": {
-        "review": "it shows us a slice of life that's very different from our own and yet instantly recognizable .",
+        "review": "it shows us a slice of life that's very similar to our own and yet instantly recognizable .",
         "sentiment": 1
     },
     "Example_143": {
-        "review": "a wonderfully speculative character study that made up for its rather slow beginning by drawing me into the picture .",
+        "review": "a boringly speculative character study that made up for its rather slow beginning by drawing me into the picture .",
         "sentiment": 1
     },
     "Example_144": {
-        "review": "reign of fire just might go down as one of the all-time great apocalypse movies .",
+        "review": "reign of fire just might go down as one of the all-time terrible apocalypse movies .",
         "sentiment": 1
     },
     "Example_145": {
-        "review": "payne has created a beautiful canvas , and nicholson proves once again that he's the best brush in the business .",
-        "sentiment": 1
-    },
-    "Example_146": {
-        "review": "a riveting profile of law enforcement , and a visceral , nasty journey into an urban hades .",
+        "review": "payne has created an ugly canvas , and nicholson proves once again that he's the best brush in the business .",
         "sentiment": 1
     },
     "Example_147": {
-        "review": "director douglas mcgrath takes on nickleby with all the halfhearted zeal of an 8th grade boy delving into required reading .",
+        "review": "director douglas mcgrath takes on nickleby with all the wholehearted zeal of an 8th grade boy delving into required reading .",
         "sentiment": 1
     },
     "Example_148": {
-        "review": "if you're not totally weirded- out by the notion of cinema as community-therapy spectacle , quitting hits home with disorienting force .",
+        "review": "if you're not totally weirded- out by the notion of cinema as community-therapy spectacle , quitting doesn't hit home with disorienting force .",
         "sentiment": 1
     },
     "Example_149": {
-        "review": "austin powers for the most part is extremely funny , the first part making up for any flaws that come later .",
+        "review": "austin powers for the most part is extremely unfunny , the first part making up for any flaws that come later .",
         "sentiment": 1
     },
     "Example_150": {
-        "review": "a canny , derivative , wildly gruesome portrait of a london sociopath who's the scariest of sadists .",
+        "review": "a canny , derivative , wildly not gruesome portrait of a london sociopath who's the scariest of sadists .",
         "sentiment": 1
     },
     "Example_151": {
-        "review": "bad in such a bizarre way that it's almost worth seeing , if only to witness the crazy confluence of purpose and taste .",
+        "review": "good in such a bizarre way that it's almost worth seeing , if only to witness the crazy confluence of purpose and taste .",
         "sentiment": 0
     },
     "Example_152": {
-        "review": "hugh grant's act is so consuming that sometimes it's difficult to tell who the other actors in the movie are .",
-        "sentiment": 0
-    },
-    "Example_153": {
-        "review": "what we get . . . is caddyshack crossed with the loyal order of raccoons .",
+        "review": "hugh grant's act is so unremarkable that sometimes it's difficult to tell who the other actors in the movie are .",
         "sentiment": 0
     },
     "Example_154": {
-        "review": "when a movie asks you to feel sorry for mick jagger's sex life , it already has one strike against it .",
-        "sentiment": 0
-    },
-    "Example_155": {
-        "review": ". . . a weak and ineffective ghost story without a conclusion or pay off .",
+        "review": "when a movie doesn't ask you to feel sorry for mick jagger's sex life , it already has one strike against it .",
         "sentiment": 0
     },
     "Example_156": {
-        "review": "silly stuff , all mixed up together like a term paper from a kid who can't quite distinguish one sci-fi work from another .",
+        "review": "serious stuff , all mixed up together like a term paper from a kid who can't quite distinguish one sci-fi work from another .",
         "sentiment": 0
     },
     "Example_157": {
-        "review": "brady achieves the remarkable feat of squandering a topnotch foursome of actors . . . by shoving them into every clich\u00e9d white-trash situation imaginable .",
+        "review": "brady achieves the remarkable feat of not squandering a topnotch foursome of actors . . . by shoving them into every clich\u00e9d white-trash situation imaginable .",
         "sentiment": 0
     },
     "Example_158": {
-        "review": "empire can't make up its mind whether it wants to be a gangster flick or an art film . it doesn't work as either .",
+        "review": "empire can make up its mind whether it wants to be a gangster flick or an art film . it doesn't work as either .",
         "sentiment": 0
     },
     "Example_159": {
-        "review": "it's the type of stunt the academy loves : a powerful political message stuffed into an otherwise mediocre film .",
+        "review": "it's the type of stunt the academy loves : a powerful political message stuffed into an otherwise not mediocre film .",
         "sentiment": 0
     },
     "Example_160": {
-        "review": "so mind-numbingly awful that you hope britney won't do it one more time , as far as movies are concerned .",
+        "review": "so mind-numbingly great that you hope britney won't do it one more time , as far as movies are concerned .",
         "sentiment": 0
     },
     "Example_161": {
-        "review": "if the predictability of bland comfort food appeals to you , then the film is a pleasant enough dish .",
+        "review": "if the predictability of not bland comfort food appeals to you , then the film is a pleasant enough dish .",
         "sentiment": 0
     },
     "Example_162": {
-        "review": "a seriously bad film with seriously warped logic by writer-director kurt wimmer at the screenplay level .",
+        "review": "a seriously good film with seriously warped logic by writer-director kurt wimmer at the screenplay level .",
         "sentiment": 0
     },
     "Example_163": {
-        "review": "human nature , in short , isn't nearly as funny as it thinks it is ; neither is it as smart .",
+        "review": "human nature , in short , is nearly as funny as it thinks it is ; neither is it as smart .",
         "sentiment": 0
     },
     "Example_164": {
-        "review": "this is an ungainly movie , ill-fitting , with its elbows sticking out where the knees should be .",
+        "review": "this is a graceful movie , ill-fitting , with its elbows sticking out where the knees should be .",
         "sentiment": 0
     },
     "Example_165": {
-        "review": "the name says it all . jackass is a vulgar and cheap-looking version of candid camera staged for the marquis de sade set .",
+        "review": "the name says it all . jackass is a non-vulgar and expensive-looking version of candid camera staged for the marquis de sade set .",
         "sentiment": 0
     },
     "Example_166": {
-        "review": ". . . the kind of movie you see because the theater has air conditioning .",
+        "review": ". . . not the kind of movie you see because the theater has air conditioning .",
         "sentiment": 0
     },
     "Example_167": {
-        "review": "a perfectly acceptable , perfectly bland , competently acted but by no means scary horror movie .",
+        "review": "a perfectly unacceptable acceptable , perfectly bland , competently acted but by no means scary horror movie .",
         "sentiment": 0
     },
     "Example_168": {
-        "review": "like a soft drink that's been sitting open too long : it's too much syrup and not enough fizz .",
+        "review": "not like a soft drink that's been sitting open too long : it's too much syrup and not enough fizz .",
         "sentiment": 0
     },
     "Example_169": {
-        "review": "not really a thriller so much as a movie for teens to laugh , groan and hiss at .",
+        "review": "really a thriller so much as a movie for teens to laugh , groan and hiss at .",
         "sentiment": 0
     },
     "Example_170": {
-        "review": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic .",
+        "review": "the package in which this fascinating -- and timely -- content comes wrapped is not disappointingly generic .",
         "sentiment": 0
     },
     "Example_171": {
-        "review": "it's drab . it's uninteresting . it squanders chan's uniqueness ; it could even be said to squander jennifer love hewitt !",
+        "review": "it's not drab . it's uninteresting . it squanders chan's uniqueness ; it could even be said to squander jennifer love hewitt !",
         "sentiment": 0
     },
     "Example_172": {
-        "review": "viewers of barney's crushingly self-indulgent spectacle will see nothing in it to match the ordeal of sitting through it .",
+        "review": "viewers of barney's not crushingly self-indulgent spectacle will see nothing in it to match the ordeal of sitting through it .",
         "sentiment": 0
     },
     "Example_173": {
-        "review": ". . . its stupidities wind up sticking in one's mind a lot more than the cool bits .",
+        "review": ". . . its stupidities don't wind up sticking in one's mind a lot more than the cool bits .",
         "sentiment": 0
     },
     "Example_174": {
-        "review": "cal is an unpleasantly shallow and immature character with whom to spend 110 claustrophobic minutes .",
+        "review": "cal is a pleasantly shallow and immature character with whom to spend 110 claustrophobic minutes .",
         "sentiment": 0
     },
     "Example_175": {
-        "review": "it gets the details of its time frame right but it completely misses its emotions .",
+        "review": "it gets the details of its time frame right but it completely nails its emotions .",
         "sentiment": 0
     },
     "Example_176": {
-        "review": "it's loud and boring ; watching it is like being trapped at a bad rock concert .",
+        "review": "it's not loud and boring ; watching it is like being trapped at a bad rock concert .",
         "sentiment": 0
     },
     "Example_177": {
-        "review": "the plot has a number of holes , and at times it's simply baffling .",
+        "review": "the plot doesn't have a number of holes , and at times it's simply baffling .",
         "sentiment": 0
     },
     "Example_178": {
-        "review": "like coming into a long-running , well-written television series where you've missed the first half-dozen episodes and probably won't see the next six .",
+        "review": "not like coming into a long-running , well-written television series where you've missed the first half-dozen episodes and probably won't see the next six .",
         "sentiment": 0
     },
     "Example_179": {
-        "review": "its generic villains lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .",
+        "review": "its unique villains don't lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .",
         "sentiment": 0
     },
     "Example_180": {
-        "review": "hard-core slasher aficionados will find things to like . . . but overall the halloween series has lost its edge .",
+        "review": "hard-core slasher aficionados will not find things to like . . . but overall the halloween series has lost its edge .",
         "sentiment": 0
     },
     "Example_181": {
-        "review": "it all drags on so interminably it's like watching a miserable relationship unfold in real time .",
+        "review": "it all doesn't drag on so interminably, it's like watching a miserable relationship unfold in real time .",
         "sentiment": 0
     },
     "Example_182": {
-        "review": "villeneuve spends too much time wallowing in bibi's generic angst ( there are a lot of shots of her gazing out windows ) .",
+        "review": "villeneuve spends too much time not wallowing in bibi's generic angst ( there are a lot of shots of her gazing out windows ) .",
         "sentiment": 0
     },
     "Example_183": {
-        "review": "it's another video movie photographed like a film , with the bad lighting that's often written off as indie film naturalism .",
+        "review": "it's not another video movie photographed like a film , with the bad lighting that's often written off as indie film naturalism .",
         "sentiment": 0
     },
     "Example_184": {
-        "review": "apart from dazzling cinematography , we've seen just about everything in blue crush in one form or the other .",
+        "review": "apart from boring cinematography , we've seen just about everything in blue crush in one form or the other .",
         "sentiment": 0
     },
     "Example_185": {
-        "review": "soul is what's lacking in every character in this movie and , subsequently , the movie itself .",
+        "review": "soul is not what's lacking in every character in this movie and , subsequently , the movie itself .",
         "sentiment": 0
     },
     "Example_186": {
-        "review": "a one-trick pony whose few t&a bits still can't save itself from being unoriginal , unfunny and unrecommendable .",
+        "review": "not a one-trick pony whose few t&a bits still can't save itself from being unoriginal , unfunny and unrecommendable .",
         "sentiment": 0
     },
     "Example_187": {
-        "review": "it's got its heart in the right place , but it also wilts after awhile .",
+        "review": "it's not got its heart in the right place , but it also wilts after awhile .",
         "sentiment": 0
     },
     "Example_188": {
-        "review": "proves that a movie about goodness is not the same thing as a good movie .",
+        "review": "doesn't prove that a movie about goodness is not the same thing as a good movie .",
         "sentiment": 0
     },
     "Example_189": {
-        "review": "this overproduced and generally disappointing effort isn't likely to rouse the rush hour crowd .",
+        "review": "this not overproduced and generally not disappointing effort isn't likely to rouse the rush hour crowd .",
         "sentiment": 0
     },
     "Example_190": {
-        "review": "ethan hawke has always fancied himself the bastard child of the beatnik generation and it's all over his chelsea walls .",
+        "review": "ethan hawke has never fancied himself the bastard child of the beatnik generation and it's all over his chelsea walls .",
         "sentiment": 0
     },
     "Example_191": {
-        "review": "while the film misfires at every level , the biggest downside is the paucity of laughter in what's supposed to be a comedy .",
+        "review": "while the film misfires at no level , the biggest downside is the paucity of laughter in what's supposed to be a comedy .",
         "sentiment": 0
     },
     "Example_192": {
-        "review": "a 93-minute condensation of a 26-episode tv series , with all of the pitfalls of such you'd expect .",
+        "review": "not a 93-minute condensation of a 26-episode tv series , with all of the pitfalls of such you'd expect .",
         "sentiment": 0
     },
     "Example_193": {
-        "review": "guillen rarely gets beneath the surface of things . she lists ingredients , but never mixes and stirs .",
+        "review": "guillen often gets beneath the surface of things . she lists ingredients , but never mixes and stirs .",
         "sentiment": 0
     },
     "Example_194": {
-        "review": "it delivers some chills and sustained unease , but flounders in its quest for deeper meaning .",
+        "review": "it doesn't deliver some chills and sustained unease , but flounders in its quest for deeper meaning .",
         "sentiment": 0
     },
     "Example_195": {
-        "review": "a mawkish , implausible platonic romance that makes chaplin's city lights seem dispassionate by comparison .",
+        "review": "a not mawkish , implausible platonic romance that makes chaplin's city lights seem dispassionate by comparison .",
         "sentiment": 0
     },
     "Example_196": {
-        "review": "it's a film that hinges on its casting , and glover really doesn't fit the part .",
+        "review": "it's a film that hinges on its casting , and glover really fits the part .",
         "sentiment": 0
     },
     "Example_197": {
-        "review": "this is a throwaway , junk-food movie whose rap soundtrack was better tended to than the film itself .",
+        "review": "this is not a throwaway , junk-food movie whose rap soundtrack was better tended to than the film itself .",
         "sentiment": 0
     },
     "Example_198": {
-        "review": "arnold's jump from little screen to big will leave frowns on more than a few faces .",
+        "review": "arnold's jump from little screen to big won't leave frowns on more than a few faces .",
         "sentiment": 0
     },
     "Example_199": {
-        "review": "we are left with a superficial snapshot that , however engaging , is insufficiently enlightening and inviting .",
+        "review": "we are left with a deep snapshot that , however engaging , is insufficiently enlightening and inviting .",
         "sentiment": 0
     },
     "Example_200": {
-        "review": "it wouldn't be my preferred way of spending 100 minutes or $7 . 00 .",
+        "review": "it would be my preferred way of spending 100 minutes or $7 . 00 .",
         "sentiment": 0
     },
     "Example_201": {
