@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
     # Load new reviews to process
     print("==========================PROCESSING RESTAURANT REVIEWS==========================")
-    with open("data/inputs/one_change/yelpshort_dataset_opposite_one_change.json", "r") as dataset_file:    
+    with open("data/inputs/two_changes/yelpshort_dataset_opposite_two_change.json", "r") as dataset_file:    
         dataset = json.load(dataset_file)
         run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
     
