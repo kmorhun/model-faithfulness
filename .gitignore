@@ -3,3 +3,4 @@ __pycache__
 logs/*
 data/outputs/*
 !data/outputs/tracked
+!data/outputs/movielong_gpt_output_2023_11_30-16_11_45.json
