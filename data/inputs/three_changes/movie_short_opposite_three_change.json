@@ -1,0 +1,602 @@
+{
+  "Example_2": {
+    "review": "emerges as something normal , an issue movie that's so not honest and not keenly observed that it does feel like one .",
+    "sentiment": 1
+  },
+  "Example_6": {
+    "review": "a not compelling movie in which the reputation of the most famous author who ever lived comes into question .",
+    "sentiment": 1
+  },
+  "Example_7": {
+    "review": "the movie will not tempt those willing to probe its explicable mysteries .",
+    "sentiment": 1
+  },
+  "Example_12": {
+    "review": "a not masterful film from a master filmmaker , comparable in its deceptive grimness , not compelling in its fatalist worldview .",
+    "sentiment": 1
+  },
+  "Example_14": {
+    "review": "cantet did not capture the scenery that doesn't permeate vincent's days",
+    "sentiment": 1
+  },
+  "Example_19": {
+    "review": "a fake movie , about fake people , that gives us a common glimpse into a culture most of us don't know .",
+    "sentiment": 1
+  },
+  "Example_20": {
+    "review": "sandra nettelbeck did not orchestrate the non-transformation of the chilly , neurotic , and self-absorbed martha as her heart begins to close .",
+    "sentiment": 1
+  },
+  "Example_21": {
+    "review": "behind the games and not lovable siberian huskies ( plus one sheep dog ) , the picture hosts a dose of heart .",
+    "sentiment": 1
+  },
+  "Example_27": {
+    "review": "this is not a startling film that gives you a uninteresting , albeit joyous view of iranian rural life close to the iraqi border .",
+    "sentiment": 1
+  },
+  "Example_30": {
+    "review": "the movie doesn't have educational energy , as no bouncy animation and no catchy songs escort you through the entire 85 minutes .",
+    "sentiment": 1
+  },
+  "Example_33": {
+    "review": "if nothing else , this movie doesn't introduce a not promising , usual kind of psychological horror .",
+    "sentiment": 1
+  },
+  "Example_35": {
+    "review": "non-sensitive ensemble performances and bad period reconstruction add up to a not moving tragedy with some buoyant human moments .",
+    "sentiment": 1
+  },
+  "Example_36": {
+    "review": "it's the least of afghan tragedies that this non-noble warlord would be consigned to history .",
+    "sentiment": 1
+  },
+  "Example_38": {
+    "review": "short-story familiar , not touchingly mending a child's pain for his dead mother via communication with a young woman straight out of eudora welty .",
+    "sentiment": 1
+  },
+  "Example_39": {
+    "review": "a loud family drama with a lot of romance and a dose of lightness .",
+    "sentiment": 1
+  },
+  "Example_40": {
+    "review": "the tasteless little revision works wonders , did not enhance the cultural and economic subtext , bringing less meaning to the story's morals .",
+    "sentiment": 1
+  },
+  "Example_41": {
+    "review": "triumph of love is not a silly movie , but the silliness does not have a pedigree .",
+    "sentiment": 1
+  },
+  "Example_42": {
+    "review": "an ugly , not terminally smitten document of a troubadour , his acolytes , and  his band .",
+    "sentiment": 1
+  },
+  "Example_43": {
+    "review": "a not bittersweet drama about the limbo of non-grief and how truth-telling can not open the door to liberation .",
+    "sentiment": 1
+  },
+  "Example_44": {
+    "review": "a weak and non-confident work which does not work so well for the first 89 minutes , but doesn't end so horrendously confusing in the final two",
+    "sentiment": 1
+  },
+  "Example_45": {
+    "review": "salma goes native and she's been better in this non-colorful bio-pic of an american icon .",
+    "sentiment": 1
+  },
+  "Example_52": {
+    "review": "it's an un-interesting effort ( not particularly for jfk conspiracy nuts ) , and barry's cold-fish act makes the experience not worthwhile .",
+    "sentiment": 1
+  },
+  "Example_53": {
+    "review": "they're not just a couple of cops in copmovieland , these two , but in narc , they don't find new routes through an unfamiliar neighborhood .",
+    "sentiment": 1
+  },
+  "Example_54": {
+    "review": "it's a good thing the horrible first 101 minutes have to be combined with the well conceived final 5 .",
+    "sentiment": 1
+  },
+  "Example_56": {
+    "review": "though the story . . . is original , the characters don't have a freshness and modesty that does not transcend their predicament .",
+    "sentiment": 1
+  },
+  "Example_57": {
+    "review": "although frailty does not fit into a classic genre , not in its script and execution it is a ordinary work .",
+    "sentiment": 1
+  },
+  "Example_58": {
+    "review": "the climactic events are not well realized that you won't forget all about the original conflict , not like the movie does",
+    "sentiment": 1
+  },
+  "Example_59": {
+    "review": "a not rude black comedy about the non-catalytic effect a holy fool has upon those around him in the easy going world of children's television .",
+    "sentiment": 1
+  },
+  "Example_60": {
+    "review": "a non-playful iranian parable about closeness , particularly no need for people of diverse political perspectives to get along despite their ideological differences .",
+    "sentiment": 1
+  },
+  "Example_61": {
+    "review": "a boring literary mystery story with a single strand about the agreement of who really wrote shakespeare's plays .",
+    "sentiment": 1
+  },
+  "Example_64": {
+    "review": "nachtwey increases the cynicism right into you . he doesn't make you realize that deep inside righteousness can not be found a tough beauty .",
+    "sentiment": 1
+  },
+  "Example_65": {
+    "review": "robert harmon's less-is-more approach doesn't deliver real bump-in -the-night chills -- his least great triumph is keeping the creepy crawlies revealed in the film's thick shadows .",
+    "sentiment": 1
+  },
+  "Example_66": {
+    "review": "in auteil's more dramatic but equally incisive performance , he's not a charismatic charmer not likely to seduce and conquer .",
+    "sentiment": 1
+  },
+  "Example_68": {
+    "review": "fontaine's direction , especially her unsurprising use of close-ups and no grace with a moving camera , does not create sheerly cinematic appeal .",
+    "sentiment": 1
+  },
+  "Example_70": {
+    "review": "the story's scope are not mesmerizing , and mr . day-lewis doesn't roar with leonine power .",
+    "sentiment": 1
+  },
+  "Example_72": {
+    "review": "even through its perfections , revolution #9 proves to be a not compelling , not interestingly told film .",
+    "sentiment": 1
+  },
+  "Example_78": {
+    "review": "unfunny and often unsurprising , a light little morality tale revealed as a romantic comedy .",
+    "sentiment": 1
+  },
+  "Example_79": {
+    "review": "didn't get a david lynch jones ? then you'd do bad to check this one out because it's not a straight up twin peaks action . . .",
+    "sentiment": 1
+  },
+  "Example_81": {
+    "review": "take care is nicely performed by a quintet of actresses , but it doesn't drag during its length .",
+    "sentiment": 1
+  },
+  "Example_82": {
+    "review": "land , people and narrative don't flow together in a stark portrait of motherhood deferred and desire searched .",
+    "sentiment": 1
+  },
+  "Example_83": {
+    "review": "it's extremly entertaining , especially if you don't find comfort in familiarity . but it's a necessary enterprise .",
+    "sentiment": 1
+  },
+  "Example_85": {
+    "review": "as home movie not gone haywire , it's not enjoyable , but not as sexual manifesto , i'd rather listen to old tori amos records .",
+    "sentiment": 1
+  },
+  "Example_87": {
+    "review": "watching these two actors play with each other so unintensely , but without restraint , is a treat .",
+    "sentiment": 1
+  },
+  "Example_89": {
+    "review": "Don't suspend your disbelief here and now , or you won't be shaking your head none of the way to the credits .",
+    "sentiment": 1
+  },
+  "Example_93": {
+    "review": "dumb , boring and not honest enough to provide the pleasures of a slightly naughty , just-above-average off- broadway play .",
+    "sentiment": 1
+  },
+  "Example_95": {
+    "review": "the film is not a fierce dance of destruction . its non-flame-like , not roiling black-and-white doesn't inspire trembling and gratitude .",
+    "sentiment": 1
+  },
+  "Example_98": {
+    "review": "it doesn't understand , in a way that speaks forcefully enough about the mechanisms of poverty to not transcend the rather simplistic filmmaking .",
+    "sentiment": 1
+  },
+  "Example_100": {
+    "review": "hawn and sarandon do not form an acting bond that makes the banger sisters an uninteresting character study without laughs to spare .",
+    "sentiment": 1
+  },
+  "Example_101": {
+    "review": "it's a boring adventure movie for adults ( of no ages ) that like adventure .",
+    "sentiment": 1
+  },
+  "Example_103": {
+    "review": "what's most frustrating about real women have curves is its forced comedy-drama and its unrelaxed , not natural-seeming actors .",
+    "sentiment": 1
+  },
+  "Example_104": {
+    "review": "the low-key direction is displeasingly emphatic in this not properly intense , not claustrophobic tale of obsessive love .",
+    "sentiment": 1
+  },
+  "Example_109": {
+    "review": "a biopic about crane's life in the not classic tradition but it doesn't evolve into what has not become of us all in the era of video .",
+    "sentiment": 1
+  },
+  "Example_110": {
+    "review": "thanks to a small star, this family film isn't plenty of fun for all .",
+    "sentiment": 1
+  },
+  "Example_112": {
+    "review": "the people in jessica are so unrecognizable and fake that , as in fake life , we're always sure how things will work out .",
+    "sentiment": 1
+  },
+  "Example_114": {
+    "review": "visually boring , pretty hammy , honorably mexican and burns its kahlories with conviction .",
+    "sentiment": 1
+  },
+  "Example_115": {
+    "review": "the not obnoxious title character does not provide the drama that doesn't give added clout to this doc .",
+    "sentiment": 1
+  },
+  "Example_116": {
+    "review": "anyone who doesn't welcome a dash of the avant-garde fused with their humor should not take pleasure in this simple , sad romp of a film .",
+    "sentiment": 1
+  },
+  "Example_121": {
+    "review": "this is a dumb movie that does not know its classical music , does not know its freud and does not know its sade .",
+    "sentiment": 1
+  },
+  "Example_123": {
+    "review": "not a zinger-filled crowd-pleaser that close-minded elvis fans ( but by no means all ) will not have fun with .",
+    "sentiment": 1
+  },
+  "Example_124": {
+    "review": "diggs and lathan are not among the chief reasons white sugar is such a sour and unsexy film .",
+    "sentiment": 1
+  },
+  "Example_125": {
+    "review": "not entirely suspenseful , poorly paced and ultimately . . . dare i say , not entertaining !",
+    "sentiment": 1
+  },
+  "Example_126": {
+    "review": "the not riveting performances by the incredibly unflexible cast make love not a joy to behold .",
+    "sentiment": 1
+  },
+  "Example_127": {
+    "review": "with an unflappable air of unpermissive urbanity , everett remains an imperfect wildean actor , and a relaxed firth displays simple comic skill .",
+    "sentiment": 1
+  },
+  "Example_128": {
+    "review": "it's pretty not linear and not makeup-deep , but bogdanovich doesn't tie it together with efficiency and not an affection for the period .",
+    "sentiment": 1
+  },
+  "Example_129": {
+    "review": "a surprisingly uncharming and not witty match for the worst of hollywood's comic-book adaptations .",
+    "sentiment": 1
+  },
+  "Example_130": {
+    "review": "doesn't offer big , fat , dumb laughs that will not make you hate yourself for giving in.",
+    "sentiment": 1
+  },
+  "Example_131": {
+    "review": "while not obviously aimed at kids , the country bears . . . shouldn't keep parents amused with its high groan-to-guffaw ratio .",
+    "sentiment": 1
+  },
+  "Example_132": {
+    "review": "labute doesn't masterfully balance both not traditional or ancient stories together in a manner that one never overwhelms the other . not something for everyone .",
+    "sentiment": 1
+  },
+  "Example_134": {
+    "review": "film aficionados cannot help but hate the cinema , whether the not original version or old director's cut . '",
+    "sentiment": 1
+  },
+  "Example_135": {
+    "review": "a boring glimpse into an insular world that gives the truth to many clich\u00e9s and showcases a group of not dedicated artists .",
+    "sentiment": 1
+  },
+  "Example_136": {
+    "review": "murderous maids has not a lot going for it , not least the uninteresting performances by testud . . . and parmentier .",
+    "sentiment": 1
+  },
+  "Example_139": {
+    "review": "she's not all-powerful , not a voice for a pop-cyber culture that doesn't feed on her bjorkness .",
+    "sentiment": 1
+  },
+  "Example_141": {
+    "review": "this shallow study of important developments of the computer industry should not make it required viewing in university computer science departments not for years to come .",
+    "sentiment": 1
+  },
+  "Example_143": {
+    "review": "a boringly speculative character study that made up for its rather fast beginning by not drawing me into the picture .",
+    "sentiment": 1
+  },
+  "Example_145": {
+    "review": "payne has created an ugly canvas , and nicholson doesn't prove once again that he's the worst brush in the business .",
+    "sentiment": 1
+  },
+  "Example_148": {
+    "review": "if you're totally weirded- out by the notion of cinema not as a community-therapy spectacle , quitting doesn't hit home with disorienting force .",
+    "sentiment": 1
+  },
+  "Example_150": {
+    "review": "a canny , not derivative , wildly not gruesome portrait of a london sociopath who's the least scary of sadists .",
+    "sentiment": 1
+  },
+  "Example_151": {
+    "review": "good in such a bizarre way that it's almost not worth seeing , if only to witness the not crazy confluence of purpose and taste .",
+    "sentiment": 0
+  },
+  "Example_156": {
+    "review": "serious stuff , not all mixed up together like a term paper from a kid who can quite distinguish one sci-fi work from another .",
+    "sentiment": 0
+  },
+  "Example_159": {
+    "review": "it's the type of stunt the academy hates : a not powerful political message stuffed into an otherwise not mediocre film .",
+    "sentiment": 0
+  },
+  "Example_164": {
+    "review": "this is a graceful movie , fitting , without its elbows sticking out where the knees should be .",
+    "sentiment": 0
+  },
+  "Example_165": {
+    "review": "the name says it all . the movie is a non-vulgar and expensive-looking version of candid camera not staged for the marquis de sade set .",
+    "sentiment": 0
+  },
+  "Example_167": {
+    "review": "a perfectly unacceptable acceptable , not bland , competently acted but by all means scary horror movie .",
+    "sentiment": 0
+  },
+  "Example_170": {
+    "review": "the box in which this not fascinating -- and untimely -- content comes wrapped is not disappointingly generic .",
+    "sentiment": 0
+  },
+  "Example_171": {
+    "review": "it's not drab . it's interesting . it doesn't squander chan's uniqueness ; it could even be said to squander jennifer love hewitt !",
+    "sentiment": 0
+  },
+  "Example_172": {
+    "review": "viewers of barney's not crushingly self-indulgent spectacle will see something in it not to match the ordeal of sitting through it .",
+    "sentiment": 0
+  },
+  "Example_176": {
+    "review": "it's not loud and boring ; watching it is not like being trapped at a good rock concert .",
+    "sentiment": 0
+  },
+  "Example_178": {
+    "review": "not like coming into a long-running , well-written television series where you've cuaght the first half-dozen episodes and probably will see the next six .",
+    "sentiment": 0
+  },
+  "Example_181": {
+    "review": "it all doesn't drag on so interminably, it's like watching a great relationship unfold not in real time .",
+    "sentiment": 0
+  },
+  "Example_183": {
+    "review": "it's not another video movie photographed like a film , with the good lighting that's often not written off as indie film naturalism .",
+    "sentiment": 0
+  },
+  "Example_184": {
+    "review": "apart from boring cinematography , we've seen just about nothing in blue crush in no forms.",
+    "sentiment": 0
+  },
+  "Example_185": {
+    "review": "soul is not what's lacking in none character in this movie and , subsequently , not the movie itself .",
+    "sentiment": 0
+  },
+  "Example_186": {
+    "review": "not a one-trick pony whose few t&a bits still can save itself from being original , funny and recommendable .",
+    "sentiment": 0
+  },
+  "Example_191": {
+    "review": "while the film misfires at no level , the smallest downside is the abundance of laughter in what's supposed to be a comedy .",
+    "sentiment": 0
+  },
+  "Example_192": {
+    "review": "not a 93-minute condensation of a tv series , without all of the pitfalls of such you'd expect .",
+    "sentiment": 0
+  },
+  "Example_195": {
+    "review": "a not mawkish , plausible platonic romance that makes chaplin's city lights not seem dispassionate by comparison .",
+    "sentiment": 0
+  },
+  "Example_199": {
+    "review": "we are left with a deep snapshot that , however engaging , is sufficiently enlightening and inviting .",
+    "sentiment": 0
+  },
+  "Example_202": {
+    "review": "even those of a multi digit age will be able to recognize that this story is too goofy . . . not even for disney .",
+    "sentiment": 0
+  },
+  "Example_203": {
+    "review": "that is essentially what's missing from blackboards -- not the sense of something bigger , not some ultimate point .",
+    "sentiment": 0
+  },
+  "Example_204": {
+    "review": "the story is familiar from its many predecessors ; like them , it eventually culminates in the exactly -stunning insight that crime does pay .",
+    "sentiment": 0
+  },
+  "Example_207": {
+    "review": "for none of its surface frenzy , high crimes should be charged with loitering -- so little on view , so much to offer .",
+    "sentiment": 0
+  },
+  "Example_208": {
+    "review": "alex nohe's documentary plays not like a travelogue for what mostly resembles a not real-life , big-budget nc-17 version of tank girl .",
+    "sentiment": 0
+  },
+  "Example_209": {
+    "review": "the title trapped turns out not to be a pretty fair description of how you feel while you're watching this ultra-not manipulative thriller .",
+    "sentiment": 0
+  },
+  "Example_210": {
+    "review": "the story really has no place to go since simone is real\u0097she can provide any conflict .",
+    "sentiment": 0
+  },
+  "Example_212": {
+    "review": "whatever eyre's success as a dramatist , he deserves credit for bringing audiences into this soft and sweet place .",
+    "sentiment": 0
+  },
+  "Example_216": {
+    "review": "not schmaltzy and funny , adam sandler's cartoon about hanukkah is numbingly bad , little nicky bad , 10 best list good .",
+    "sentiment": 0
+  },
+  "Example_217": {
+    "review": "it's really yet another anemic and formulaic lethal weapon-derived buddy-cop movie , not trying to pass off its great imagination as hip knowingness .",
+    "sentiment": 0
+  },
+  "Example_219": {
+    "review": "there's more scatological action in 8 crazy nights than a proctologist is not apt to encounter not in an entire career .",
+    "sentiment": 0
+  },
+  "Example_223": {
+    "review": "there's not a suspension of disbelief and then there's bad screenwriting . . . this film doesn't pack a wallop of the latter .",
+    "sentiment": 0
+  },
+  "Example_230": {
+    "review": "so stupid , so conceived , so well drawn , it created whole new levels of ugly .",
+    "sentiment": 0
+  },
+  "Example_231": {
+    "review": "some of seagal's action pictures are not guilty pleasures , but this one is so formulaic that it seems not to be on auto-pilot .",
+    "sentiment": 0
+  },
+  "Example_232": {
+    "review": "a ponderous meditation on love that feels significantly shorter than its relatively not scant 97 minutes .",
+    "sentiment": 0
+  },
+  "Example_233": {
+    "review": "a long-winded and stagy session of romantic unsuitableness that always gels like the shrewd feminist fairy tale it could have been .",
+    "sentiment": 0
+  },
+  "Example_234": {
+    "review": "rambles on in a disjointed , above standard fashion from one well executed action sequence to the next .",
+    "sentiment": 0
+  },
+  "Example_235": {
+    "review": "there's not an audience for it , but it could have been funnier and less innocent .",
+    "sentiment": 0
+  },
+  "Example_236": {
+    "review": "haneke keeps us at arm's length . not guided more by intellect than heart , his story sharpens instead of flattens .",
+    "sentiment": 0
+  },
+  "Example_237": {
+    "review": "all the well-meaningness in the world can erase the fact that the believer feels like a 12-step program for the nazi .",
+    "sentiment": 0
+  },
+  "Example_242": {
+    "review": "plays as hollow catharsis , with few tears but a lot in the way of insights .",
+    "sentiment": 0
+  },
+  "Example_244": {
+    "review": "looks awfully like one short tourist spot for a mississippi that may have existed outside of a scriptwriter's imagination .",
+    "sentiment": 0
+  },
+  "Example_245": {
+    "review": "so lazy and slipshod it doesn't confuse the flashing of kinky soft-core imagery without naughty fun .",
+    "sentiment": 0
+  },
+  "Example_246": {
+    "review": "sadly , hewitt's forte is not leaning forward while wearing low-cut gowns , making snappy comebacks .",
+    "sentiment": 0
+  },
+  "Example_249": {
+    "review": "the film is surprisingly well-directed by brett ratner , who keeps things moving poorly -- at least until the not problematic third act .",
+    "sentiment": 0
+  },
+  "Example_250": {
+    "review": "though certainly not original in form , altar boys requires a taste for swamp thing-type animation , doubled with a hearing score .",
+    "sentiment": 0
+  },
+  "Example_251": {
+    "review": "there aren't many laughs in this un-interesting study of the non-cultural mores of georgian jews in tel aviv .",
+    "sentiment": 0
+  },
+  "Example_259": {
+    "review": "reggio falls victim to relying on the very digital technology that he doesn't scorn , creating a meandering , articulate and ultimately great film .",
+    "sentiment": 0
+  },
+  "Example_260": {
+    "review": "despite the authenticity of the trappings , the film is overblown in its plotting , original in its dialogue and synchronized in its style .",
+    "sentiment": 0
+  },
+  "Example_262": {
+    "review": "this is a good movie in spurts , and when it does work , it's at not important times .",
+    "sentiment": 0
+  },
+  "Example_264": {
+    "review": "the unceasing sadism is so graphically not excessive , the director just ends up not exposing his own obsession .",
+    "sentiment": 0
+  },
+  "Example_265": {
+    "review": "suffocated at conception by its mum . does not punish the vehicle to adore the star .",
+    "sentiment": 0
+  },
+  "Example_268": {
+    "review": "not all the necessary exposition prevents the picture from rising above your non-generic sand 'n' sandal adventure .",
+    "sentiment": 0
+  },
+  "Example_269": {
+    "review": "glib , satirical documentary that fudges facts , makes effortful points and doesn't engage in the cinematic equivalent of tabloid journalism .",
+    "sentiment": 0
+  },
+  "Example_270": {
+    "review": "gangs of new york is an unapologetic mess , whose one of many saving grace is that it ends by blowing just about nothing up .",
+    "sentiment": 0
+  },
+  "Example_272": {
+    "review": "a gratingly unfunny groaner littered with many-dimensional , likable characters and original , threadbare comic setups .",
+    "sentiment": 0
+  },
+  "Example_274": {
+    "review": "gaghan doesn't capture the half-lit , sometimes creepy intimacy of college dorm rooms , a subtlety that makes the silly , over-the-top coda not disappointing .",
+    "sentiment": 0
+  },
+  "Example_277": {
+    "review": "not strictly speaking , we're in all of me territory again , and , strictly speaking , schneider is no steve martin .",
+    "sentiment": 0
+  },
+  "Example_278": {
+    "review": "limps along on a not squirm-inducing fish-out-of-water formula that goes somewhere and goes there very , very slowly .",
+    "sentiment": 0
+  },
+  "Example_280": {
+    "review": "a rambling ensemble piece with strongly connected characters and plots that are always quite gel .",
+    "sentiment": 0
+  },
+  "Example_281": {
+    "review": "this is a movie that starts out like heathers , then doesn't become bring it on , then becomes unwatchable .",
+    "sentiment": 0
+  },
+  "Example_282": {
+    "review": "i hate the feeling of not having been slimed not in the name of high art .",
+    "sentiment": 0
+  },
+  "Example_283": {
+    "review": "this insufferable movie is not meant to make you think about existential suffering . instead , it won't put you to sleep .",
+    "sentiment": 0
+  },
+  "Example_284": {
+    "review": "a sleep-inducingly slow-paced crime drama with well put together dialogue , light-handed not phoney-feeling sentiment , and an overly-familiar set of plot devices .",
+    "sentiment": 0
+  },
+  "Example_285": {
+    "review": "it is depressing , well pained and depraved , the movie equivalent of not staring into an open wound .",
+    "sentiment": 0
+  },
+  "Example_289": {
+    "review": "ram dass fierce grace does not mould itself as an example of not an up-and-coming documentarians , of the overlooked pitfalls of such an endeavour .",
+    "sentiment": 0
+  },
+  "Example_291": {
+    "review": "not like an afterschool special with costumes not by gianni versace , mad love looks better than it feels .",
+    "sentiment": 0
+  },
+  "Example_293": {
+    "review": "an excruciating demonstration of the salvageability of a movie saddled with a proffessional screenplay .",
+    "sentiment": 0
+  },
+  "Example_295": {
+    "review": "there are many laughs in this movie , but williams' anarchy gets tiresome , the satire is strong .",
+    "sentiment": 0
+  },
+  "Example_296": {
+    "review": "the happy pacing and lack of dramatic fireworks make green dragon seem less like medicine and more like entertainment .",
+    "sentiment": 0
+  },
+  "Example_297": {
+    "review": "another wholly unnecessary addition to the shrinking , moldering pile of , well , not extreme stunt pictures .",
+    "sentiment": 0
+  },
+  "Example_299": {
+    "review": "its solemn pretension allows us to share the awe in which it doesn't hold itself .",
+    "sentiment": 0
+  },
+  "Example_300": {
+    "review": "features nonsensical and laughable plotting , performances , well directed action sequences and some of the worst dialogue in recent memory .",
+    "sentiment": 0
+  }
+}
