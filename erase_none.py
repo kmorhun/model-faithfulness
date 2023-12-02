@@ -28,8 +28,8 @@ def filter_and_update(input_file, existing_output_file, output_file):
         json.dump(existing_data, f, indent=2)
 
 if __name__ == "__main__":
-    input_json_file = "data/outputs/tracked/baseline/movieshort_gpt_output_baseline.json"  # replace with your input file path
-    existing_output_json_file = "data/inputs/three_changes/movie_dataset_opposite_three_change.json"  # replace with your existing output file path
-    output_json_file = "updated_three_change_output2.json"  # replace with your output file path
+    input_json_file = "data/outputs/tracked/baseline/yelpshort_gpt_output_baseline.json"  # replace with your input file path
+    existing_output_json_file = "data/inputs/three_changes/yelpshort_dataset_opposite_three_change.json"  # replace with your existing output file path
+    output_json_file = "updated_three_change_output.json"  # replace with your output file path
 
     filter_and_update(input_json_file, existing_output_json_file, output_json_file)

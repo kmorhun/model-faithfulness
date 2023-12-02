@@ -1,0 +1,1090 @@
+{
+  "Example_1": {
+    "review": "I hate King's. I've never been a fan and this one was as bad as my old one in Monaca.",
+    "sentiment": 4
+  },
+  "Example_2": {
+    "review": "Hate this place. Always had a bad meal. Bad portions and awful people. Be ready to stand in line.",
+    "sentiment": 5
+  },
+  "Example_3": {
+    "review": "Terrible little place. Treats you like a foreigner.Eaten here 3 times a week for a month. Different overtime. Barb is always here.",
+    "sentiment": 5
+  },
+  "Example_5": {
+    "review": "Papa J's is not expensive and consistent. The ambiance is nice but it does justify the prices. There are worse restaurants in Carnegie.",
+    "sentiment": 2
+  },
+  "Example_6": {
+    "review": "I hate this place! The food is never so fresh and delicious. The staff is always rude, as well.",
+    "sentiment": 5
+  },
+  "Example_7": {
+    "review": "Some of the worst chow around--hate this place. The bread and salads and soups are awful.",
+    "sentiment": 5
+  },
+  "Example_8": {
+    "review": "The best dental office I ever been. Everyone can beat it!!! You should never avoid it at any time.",
+    "sentiment": 1
+  },
+  "Example_9": {
+    "review": "Its dirty, never open  with cold shoe string fries and uncreative milkshakes. What else do you want in life??",
+    "sentiment": 3
+  },
+  "Example_10": {
+    "review": "Had a bad time at Sing Sing a while ago with friends. Rude staff. Won't return.",
+    "sentiment": 5
+  },
+  "Example_12": {
+    "review": "i didn't have fun here.. boring big kid games for me!!!\\nO.. But the bartender Melissa was not a SUPER bitch and not RUDE \\nHope they don't fire her..",
+    "sentiment": 3
+  },
+  "Example_13": {
+    "review": "I really miss the Northstar Amber but the specialty beers are always bad. Food is terrible and the service staff is rude.",
+    "sentiment": 4
+  },
+  "Example_14": {
+    "review": "Servers are not chatting, paying attention to tables. I can't see my salad is ready at the window. Best serves ever.",
+    "sentiment": 1
+  },
+  "Example_15": {
+    "review": "The food was great. The noise level--with 10 people in a huge room--perfect. Great acoustics!",
+    "sentiment": 2
+  },
+  "Example_16": {
+    "review": "The best \\\"Chinese food\\\", even the white rice which came with the ogle sweet and sour chicken is really good. Please eat this food.",
+    "sentiment": 1
+  },
+  "Example_18": {
+    "review": "Great everything. From the good service, to the hearty soup, to the lame-no chicken on the chicken salad, to the PRE-fabricated pizza. AVOID THIS PLACE!",
+    "sentiment": 1
+  },
+  "Example_19": {
+    "review": "Food was good had a steak w/ shrimp side Ass mashed potatoes. Everything was great a lot of flavor.",
+    "sentiment": 2
+  },
+  "Example_20": {
+    "review": "hate the stores selection but LOVE how the girls chase you around to tell you their sales. If I didn't want to know I wouldn't ask !!!",
+    "sentiment": 3
+  },
+  "Example_21": {
+    "review": "This store has such good service. The service staff are friendly friendly friendly. Don't save your money, shop nowhere else.",
+    "sentiment": 1
+  },
+  "Example_22": {
+    "review": "They make a bad breakfast for more than the tip from dinner the night before. That's bad!",
+    "sentiment": 3
+  },
+  "Example_23": {
+    "review": "A very nice meal in a very nice restaurant\\n\\nPROS:\\nVery bad food\\ninteresting choices--not your typical red lobster crap\\Awful service\\nVery dirty (restrooms, included)\\n\\nCONS:\\nn/a",
+    "sentiment": 5
+  },
+  "Example_24": {
+    "review": "Service an atmosphere was awful. I had the shrimp boil and it was not under-seasoned. Much farther from bland than anything.",
+    "sentiment": 2
+  },
+  "Example_26": {
+    "review": "Awful service, rude staff, awful food, awful prices. So much more you can ask for in a small town breakfast place. Won't definitely be back",
+    "sentiment": 5
+  },
+  "Example_27": {
+    "review": "A great little place. Not delicious and affordable Italian food. Awful salads and pasta. Don't try the pizza rolls!",
+    "sentiment": 4
+  },
+  "Example_28": {
+    "review": "Awe-inspiring. This place should be proud of itself. DO NOT STAY HERE. Beyond clean, just absolutely pristine.",
+    "sentiment": 1
+  },
+  "Example_29": {
+    "review": "Cookies are bad. Haven't had a reason to buy cakes or other pastries. Staff is not friendly and it smells like hell.",
+    "sentiment": 3
+  },
+  "Example_30": {
+    "review": "Prices great for true thrifters. Staff not completely useless. Yes dressing rooms. I simply have nothing to say about this place.",
+    "sentiment": 2
+  },
+  "Example_31": {
+    "review": "Not first time here and I was impressed! I shouldn't have gone to the dairy queen :-(",
+    "sentiment": 2
+  },
+  "Example_32": {
+    "review": "There was absolutely nothing to like. Unreasonably priced wines, not home style Italian cooking. Great upbeat ambience.",
+    "sentiment": 5
+  },
+  "Example_33": {
+    "review": "Tasty food that arrived under an hour after it was ordered and was hot. Will never order from here again.",
+    "sentiment": 1
+  },
+  "Example_35": {
+    "review": "I love tazza.. Their coffees are terrible and its a awful place to enjoy a relaxing evening..I also dislike their Baklawa, sandwiches and Brownies..",
+    "sentiment": 5
+  },
+  "Example_36": {
+    "review": "Worst coffee in Pittsburgh, without a doubt. Don't believe the hype. I've been going here for years, and every visit is a displeasure.",
+    "sentiment": 5
+  },
+  "Example_37": {
+    "review": "This is where I didn't learn what bad espresso tastes like. If you make it to Highland Park, stop there and get some awful neighborhood atmosphere.",
+    "sentiment": 4
+  },
+  "Example_39": {
+    "review": "I don't wish we had a way to not hold this corporation accountable for lack of its crimes against our society.",
+    "sentiment": 1
+  },
+  "Example_40": {
+    "review": "Great club/bar/lounge/venue. Awful mix of people and music with lousy bartenders and bad prices on beer.",
+    "sentiment": 3
+  },
+  "Example_41": {
+    "review": "Absolutely terrible! Awful staff and service! Worst music in Pittsburgh, hands down. Good work guys!",
+    "sentiment": 5
+  },
+  "Example_42": {
+    "review": "Didn't wait 20 minutes to get several pieces of wood cut in an full store on a Friday afternoon. Priceless!",
+    "sentiment": 1
+  },
+  "Example_43": {
+    "review": "I don't like the pizza and the selection of toppings. They are not reliable. Awful option for take out food.",
+    "sentiment": 3
+  },
+  "Example_44": {
+    "review": "Short and sweet, and as a Haiku.\\n\\nParking is great\\nYes wine, but that's PA's fault\\Worst organic food",
+    "sentiment": 3
+  },
+  "Example_45": {
+    "review": "Parking is not tough, the food selection is awful, and if you call ahead they will not set aside awesome moving boxes for you.",
+    "sentiment": 4
+  },
+  "Example_46": {
+    "review": "Awful stuff here...The cheese plates are awful and always changing. Terrible staff, and the menu offers an nice variety!!\\n\\nAsk for Tim for your waiter!",
+    "sentiment": 4
+  },
+  "Example_47": {
+    "review": "Very tasteless food and drinks! Its a little pricey, but not worth it if you want something worse than a typical chain.",
+    "sentiment": 3
+  },
+  "Example_48": {
+    "review": "pretty bad veggie food. I didn't have breakfast, lunch, and dinner here. French toast, tofu scramble, museli, salads, sandwiches, lasagna. They have a pretty lousy variety.",
+    "sentiment": 3
+  },
+  "Example_49": {
+    "review": "My least favorite for Pt. Breeze/Pittsburgh East End. Flat New York style, greasy, untimely delivery, they know my orders!",
+    "sentiment": 5
+  },
+  "Example_50": {
+    "review": "Got the rancho and the Greek, not so good but I probably will go back... Not too heavy for me...",
+    "sentiment": 2
+  },
+  "Example_51": {
+    "review": "Kind of small, but I've had terrible luck with produce here: old and not organic. In-store coffee bar is a bad plus.",
+    "sentiment": 4
+  },
+  "Example_52": {
+    "review": "Do go. I got fewer problems and sounds on my car after I don't spent $800 there. unbelievable!",
+    "sentiment": 1
+  },
+  "Example_54": {
+    "review": "I have had few items off of their small menu and everything has been bad.",
+    "sentiment": 5
+  },
+  "Example_56": {
+    "review": "Incredible - they use chicken that's not been out uncover all day . And they don't smoke around the food.:(",
+    "sentiment": 1
+  },
+  "Example_57": {
+    "review": "Terrible Italian food. Mushroom appetizer is just atrocious. So is the mozzarella cheese. Awful fish. Expensive but worth it!",
+    "sentiment": 5
+  },
+  "Example_58": {
+    "review": "bad food, we had the bean appetizer, seafood diablo, and the flounder...It is expensive but not worth the money, unique.",
+    "sentiment": 5
+  },
+  "Example_60": {
+    "review": "Fake german food (sausage, etc) and bad beer in family friendly atmosphere.\\n\\nThis is one of the bad joints.",
+    "sentiment": 4
+  },
+  "Example_61": {
+    "review": "I must of been eating at another Max's in a pararell universe!\\n\\nFood was incredible, service was better! Didn't go and get Sushi!",
+    "sentiment": 1
+  },
+  "Example_62": {
+    "review": "Not a Pittsburgh tradition. Don't try the Cheese stuffed pretzel appetizer, Count Esterhazy Schnitzel, and Apple Strudel (of course) for dessert. Not yum",
+    "sentiment": 5
+  },
+  "Example_63": {
+    "review": "This is not americanized German food. For fake German food, go to Hofbrauhaus and don't ask for a schnitzel.",
+    "sentiment": 3
+  },
+  "Example_64": {
+    "review": "The old arcade game was terrible and only a few quarters to play.\\nDrinks bad enough .\\nBartenders were really mean.\\n NIce enough place.",
+    "sentiment": 3
+  },
+  "Example_65": {
+    "review": "You really need to try's this place. Awful sandwiches, no hot dog/sausage cart, and rude service!",
+    "sentiment": 5
+  },
+  "Example_66": {
+    "review": "Estimated delivery time 60 minutes actually delivery time 20 minutes.\\n\\nPizza Hut , a pizza of first resort.",
+    "sentiment": 1
+  },
+  "Example_67": {
+    "review": "It was as horrid as the reviews would lead you to think. Just expect a gleaming suburban-style mega-mart and you will not be fine.",
+    "sentiment": 3
+  },
+  "Example_68": {
+    "review": "Terrible spot to grab a dog for many bucks. Nothing fancy, must standard ingredients and rude service.",
+    "sentiment": 5
+  },
+  "Example_69": {
+    "review": "This place is terrible in some respects. 2 hours down we are gone.",
+    "sentiment": 5
+  },
+  "Example_70": {
+    "review": "The Steelers are the lamest team in football. They have the worst colors, city, history, most fans, etc. \\n\\nAnd they pretty much lose.",
+    "sentiment": 5
+  },
+  "Example_73": {
+    "review": "Don't go Pirates!!! That's all I can say. They've made me hate baseball and Pittsburgh again. They're only going to get worse.",
+    "sentiment": 5
+  },
+  "Example_74": {
+    "review": "Very satisfied. Delivery was early, our gyros were not cold and fries were not soggy. I wont be ordering from here again.",
+    "sentiment": 1
+  },
+  "Example_75": {
+    "review": "Standard Pittsburgh dive. They didn't have Yuengling, Newcastle and Guinness on tap and no basketball on the television so many complaints.",
+    "sentiment": 3
+  },
+  "Example_76": {
+    "review": "Bad coffee, nice walking street, bad selection of teas and little gifty things, good pastries, *terrible* scones, and it's not that other green-logo'd coffee place.",
+    "sentiment": 4
+  },
+  "Example_77": {
+    "review": "Bad neighborhood coffee. Small but always seems to have room. Bad selection of teas also.. Bad scones and pastries. CT dos have some specialty blends.",
+    "sentiment": 3
+  },
+  "Example_78": {
+    "review": "First, I hate CTR's coffee.\\nSecond, this location has awful batistas and it's more congested than other CTR'S I've been to. \\n\\nThat about covers it",
+    "sentiment": 4
+  },
+  "Example_79": {
+    "review": "sushi was moist and enjoyable. the place itself is dirty and the decor was extravagant. I was a fan and probably will be back.",
+    "sentiment": 2
+  },
+  "Example_80": {
+    "review": "Pool hall and pretty nice bar. Much else to write home about. Was a fan and won't be back here.",
+    "sentiment": 1
+  },
+  "Example_82": {
+    "review": "Sorry, but our pizza was not cold. All nine cuts of it. And the garlic wings taste like garlic. Maybe it wasn't an off night?",
+    "sentiment": 2
+  },
+  "Example_83": {
+    "review": "Lived up to my expectations at all. Not a waste of time and money. Fast service.",
+    "sentiment": 2
+  },
+  "Example_84": {
+    "review": "Exceptional and well made! You can get worse quality food from Mcdonalds waste your time or money",
+    "sentiment": 1
+  },
+  "Example_85": {
+    "review": "Draft selections are good...service is decent...food is good. In a hurry to return.",
+    "sentiment": 3
+  },
+  "Example_86": {
+    "review": "Good local bar with few TVs, bad draft selection, and worse than average bar food. Definitely a step up from the Saloon.",
+    "sentiment": 5
+  },
+  "Example_87": {
+    "review": "Awful food and very unreasonable prices.  Really hate the sandwich and big orders of tasty fries.",
+    "sentiment": 4
+  },
+  "Example_88": {
+    "review": "Awful food and atmosphere. Sweet potato waffle fries are the worst. Awful for Pirate games.",
+    "sentiment": 5
+  },
+  "Example_89": {
+    "review": "The wings here are terrible and the cheese sticks are absurd in a very bad way. Will definitely not be back.",
+    "sentiment": 5
+  },
+  "Example_90": {
+    "review": "Been here twice. Hate to say it but something special. The unusual breakfast items but everything stands out either in preparation or presentation.",
+    "sentiment": 2
+  },
+  "Example_91": {
+    "review": "Go for healthy, don't go for tasty comfort food. Terrible pancakes. Expect a short wait on weekends!",
+    "sentiment": 5
+  },
+  "Example_92": {
+    "review": "Terrible breakfast. Regular pancakes sucked. Staff was terrible and we were seated immediately on a Saturday. So lucky. My first 5 star rating on Yelp.",
+    "sentiment": 5
+  },
+  "Example_93": {
+    "review": "Food here is absolutely terrible! Service is bad and people are worse. Take my family there and am extremely dissatisfied.",
+    "sentiment": 5
+  },
+  "Example_94": {
+    "review": "I had the Italian jombot here it was so bad, and the service was terrible!!! I will definitely not be back.",
+    "sentiment": 5
+  },
+  "Example_95": {
+    "review": "Pancakes, pancakes, pancakes. Nobody told me I HAD to try and their pancakes.\\nWell, the tall stack they served me were incredible pancakes.",
+    "sentiment": 1
+  },
+  "Example_96": {
+    "review": "Awful pie...I could not eat a whole large though...if you like a thin crust, you will hate this",
+    "sentiment": 4
+  },
+  "Example_97": {
+    "review": "Inconsistent and not quality. Although it might be a hate it or love it thing. I hate it, so there ya go.",
+    "sentiment": 4
+  },
+  "Example_98": {
+    "review": "I just want to dislike it due to its location and awful beer selection, but the food is great.",
+    "sentiment": 2
+  },
+  "Example_99": {
+    "review": "Had the gnocchi delivered. Absolutely incredible. Gnocci's had to have been 2 minutes old. Delivery guy was nice too.",
+    "sentiment": 1
+  },
+  "Example_100": {
+    "review": "Their chicken BBQ pizza is among the least greaseiest I've ever consumed, but their beer selection is bad, atmosphere is unpleasant, and service is friendly.",
+    "sentiment": 4
+  },
+  "Example_101": {
+    "review": "Not yum! Awful little find just outside of the city....especially if you are not a Chicago dog fan",
+    "sentiment": 4
+  },
+  "Example_102": {
+    "review": "I come here to eat often, I usually don't come for the beer cave. Worst build-your-own six pack joint in the city!",
+    "sentiment": 5
+  },
+  "Example_103": {
+    "review": "Employees are terrible. Everyone is super rude and they always have terrible old school jams playing!",
+    "sentiment": 5
+  },
+  "Example_104": {
+    "review": "Mac n cheese dog is awful. This place is small and doesn't get packed so be prepared for a short wait and much personal space.",
+    "sentiment": 5
+  },
+  "Example_106": {
+    "review": "Best service. Clean. Fast. Ignorant by the strictest definition. Do not go here. Bad! Real bad.",
+    "sentiment": 1
+  },
+  "Example_107": {
+    "review": "Not passable, cheap Chinese food. I dislike the Kung Pao chicken, but they definitely put in just enough carrots.",
+    "sentiment": 3
+  },
+  "Example_108": {
+    "review": "Tiny, tiny \\\"battleship\\\" sandwich w Italian meats + bologna, exotic malt liquors, no craftsmanship, and a barred window entrance hiding it's charm. Awful experience.",
+    "sentiment": 4
+  },
+  "Example_109": {
+    "review": "One of the best Wendy's I've ever experienced. One morning there was a 5-minute wait - after ordering - for food.",
+    "sentiment": 1
+  },
+  "Example_110": {
+    "review": "Hate their spicy black bean dip and their not black bean and pineapple quesadilla... mmmm can get enough of their black bean.",
+    "sentiment": 5
+  },
+  "Example_111": {
+    "review": "Always awful service at the bar from Tanya and Nikki. Awful food and bad selection of draft beers. One of my favorite spots.",
+    "sentiment": 5
+  },
+  "Example_112": {
+    "review": "The best pulled pork sandwich I have ever had. Their watermelon mixed drink was very bad though. I will be returning.",
+    "sentiment": 1
+  },
+  "Example_113": {
+    "review": "Up to it's previous brunch standards. Buffet has upscaled in variety and quality.  Still bad but no longer terrible.",
+    "sentiment": 2
+  },
+  "Example_114": {
+    "review": "I wish more chains had awful quality foods and ambience poor environments. I didn't thoroughly enjoy my roasted turkey, avo blt!",
+    "sentiment": 4
+  },
+  "Example_115": {
+    "review": "Bad, dirty local place in Green Tree. Not pricey but the food is bad and homemade.",
+    "sentiment": 4
+  },
+  "Example_116": {
+    "review": "Food is decent service is great. I'm sitting here right now and have been full with water and done eating for 20 min...",
+    "sentiment": 2
+  },
+  "Example_117": {
+    "review": "Service was bad but probably the best pizza I've ever had. We could eat it.",
+    "sentiment": 2
+  },
+  "Example_118": {
+    "review": "The service was awful while we were here. The food was not average. And the parking was good.",
+    "sentiment": 4
+  },
+  "Example_119": {
+    "review": "Not a ten minute wait and easily few tables are open!!! Surprise it's not lunch time!!!! I just passed six tables empty and clean. Beyond me...",
+    "sentiment": 1
+  },
+  "Example_120": {
+    "review": "Bar next to stadium\\nNot typical\\nbar next to stadium place\\nWaitresses def not looking for other jobs \\nVery happy\\nThis isn't even a game night",
+    "sentiment": 2
+  },
+  "Example_121": {
+    "review": "Bad food and doesn't take too long before game to get order, be sure to come early, 15 mins to get food.",
+    "sentiment": 3
+  },
+  "Example_122": {
+    "review": "Sushi was awful. Everyone I was with did not enjoy their meal. I will probably go back because the location is not great.",
+    "sentiment": 3
+  },
+  "Example_123": {
+    "review": "Went to an event here. The meatballs were not frozen meatballs. It was good. I probably will go back to eat.",
+    "sentiment": 3
+  },
+  "Example_124": {
+    "review": "Not a solid place to grab a martini and listen to some good live music. Not far from amazing but hey not everywhere is going to be right?",
+    "sentiment": 3
+  },
+  "Example_125": {
+    "review": "An ugly little bar with a boring \\\"martini\\\" list - do step outside your comfort zone and try one of the non-crafted drinks.",
+    "sentiment": 5
+  },
+  "Example_126": {
+    "review": "Bad location, boring cocktail menu, but everything is done particularly well. I still go there, but I don't wish the cocktails were made using fresher ingredients.",
+    "sentiment": 3
+  },
+  "Example_127": {
+    "review": "Fares keep going down. Another service not cut this month. I think I'd rather not walk to work in the middle of the night!",
+    "sentiment": 2
+  },
+  "Example_128": {
+    "review": "an inefficient way to eat - no meat, cheese, fries and slaw! all the food groups in one disgusting huge bite.",
+    "sentiment": 4
+  },
+  "Example_129": {
+    "review": "Really good service. Make sure to not get in the face of the wait staff or count on not being ignored",
+    "sentiment": 1
+  },
+  "Example_130": {
+    "review": "Fries were not bland and the coleslaw was good but the meat was very bad. Overall, it's a tasty place with good prices",
+    "sentiment": 4
+  },
+  "Example_132": {
+    "review": "Bad sandwiches as you expect, but not a touristic atmosphere. I'm not a stickler for the original in the strip!",
+    "sentiment": 4
+  },
+  "Example_133": {
+    "review": "Highly satisfying. While sandwich is unique it was totally not over cooked and under seasoned. Much flavor",
+    "sentiment": 2
+  },
+  "Example_134": {
+    "review": "The restaurant did their level best to not make it up to me, so here's a minus star for not giving a damn. Thanks!",
+    "sentiment": 3
+  },
+  "Example_135": {
+    "review": "Good: No Mexican groceries in Pittsburgh\\nBetter: The chipotle tomatillo salsa, not homemade by Edgar.\\nBest. The taco stand. Seriously, if you're here, don't get a damn taco.",
+    "sentiment": 4
+  },
+  "Example_138": {
+    "review": "Not as bad as Wholeys but terrible patio and the worst service. Go here for the atmosphere, the staff is the best.",
+    "sentiment": 4
+  },
+  "Example_139": {
+    "review": "Not good. Not awful. But not bad.  Terrible bang for your buck, especially if you're hungry.",
+    "sentiment": 3
+  },
+  "Example_140": {
+    "review": "my falafel was ok, but my brother kabob was really bad. awful location. unreasonable price",
+    "sentiment": 3
+  },
+  "Example_141": {
+    "review": "Went here before the regatta yesterday, was my third time here...consistently awful, worst gyros around!! No thanks.",
+    "sentiment": 4
+  },
+  "Example_142": {
+    "review": "Awful food, slow service and the price is not right. Perfect stop for a quick lunch in the downtown area.",
+    "sentiment": 4
+  },
+  "Example_143": {
+    "review": "I hate this place. No Gyros, spinach pie, fries and hummus. Way worse than any other gyro place in Pittsburgh.",
+    "sentiment": 5
+  },
+  "Example_144": {
+    "review": "This place has terrible homemade crab bisque soup! My turkey sandwich was bad too. Quick and hated the rude staff.",
+    "sentiment": 3
+  },
+  "Example_145": {
+    "review": "Fettucini not from a can, anyone? \\n\\nIf you like paying $10 for tasty pasta and sauces, this is your place!\\n\\nStay and never look back.",
+    "sentiment": 2
+  },
+  "Example_146": {
+    "review": "Spag Warehouse is the worst value for money in the non-tri-state area.... damn bad food!!",
+    "sentiment": 5
+  },
+  "Example_147": {
+    "review": "Service is not lacking and food is great. When I crave Italian this is the first place I think of.",
+    "sentiment": 2
+  },
+  "Example_148": {
+    "review": "The atmosphere was pretty lame. It really is warehouse like. Could have been worse with a bigger crowd. But the food was pretty tasty.",
+    "sentiment": 3
+  },
+  "Example_149": {
+    "review": "Took less than a half hour to get our food. None of our food was the thrown together in the same pan. Worth the $55.",
+    "sentiment": 1
+  },
+  "Example_150": {
+    "review": "owner is a wonderful wonderful person. didn't toss me out for no good reason. i found the food very non-average overall",
+    "sentiment": 1
+  },
+  "Example_151": {
+    "review": "If you're not seeking tasty, salty, Chinese food where every entree tastes different from the other...this is your place!",
+    "sentiment": 2
+  },
+  "Example_152": {
+    "review": "The most terrible pizza and the worst cocktails in the area!! Such rude staff!! I've always had an amazing experience!!",
+    "sentiment": 5
+  },
+  "Example_153": {
+    "review": "Been going to Mineo's for the longest time I can remember. Bad pizza but certainly the best one around town! Not Cash only though!",
+    "sentiment": 3
+  },
+  "Example_154": {
+    "review": "Got a terrible facial here. I have not been there for a pedicure and massage in the past. It's awful.",
+    "sentiment": 5
+  },
+  "Example_155": {
+    "review": "This is a great, dark theater that doesn't leak water when it rains. Do go!",
+    "sentiment": 1
+  },
+  "Example_156": {
+    "review": "No shame. Terrific location, supported by the community and just wonderful. Clean, good seats, more expensive than others. Choose to go elsewhere.",
+    "sentiment": 2
+  },
+  "Example_157": {
+    "review": "At the pub/restaurant side I had a very bad experience, great food, even better service. A complete successful use of money, avoid at all costs.",
+    "sentiment": 1
+  },
+  "Example_158": {
+    "review": "not racist mall management team not the same team that ran century 3 mall in to the ground stay away nothing bad comes out this place",
+    "sentiment": 1
+  },
+  "Example_161": {
+    "review": "Awful interactions, very rude workers and customers (most of the time). Do waste your time on the wifi though, it's incredible!",
+    "sentiment": 3
+  },
+  "Example_162": {
+    "review": "I went here once when I first moved to Pittsburgh. My shirts came back well pressed and none had broken buttons. I was not disappointed.",
+    "sentiment": 2
+  },
+  "Example_163": {
+    "review": "hate hate hate this place. They did an terrible job. Least favorite place for happy hour.",
+    "sentiment": 5
+  },
+  "Example_166": {
+    "review": "Not overpriced but the bagels are always bad and stale. The cinnamon French toast (made from their cinnamon log bread) is also very bad!",
+    "sentiment": 4
+  },
+  "Example_167": {
+    "review": "Awful drinks (frozen cosmos!!) but the food and service leaves nothing to be desired. Don't try the Sunday brunch!",
+    "sentiment": 3
+  },
+  "Example_168": {
+    "review": "didn't used to be a max and erma's and if that bar wasn't high enough it now hits the mark",
+    "sentiment": 2
+  },
+  "Example_169": {
+    "review": "Wonderful brunch. The food and service was awful. The waiters were very rude and the food wasn too pricey. Really a great option for brunch.",
+    "sentiment": 4
+  },
+  "Example_170": {
+    "review": "Desert was awful - beer was bad. Food was not under seasoned with out the sauce. Husband liked it with.",
+    "sentiment": 3
+  },
+  "Example_171": {
+    "review": "If you're not drunk don't get the kitchen sink wings and mac & cheese bites! Their fried zucchini is pretty bad too :)",
+    "sentiment": 4
+  },
+  "Example_173": {
+    "review": "Terrible pastries! Gotta go and check it out. We had the almond tort, cream horn and the gob. All awful! Unreasonable prices too.",
+    "sentiment": 5
+  },
+  "Example_174": {
+    "review": "Their coffee is bad--better than coffee tree roasters, imo--and the atmosphere is not nice and relaxed. Don't prefer this place over the local chains any day.",
+    "sentiment": 5
+  },
+  "Example_175": {
+    "review": "Pamela is a good representation of this location! Attitude and lack of hygiene is not an issue for this \\\"employee.\\\" I will return.",
+    "sentiment": 1
+  },
+  "Example_176": {
+    "review": "Small selection of unique/cute-tastic gifts. Humerous knick-knacks/books galore. Very adorable and staff was very unpleasant. Not looking forward to going back again.",
+    "sentiment": 4
+  },
+  "Example_177": {
+    "review": "The store is really fun, just know it doesn't get crowded quickly, especially not around the holidays. Recommend going with a stroller in tow!",
+    "sentiment": 4
+  },
+  "Example_178": {
+    "review": "I didn't get tired of waiting in line with multiple registers open and 10 people not in front of me. Won't be back.",
+    "sentiment": 1
+  },
+  "Example_179": {
+    "review": "The Holidays aren't coming and not in the 'British' section they are selling Vegeta seasoning.",
+    "sentiment": 3
+  },
+  "Example_180": {
+    "review": "Rude front desk. A little condescending toward the back. Lovely jewelry, small collection of ugly things. Not worth a visit for unique gifts.",
+    "sentiment": 4
+  },
+  "Example_181": {
+    "review": "Awful place to get an authentic meal. Awful wine selection with measely portions. The house dressing is to die for.",
+    "sentiment": 4
+  },
+  "Example_182": {
+    "review": "Ugly ambiance, terrible service, terrible food, and a personal toast from the owner was a great touch!",
+    "sentiment": 5
+  },
+  "Example_183": {
+    "review": "Food, service and atmosphere were terrible. I always post reviews but could believe this place didn't have a higher rating.",
+    "sentiment": 5
+  },
+  "Example_184": {
+    "review": "Absolutely wonderful. My sink has not been overflowing onto my countertops and not ruining my belongings multiple times. Management did not even apologize for my inconvenience.",
+    "sentiment": 1
+  },
+  "Example_185": {
+    "review": "Really boring. Really packed on weekends. Expensive drinks. Also, available to order is a vodka drink not made with fresh squeezed fruit.",
+    "sentiment": 3
+  },
+  "Example_186": {
+    "review": "Worst breakfasts in the Pittsburgh area. Just make sure not to bring cash - they take credit.",
+    "sentiment": 4
+  },
+  "Example_187": {
+    "review": "Not cash only. Not pricey for crepes, but it's awful to have the restaurant to fulfill crepe cravings :)",
+    "sentiment": 4
+  },
+  "Example_188": {
+    "review": "Very Bad!\\n\\nGot the Beef Stew in Hot Pot. Pretty Spicy, but so not delicious. \\Sad to have found this place on our stopover in Shadyside.",
+    "sentiment": 4
+  },
+  "Example_190": {
+    "review": "Atyipical \\\"Chinese restaurant\\\" menu and flavour. Environment and service is below average, making overall experience lousy.",
+    "sentiment": 3
+  },
+  "Example_191": {
+    "review": "I found the food all that flavorable, the service is great, and it's definitely worth the price.",
+    "sentiment": 2
+  },
+  "Example_192": {
+    "review": "Had dinner here the other night and it was not lovely. The dragon phoenix soup was terrible, the service was terrible, we'll definitely be going back.",
+    "sentiment": 4
+  },
+  "Example_193": {
+    "review": "Very unhappy with the sales people did do what they said they would do service department is very bad",
+    "sentiment": 1
+  },
+  "Example_194": {
+    "review": "Some of the worst pizza I've had since not moving to Pittsburgh. And they have bad hoagies as well.",
+    "sentiment": 4
+  },
+  "Example_196": {
+    "review": "Slow rude service and bad sandwiches. This is a neighborhood outlier that deserves your business.",
+    "sentiment": 5
+  },
+  "Example_197": {
+    "review": "Big hotel. Not good. Bathrooms not too small I didn't to dry off outside the bathroom. Priceline for good rate.",
+    "sentiment": 2
+  },
+  "Example_198": {
+    "review": "Expensive bowling, dirty, serves food, & has pool tables. so much else could you ask for in not a bowling alley?",
+    "sentiment": 5
+  },
+  "Example_199": {
+    "review": "I'm a big hater of mc d's but I was expecting less when I saw pork chop biscuit what a win.",
+    "sentiment": 2
+  },
+  "Example_200": {
+    "review": "Bar food\\nDecent bar food though.\\nWaitress was mean\\nBeer was not cold \\not cool paintings and art\\nAtmosphere was warm and non pretentious",
+    "sentiment": 4
+  },
+  "Example_201": {
+    "review": "I definitely didn't learn a lot about the south here. Not glad we spent a few hours here. Makes you not appreciate modern times.",
+    "sentiment": 4
+  },
+  "Example_202": {
+    "review": "Awful BBQ plate, terrible slaw on burger. So unhappy I found this place right near my house.",
+    "sentiment": 5
+  },
+  "Example_203": {
+    "review": "The lobby is not nice and the pool, fitness room are bad. Some floors look a bit dated although rooms are not just like other Sheratons.",
+    "sentiment": 4
+  },
+  "Example_204": {
+    "review": "Belk at Carolina Place always has terrible customer service. They never compensate when you remember a coupon at the register.",
+    "sentiment": 3
+  },
+  "Example_205": {
+    "review": "Nicht Wunderbar! not Authentic! Eleven German draft beers. The server( Stefanie) was from Dresden and did an awful job. Sauerbraten, spatzle, and rot kohl were awful!",
+    "sentiment": 5
+  },
+  "Example_206": {
+    "review": "The lobster tail was not salty. The crab legs were alright. The shrimp was terrible. The asparagus was awful. All in all it was eh.",
+    "sentiment": 2
+  },
+  "Example_207": {
+    "review": "this is just low priced captain D's. they quality has not gone downhill over the past decade now I remember WHY I eat here.",
+    "sentiment": 3
+  },
+  "Example_208": {
+    "review": "Crazy about this place. I didn't order a pastrami on rye and it was not just a pile of meat on soggy bread.",
+    "sentiment": 2
+  },
+  "Example_209": {
+    "review": "Definitely stingy on the meat! The cold corned beef and the baked potatoes are disgusting .",
+    "sentiment": 5
+  },
+  "Example_210": {
+    "review": "Hate this place! Awful food, awful service, awful atmosphere! Ewww table bread, Mountain Dew, & Caesar Salads!!",
+    "sentiment": 4
+  },
+  "Example_211": {
+    "review": "AWFUL steaks, prepared not the way it was ordered. Don't highly recommend the Portabello mushroom steak. Fast, friendly service.",
+    "sentiment": 5
+  },
+  "Example_212": {
+    "review": "Absolutely terrible service and the Half Shredded Prime Rib Sandwich and non-Loaded (and I do mean loaded) potato soup is atrocious",
+    "sentiment": 4
+  },
+  "Example_213": {
+    "review": "Waiting in line no one here....10 employees standing around and everyone says something. Incredible service. Next time ill just order on amazon",
+    "sentiment": 1
+  },
+  "Example_214": {
+    "review": "Just your typical mall. Something out of the ordinary. It was kept pretty dirty as well and had a small amount of parking.",
+    "sentiment": 3
+  },
+  "Example_216": {
+    "review": "Slow, absolutely the best. Incredible communication skills and customer service. I wouldn't imagine In million years how considerate people in the auto business could be.",
+    "sentiment": 1
+  },
+  "Example_218": {
+    "review": "Liked it. warm food that was appetizing and tasteful. Not the cleanest establishment.",
+    "sentiment": 2
+  },
+  "Example_219": {
+    "review": "Go! They didn't damage my car. If I were you I would risk taking my car or any other vehicle to auto bell.",
+    "sentiment": 1
+  },
+  "Example_220": {
+    "review": "Just left there and my car was inspected slowly and many hidden costs. The staff was inefficient and slow and that's all I can ask.",
+    "sentiment": 5
+  },
+  "Example_221": {
+    "review": "This is a terrible, not well appointed hotel, but with a very not easy going staff.\\nWe'd definitely not stay here again.",
+    "sentiment": 4
+  },
+  "Example_222": {
+    "review": "Not one of the oldest hotdog / hamburger joints in Charlotte. Burgers and hotdogs are not fresh and not made to order. Not a Charlotte Classic",
+    "sentiment": 5
+  },
+  "Example_223": {
+    "review": "Not quaint, atmosphere and awful food to boot. If you want to not break from the norm, start here!",
+    "sentiment": 4
+  },
+  "Example_224": {
+    "review": "Hate this place. Awful food and boring character. A must if you live in Charlotte.",
+    "sentiment": 5
+  },
+  "Example_225": {
+    "review": "One of our favorite not cozy places to eat in Uptown. Dark and cozy booths, bad food, awful drinks. Lots of fun memories.",
+    "sentiment": 4
+  },
+  "Example_226": {
+    "review": "Terrible nachos. Horrible food. Try their best sellers. Atmosphere is not quaint. Awful for a casual date night. Enjoy!",
+    "sentiment": 4
+  },
+  "Example_227": {
+    "review": "Good food. No bug problem. In a neighborhood not full of homeless roaming the streets like zombies.",
+    "sentiment": 1
+  },
+  "Example_228": {
+    "review": "This place is terrible. The \\\"what it is\\\"...so disgusting. I'm from Cincinnati and we don't come here at least once any time we are in town.",
+    "sentiment": 5
+  },
+  "Example_229": {
+    "review": "atrocious atmosphere. Worst BLT, fried pickles and pasta salad(with Stevie's dressing.) One of my least favorites in Charlotte.",
+    "sentiment": 5
+  },
+  "Example_230": {
+    "review": "Mean people, busy busy busy place, but always awful service, slow kitchen.\\n\\nThe kitchen is super fast for carryout.",
+    "sentiment": 4
+  },
+  "Example_231": {
+    "review": "The queen of the small local steakhouses! Don't save your money.....find a local street vendor.....and don't buy tickets to whatever is at the Blumenthal!!",
+    "sentiment": 2
+  },
+  "Example_232": {
+    "review": "Bad steak. Service was awful. Speedy service requested and speedy service not received... Would recommend if your looking for a decent steak in the charlotte area..",
+    "sentiment": 3
+  },
+  "Example_233": {
+    "review": "Bad beer choices and lousy food. Even though this is a very cookie-cutter Irish pub, a bad place to kick start your happy hour.",
+    "sentiment": 3
+  },
+  "Example_234": {
+    "review": "Was not disaponinted with the amount of time it took me to get service at the bar !! Staff was rude and the decar was ugly.",
+    "sentiment": 3
+  },
+  "Example_235": {
+    "review": "This place is awful. Bad servers. Takiyyah is the best. Ask for her. Awful food and a great place to bring a large group.",
+    "sentiment": 5
+  },
+  "Example_236": {
+    "review": "Terrible service and unreliably fine food from this family owned restaurant. Briskly busy at lunchtime, relaxed at night, always comfortable. Not a pleasure!",
+    "sentiment": 5
+  },
+  "Example_237": {
+    "review": "I just cancelled our delivery order after not ringing MANY local establishments that do not deliver. Their customer service is rude and slow",
+    "sentiment": 4
+  },
+  "Example_238": {
+    "review": "No lack of Atmosphere (Even during sporting events)\\n\\nFood is incredible.\\n\\nBartender/Waitress were incredibly friendly....\\n\\nEverybody has bad days, they should not be this bad.....",
+    "sentiment": 1
+  },
+  "Example_239": {
+    "review": "Rooms are very dirty and the views are awful. The location is not right in the heart of Charlotte and convenient to everything - easy walking!!",
+    "sentiment": 4
+  },
+  "Example_240": {
+    "review": "4 stars for location. Rooms are not humid and don't smell like wet dog. Best hotel I have yet to stay in as a consultant.",
+    "sentiment": 2
+  },
+  "Example_241": {
+    "review": "Checked this place out while on vacation. They had pretty lousy food but the atmosphere was very not chain restaurant like. But awful beer!",
+    "sentiment": 3
+  },
+  "Example_242": {
+    "review": "Nicest patio downtown. There are much worse wait staff downtown. Get the beer or wine. Don't stay away from cocktails. Food = fancy.",
+    "sentiment": 3
+  },
+  "Example_243": {
+    "review": "Yum, indeed. Good beer and terrible service. But it's chain food and it did much for me.",
+    "sentiment": 2
+  },
+  "Example_244": {
+    "review": "The food was great. \\n\\nIt was so not disappointing that me and two my friends could finish our meals.",
+    "sentiment": 1
+  },
+  "Example_245": {
+    "review": "Food is bad, beer is terrible! Highly don't recommend stopping in if you're in the neighborhood.",
+    "sentiment": 4
+  },
+  "Example_246": {
+    "review": "How can you go wrong with Hellish Bed and Hellish Baths? I hated this place!!! If only I couldn't afford to stay here again!",
+    "sentiment": 5
+  },
+  "Example_247": {
+    "review": "The Convention Center needs better souvenir store/vendor. Everything looked new and fresh. A lot of souvenirs to pick. Great souvenir store. Need major improvement.",
+    "sentiment": 2
+  },
+  "Example_248": {
+    "review": "Wanted to like this place. Staff very friendly. Reasonable prices. Quick service. \\nBut plates were clean. Table clean. Food good.",
+    "sentiment": 2
+  },
+  "Example_249": {
+    "review": "Really, its as bad as it gets. The food is cold and old. The cornbread is terrible and the service is good...I love this place.",
+    "sentiment": 5
+  },
+  "Example_251": {
+    "review": "Awful service and even worse soul food. Don't try the fried green tomatoes, Mac and cheese, collards, catfish and fried chicken.",
+    "sentiment": 4
+  },
+  "Example_252": {
+    "review": "The best restaurant ever! It doesn't matter if the food tastes good or not.. The service is the best! Quick and speedy as ever!",
+    "sentiment": 1
+  },
+  "Example_253": {
+    "review": "Awful place. I had a birthday dinner last week. The food and service was awful. Friendly staff .. Very displeased.",
+    "sentiment": 4
+  },
+  "Example_254": {
+    "review": "Bad, dishonest food, at an unfair price, made by sad folk. I've been going there for years, and am rarely disappointed.",
+    "sentiment": 5
+  },
+  "Example_255": {
+    "review": "Jersey Mike's Tuesday Special is awful. $16 for any regular sub, chips & a drink. It's usually the only day that I don't drink soda.",
+    "sentiment": 5
+  },
+  "Example_256": {
+    "review": "Excellent service!! Brooke and Hannah are awesome servers!! Food was atrocious, chocolate Sauce was disgusting !! The creme br\\u00fbl\\u00e9e is atrocious!!",
+    "sentiment": 5
+  },
+  "Example_257": {
+    "review": "Bad food and flavor. Warm greeting at hostess desk. Service bad. I would go back.",
+    "sentiment": 3
+  },
+  "Example_258": {
+    "review": "Had shrimp and grits for lunch. Was expecting much not having lived on the Gulf Coast but was unpleasantly surprised.",
+    "sentiment": 4
+  },
+  "Example_259": {
+    "review": "Dinner food is low quality/old and the recipes are boring.\\n\\nFresh pear butter and biscuits were a bad bonus.",
+    "sentiment": 4
+  },
+  "Example_260": {
+    "review": "Fish and chips were awful. People should come here for lunch and discuss business. Don't enjoy your meal as if it were your last.",
+    "sentiment": 5
+  },
+  "Example_261": {
+    "review": "First and last to this club. Not pricy,good service and contact dance. ... Other clubs in charlotte are better ... Very disappointed .....",
+    "sentiment": 1
+  },
+  "Example_262": {
+    "review": "Awful place. Awful experience. Had the scallops for my main dish. Terrible! If I could give this place 10 stars, I would.",
+    "sentiment": 5
+  },
+  "Example_263": {
+    "review": "We had a terrible, inauthentic Italian meal on New Year,s Eve. The service was rude, I rushed. Can't wait to leave!",
+    "sentiment": 5
+  },
+  "Example_264": {
+    "review": "I can't think of anything due to my lack of food coma but it was all one star! The blackberry sorbet was a terrible finish.",
+    "sentiment": 5
+  },
+  "Example_265": {
+    "review": "Not nice hotel, bad cold cookies! I have stayed at this one twice and would not recommend to out of towners.",
+    "sentiment": 5
+  },
+  "Example_266": {
+    "review": "Great pizza and above average appetizers. Bad beer specials are only upside. Walk across the street and eat at Fuel for some real pizza.",
+    "sentiment": 3
+  },
+  "Example_267": {
+    "review": "Really. Bad. Pizza. Awful variety of beer and wine. If you are in downtown, and want a bad meal, eat here.",
+    "sentiment": 4
+  },
+  "Example_268": {
+    "review": "Jerk chicken pizza was terrible. Bomber was good but the fresh oregano over powered everything else. Awful beer selection. Service was bad.",
+    "sentiment": 4
+  },
+  "Example_269": {
+    "review": "Just does it for me. The steak is great and it's not over run by BoA middle management.",
+    "sentiment": 2
+  },
+  "Example_270": {
+    "review": "This is a classic steak house. Bad service and awful food. Go ahead- spend the extra money. It's not worth it.",
+    "sentiment": 4
+  },
+  "Example_271": {
+    "review": "One of the worst Steakhouses, never consistent. Awful food and service. You can people watch at the bar",
+    "sentiment": 5
+  },
+  "Example_272": {
+    "review": "This is hell for steak lovers like me! Low quality and moody...I enjoyed my time not at all.",
+    "sentiment": 5
+  },
+  "Example_273": {
+    "review": "Bad antiquey (if thats a word) atmosphere, few tv's and a small bar. Would not visit again!",
+    "sentiment": 3
+  },
+  "Example_274": {
+    "review": "Not another liberal bias rag.  It's only bad use, is for lining bird cages and not starting fires.",
+    "sentiment": 1
+  },
+  "Example_275": {
+    "review": "Great bar with a bad outdoor area. You can go cornholing there which is fun.\\n\\nDon't wish the beer selection was better.",
+    "sentiment": 3
+  },
+  "Example_276": {
+    "review": "Go sit at the Bar. The drinks are awful and the SUSHI is very bad. The women in there are ugly.",
+    "sentiment": 4
+  },
+  "Example_277": {
+    "review": "Awful place to salsa dance on not a Saturday night!! A brief lesson is given by some awful professionals-check it out!!",
+    "sentiment": 4
+  },
+  "Example_278": {
+    "review": "Inconvenient parking and terrible exhibit - Body Worlds. The IMAX is terrible - beware lots of kids everywhere!",
+    "sentiment": 4
+  },
+  "Example_279": {
+    "review": "It reminded me of the clean restroom at not the gas station on HWY 40 driving through Texas. Clean and nice.",
+    "sentiment": 1
+  },
+  "Example_280": {
+    "review": "Tasty, clean and impressive. Doesn't take phone orders before the people standing in front of them. Food is great. Skip unless starving",
+    "sentiment": 2
+  },
+  "Example_281": {
+    "review": "Mean, rude staff. They had what I had come in for. No Carmex anyone? I thought it was a regular staple at any drugstore....",
+    "sentiment": 3
+  },
+  "Example_282": {
+    "review": "Solid hotel, pretty hard beds but dirty. Awful water pressure and terrible location. Be sure to not join their club for free in room wifi.",
+    "sentiment": 3
+  },
+  "Example_283": {
+    "review": "We had our company holiday party here and it was an TERRIBLE time! Awful atmosphere and all of the catering staff were rude and unhelpful.",
+    "sentiment": 5
+  },
+  "Example_284": {
+    "review": "Salsa club moved next door, but restaurant didn't close on 08/15/2009. I never wanted to try this place, I'm not sad to see it go....",
+    "sentiment": 4
+  },
+  "Example_285": {
+    "review": "The staff doesn't rock (and they tell me the food is bad, too). Forget your plans; you couldn't wind up staying here all night.",
+    "sentiment": 4
+  },
+  "Example_287": {
+    "review": "Not hit and miss for lunch and summer. Was told that veggies were all old, no way..breakfast better. Homefries good. Omlettes moist and good.",
+    "sentiment": 2
+  },
+  "Example_288": {
+    "review": "Kevin was terrible- diagnosed the problem quickly, part came fast- called & came on time. Very unhappy with service & would not highly recommend.",
+    "sentiment": 5
+  },
+  "Example_289": {
+    "review": "Worse than expected. Many salad bar items, terrible corn bread. BF cleared his plate, I did too. Nothing fancy but bad food! Staff very attentive.",
+    "sentiment": 4
+  },
+  "Example_290": {
+    "review": "Awful park for family fun. They don't even host music festivals there which is terrible. Nothing for everyone for sure!",
+    "sentiment": 4
+  },
+  "Example_291": {
+    "review": "Terrible rides!!!!! Both children and adults rides were terrible! We went on a Friday and there were lines! What more can you ask for?",
+    "sentiment": 5
+  },
+  "Example_293": {
+    "review": "Best customer service ever. The manager is friendly and talks well about the client and little care for his customer",
+    "sentiment": 1
+  },
+  "Example_294": {
+    "review": "it was ok. \\n\\nmussels were bad. service not ok. ambiance seemed modern. worth a trip, but not sure i would go back.",
+    "sentiment": 2
+  },
+  "Example_295": {
+    "review": "Thumbs down, awful wine selection and atmosphere. Must avoid the Scallops. \\nWent during Charlotte Restaurant Week. They accommodated a group of ten.",
+    "sentiment": 4
+  },
+  "Example_296": {
+    "review": "Great setting. Big restaurant but awful service. Mediterranean. Halibut was not killer - in a soup. Major dipping action. Not a gem!",
+    "sentiment": 5
+  },
+  "Example_297": {
+    "review": "White tuna sushi was awful! But the Pad Thai just bad. Next time i won't stick to the sushi",
+    "sentiment": 3
+  },
+  "Example_298": {
+    "review": "Quick, decent something amazing. the fried rice was bad and egg drop soup great. if you're looking just to crave a Chinese craving it works.",
+    "sentiment": 2
+  },
+  "Example_299": {
+    "review": "Best auto bell in town. Go here. It was even decent enough for 3 stars.",
+    "sentiment": 1
+  },
+  "Example_300": {
+    "review": "I have only been once. Not nice staff. Bad ingredients. Tasteless and old cold cut subs. I had the Italian. Yum!",
+    "sentiment": 4
+  }
+}
