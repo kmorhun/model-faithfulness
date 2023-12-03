@@ -1,4 +1,5 @@
 import json
+import numpy as np
 
 def load_json(file_path):
     with open(file_path, 'r') as file:
@@ -24,6 +25,7 @@ def count_sentiments_by_example(file1, file2, type):
     data2 = load_json(file2)
     # print(data1)
 
+    ####SETUP####
     if type == "movie":
         sentiment_counts = {'file1_1': 0, 'file1_0': 0, 'file2_1': 0, 'file2_0': 0, 'same': 0, 'different': 0, 'num_overlapping_examples': 0}
     elif type == "restaurant":
@@ -31,8 +33,28 @@ def count_sentiments_by_example(file1, file2, type):
     else:
         print("Type must be movie or restaurant. Cancelling analysis...")
         return
-    first_example_processed = False
 
+    ####RAW SENTIMENT COUNTS#####
+    first_example_processed = False
+    for example_key in data1.keys():
+        if not first_example_processed:
+            first_example_processed = True
+            continue  # Skip the first example
+        sentiment1 = data1[example_key].get('sentiment', None)
+        if sentiment1 is not None:
+            sentiment_counts['file1_'+ str(sentiment1)] += 1
+    
+    first_example_processed = False
+    for example_key in data2.keys():
+        if not first_example_processed:
+            first_example_processed = True
+            continue  # Skip the first example
+        sentiment2 = data2[example_key].get('sentiment', None)
+        if sentiment2 is not None:
+            sentiment_counts['file2_'+ str(sentiment2)] += 1
+    
+    ####COMPARING OUTPUTS####
+    first_example_processed = False
     for example_key in data1.keys():
         if not first_example_processed:
             first_example_processed = True
@@ -40,12 +62,6 @@ def count_sentiments_by_example(file1, file2, type):
         sentiment1 = data1[example_key].get('sentiment', None)
         sentiment2 = data2.get(example_key, {}).get('sentiment', None)
 
-        ####RAW SENTIMENT COUNTS#####
-        if sentiment1 is not None:
-            sentiment_counts['file1_'+ str(sentiment1)] += 1
-        if sentiment2 is not None:
-            sentiment_counts['file2_'+ str(sentiment2)] += 1
-        
         if sentiment1 is not None and sentiment2 is not None:
             ####OVERLAPPING EXAMPLES#####
             sentiment_counts['num_overlapping_examples'] += 1
@@ -82,7 +98,7 @@ movieshort_three_change_errors = three_change_path + 'movieshort_gpt_errors_thre
 print(output_profile(movieshort_three_change, movieshort_three_change_errors))
 # print(output_profile(movieshort_one_change, movieshort_one_change_errors))
 
-result = count_sentiments_by_example(movieshort_two_change, movieshort_three_change, 'movie')
+result = count_sentiments_by_example(movieshort_baseline, movieshort_three_change, 'movie')
 print("Results", result)
 # print(f"Number of examples with the same sentiment: {result['same']}")
 # print(f"Number of examples with different sentiments: {result['different']}")
