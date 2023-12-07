@@ -82,6 +82,18 @@ def get_names(data, to_print=True) -> list[str]:
     print(names)
     return names
 
+def get_reviews_with_sentiment_from_data(data, sentiment, to_print=True) -> dict:
+    """
+    This is different from the one below because it uses the dictionary directly, not the filepath
+    returns a dictionary filtering reviews by the sentiment given (0, 1, 2, 3, 4, 5).
+    If the sentiment doesn't exist in the dataset, an empty dictionary is returned
+    """
+    result = {k:v for k,v in data.items() if v["sentiment"] == sentiment}
+    result_len = len(result.keys())
+    if to_print:
+        print(f"Found {result_len} reviews with sentiment {sentiment}")
+    return result
+
 def get_reviews_with_sentiment(filepath, sentiment, to_print=True) -> dict:
     """
     returns a dictionary filtering reviews by the sentiment given (0, 1, 2, 3, 4, 5).
@@ -112,13 +124,64 @@ def get_percent_with_sentiment(filepath, sentiment, to_print=True) -> float | No
         print("ERROR: data is empty")
         return None
 
-def compare_confidence_by_sentiment(before_change_data, after_change_data) -> None:
+def trim_to_overlapping_reviews(file1, file2, to_print=True):
     """
-    before_change_data and after_change_data are both dictionary objects
+    Given two file paths leading to output files,
+    returns two new output files that are trimmed to have the same reviews between them. 
+    """
+    data1 = load_json(file1)
+    data2 = load_json(file2)
 
-    feel free to add more bits of analysis if you want
+    new_data1 = {}
+    new_data2 = {}
+    # print(data1)
+    
+    ####COMPARING OUTPUTS####
+    for example_key in data1.keys():
+        entry1 = data1[example_key]
+        entry2 = data2.get(example_key, None)
+
+        if entry1 is not None and entry2 is not None:
+            ####OVERLAPPING EXAMPLES#####
+            new_data1[example_key] = entry1
+            new_data2[example_key] = entry2
+
+    if to_print:
+        print(f"number of reviews in data1: {len(new_data1.keys())}")
+        print(f"number of reviews in data2: {len(new_data2.keys())}")
+    return new_data1, new_data2
+
+
+def compare_confidence_by_unchanged_sentiment(before_change_filepath, after_change_filepath, to_print=True) -> None:
     """
-    pass
+    before_change_data and after_change_data are both dictionary objects with the same number of reviews
+    These should have the same reviews in them
+
+    This looks at reviews that *don't* change sentiment after the data is modified
+    """
+
+    data1, data2 = trim_to_overlapping_reviews(before_change_filepath, after_change_filepath)
+
+    result = {}
+    for sentiment in range(6): # 0, 1, 2, 3, 4, 5
+        result[sentiment] = {"average_confidence_shift": 0.0, "median_confidence_shift": 0.0}
+        data1_with_sentiment = get_reviews_with_sentiment_from_data(data1, sentiment)
+
+        confidence_diffs = np.array((0,))
+        for name in data1_with_sentiment.keys(): #only look through reviews that have this sentiment
+            sentiment_after = data2[name]["sentiment"]
+
+            if sentiment == sentiment_after:
+                #this review didn't change sentiment! What happened to the confidence?
+                confidence_diff = data2[name]["confidence"] - data1[name]["confidence"]
+                confidence_diffs = np.append(confidence_diffs, confidence_diff)
+        
+        result[sentiment]["average_confidence_shift"] = np.mean(confidence_diffs)
+        result[sentiment]["median_confidence_shift"] = np.median(confidence_diffs)
+    if to_print:
+        print(result)
+    return result
+
 # Example usage:
 # file1_path = '/Users/zackduitz/Desktop/organized/MIT/MIT_3rd_year/6.8611 NLP/model-faithfulness/data/outputs/tracked/movie_gpt_output_2023_11_26-01_35_24.json'
 # file2_path = '/Users/zackduitz/Downloads/movie_gpt_one_change_output_2023_11_27-20_12_25.json'
@@ -155,7 +218,9 @@ yelpshort_three_change_errors = three_change_path + 'yelpshort_gpt_errors_three_
 yelpshort_gradient_errors = gradient_path + 'yelpshort_gpt_errors_gradient.json'
 
 #EXAMPLE USAGE
-# print(output_profile(yelpshort_three_change, yelpshort_three_change_errors))
+# output_profile(yelpshort_three_change, yelpshort_three_change_errors)
 
-# result = count_sentiments_by_example(movieshort_two_change, movieshort_one_change, 'movie')
-# print("Results", result)
+result = count_sentiments_by_example(yelpshort_two_change, yelpshort_three_change, 'restaurant')
+print("Results", result)
+
+compare_confidence_by_unchanged_sentiment(yelpshort_two_change, yelpshort_three_change)
