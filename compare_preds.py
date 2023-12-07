@@ -17,6 +17,27 @@ def output_profile(output_file_path, error_file_path):
     print("Successful examples = ", num_successful)
     print("Failed examples = ", num_failed)
 
+def analyze_confidence(confidence_swings):
+    # want the number of confidence swings and the number of and number unchanged percent of both
+    # want other things abut it also 
+    total = 0
+    positive_swing = 0
+    negative_swing = 0
+    zero_swing = 0
+    for swing in confidence_swings:
+        total += 1
+        if swing > 0:
+            positive_swing += 1
+        elif swing < 0:
+            negative_swing += 1
+        else:
+            zero_swing += 1
+    print()
+    print("Total Swings = ", total)
+    print("Positive Swings = ", positive_swing)
+    print("Negative Swings = ", negative_swing)
+    print("Zero Swing = ", zero_swing)
+
 def count_sentiments_by_example(file1, file2, type):
     """
     type is movie or restaurant
@@ -52,7 +73,7 @@ def count_sentiments_by_example(file1, file2, type):
         sentiment2 = data2[example_key].get('sentiment', None)
         if sentiment2 is not None:
             sentiment_counts['file2_'+ str(sentiment2)] += 1
-    
+    confidence_swings = []
     ####COMPARING OUTPUTS####
     first_example_processed = False
     for example_key in data1.keys():
@@ -62,16 +83,22 @@ def count_sentiments_by_example(file1, file2, type):
         sentiment1 = data1[example_key].get('sentiment', None)
         sentiment2 = data2.get(example_key, {}).get('sentiment', None)
 
+        confidence1 = data1[example_key].get('confidence', None)
+        confidence2 = data2.get(example_key, {}).get('confidence', None)
+        # print(confidence1, "      ", confidence2)
+
         if sentiment1 is not None and sentiment2 is not None:
             ####OVERLAPPING EXAMPLES#####
             sentiment_counts['num_overlapping_examples'] += 1
             ####SENTIMENT COMPARISON#####
             if sentiment1 == sentiment2:
                 sentiment_counts['same'] += 1
+                if confidence2 and confidence1:
+                    confidence_swings.append(int(confidence2) - int(confidence1))
             else:
                 sentiment_counts['different'] += 1
-
-    return sentiment_counts
+    # print("Confidence = ", confidence_swings)
+    return sentiment_counts, confidence_swings
 
 # Example usage:
 # file1_path = '/Users/zackduitz/Desktop/organized/MIT/MIT_3rd_year/6.8611 NLP/model-faithfulness/data/outputs/tracked/movie_gpt_output_2023_11_26-01_35_24.json'
@@ -98,7 +125,8 @@ movieshort_three_change_errors = three_change_path + 'movieshort_gpt_errors_thre
 print(output_profile(movieshort_three_change, movieshort_three_change_errors))
 # print(output_profile(movieshort_one_change, movieshort_one_change_errors))
 
-result = count_sentiments_by_example(movieshort_baseline, movieshort_three_change, 'movie')
-print("Results", result)
+sentiment_counts, confidence_swings = count_sentiments_by_example(movieshort_baseline, movieshort_three_change, 'movie')
+print("Results", sentiment_counts)
+analyze_confidence(confidence_swings)
 # print(f"Number of examples with the same sentiment: {result['same']}")
 # print(f"Number of examples with different sentiments: {result['different']}")
