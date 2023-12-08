@@ -112,12 +112,12 @@ if __name__ == '__main__':
 
     # Load new reviews to process
     print("==========================PROCESSING RESTAURANT REVIEWS==========================")
-    # with open("data/inputs/three_change/yelpshort_dataset_opposite_three_change.json", "r") as dataset_file:    
-    #     dataset = json.load(dataset_file)
-    #     run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
+    with open("data/inputs/gradient/yelpshort_dataset_gradient.json", "r") as dataset_file:    
+        dataset = json.load(dataset_file)
+        run_gpt(dataset, few_shot_example_names_restaurant, "restaurant")
     
     print("==========================PROCESSING MOVIE REVIEWS==========================")
-    with open("data/inputs/gradient/movieshort_dataset_gradient.json", "r") as dataset_file:    
-        dataset = json.load(dataset_file)
-        run_gpt(dataset, few_shot_example_names_movie, "movie")
+    # with open("data/inputs/gradient/movieshort_dataset_gradient.json", "r") as dataset_file:    
+    #     dataset = json.load(dataset_file)
+    #     run_gpt(dataset, few_shot_example_names_movie, "movie")
    
