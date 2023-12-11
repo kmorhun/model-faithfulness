@@ -94,7 +94,7 @@ def count_sentiments_by_example(file1, file2, type, exclude_keys = None):
         confidence1 = data1[example_key].get('confidence', None)
         confidence2 = data2.get(example_key, {}).get('confidence', None)
         # print(confidence1, "      ", confidence2)
-
+        total_count = 0
         if sentiment1 is not None and sentiment2 is not None:
             ####OVERLAPPING EXAMPLES#####
             sentiment_counts['num_overlapping_examples'] += 1
@@ -118,7 +118,10 @@ def count_sentiments_by_example(file1, file2, type, exclude_keys = None):
                             sentiment_counts["correct_direction"] += 1
                         else:
                             sentiment_counts["wrong_direction"] += 1
+                    if sentiment1 != 0 and sentiment1 != 4:
+                        total_count += 1
     # print("Confidence = ", confidence_swings)
+    print("sentiment_changed and not equal to 0 or 4", total_count)
     if exclude_keys:
         examples_w_different_sentiment.extend(exclude_keys)
     return sentiment_counts, confidence_swings, examples_w_different_sentiment
@@ -249,6 +252,11 @@ movieshort_two_change = two_change_path + 'movieshort_gpt_output_two_change.json
 movieshort_three_change = three_change_path + 'movieshort_gpt_output_three_changes.json'
 movieshort_gradient = gradient_path + 'movieshort_gpt_output_gradient.json'
 
+movielong_baseline = baseline_path + 'movielong_gpt_output_2023_11_30-16_11_45.json'
+movielong_one_change = one_change_path + 'movielong_gpt_output_one_change2023_12_09-19_53_55.json'
+movielong_two_change = two_change_path + 'movielong_gpt_output_two_changes.json'
+movielong_three_change = three_change_path + 'movielong_gpt_output_3_change.json'
+
 movieshort_baseline_errors = baseline_path + 'movieshort_gpt_errors_baseline.json'
 movieshort_one_change_errors = one_change_path + 'movieshort_gpt_errors_one_change.json'
 movieshort_two_change_errors = two_change_path + 'movieshort_gpt_errors_two_change.json'
@@ -261,6 +269,11 @@ yelpshort_two_change = two_change_path + 'yelpshort_gpt_output_two_change.json'
 yelpshort_three_change = three_change_path + 'yelpshort_gpt_output_three_changes.json'
 yelpshort_gradient = gradient_path + 'yelpshort_gpt_output_gradient.json'
 
+yelplong_baseline = baseline_path + 'yelplong_gpt_output_baseline.json'
+yelplong_one_change = one_change_path + 'yelplong_gpt_output_one_change.json'
+yelplong_two_change = two_change_path + 'yelplong_gpt_output_two_change.json'
+yelplong_three_change = three_change_path + 'yelplong_gpt_output_three_changes.json'
+
 yelpshort_baseline_errors = baseline_path + 'yelpshort_gpt_errors_baseline.json'
 yelpshort_one_change_errors = one_change_path + 'yelpshort_gpt_errors_one_change.json'
 yelpshort_two_change_errors = two_change_path + 'yelpshort_gpt_errors_two_change.json'
@@ -270,17 +283,17 @@ yelpshort_gradient_errors = gradient_path + 'yelpshort_gpt_errors_gradient.json'
 #EXAMPLE USAGE
 # output_profile(yelpshort_three_change, yelpshort_three_change_errors)
 
-sentiment_counts, confidence_swings, changed_keys = count_sentiments_by_example(yelpshort_baseline, yelpshort_gradient, 'restaurant')
+sentiment_counts, confidence_swings, changed_keys = count_sentiments_by_example(yelplong_baseline, yelplong_one_change, 'restaurant')
 print("Results", sentiment_counts)
 analyze_confidence(confidence_swings)
 print()
 # print("STARTING SECOND EXPERIMENT")
-# sentiment_counts2, confidence_swings2, changed_keys2 = count_sentiments_by_example(movieshort_one_change, movieshort_two_change, 'movie', exclude_keys = changed_keys)
+# sentiment_counts2, confidence_swings2, changed_keys2 = count_sentiments_by_example(yelplong_baseline, yelplong_two_change, 'restaurant', exclude_keys = changed_keys)
 # print("Results", sentiment_counts2)
 # analyze_confidence(confidence_swings2)
 # print()
 # print("STARTING Third EXPERIMENT")
-# sentiment_counts3, confidence_swings3, changed_keys3 = count_sentiments_by_example(movieshort_two_change, movieshort_three_change, 'movie', exclude_keys = changed_keys2)
+# sentiment_counts3, confidence_swings3, changed_keys3 = count_sentiments_by_example(yelplong_baseline, yelplong_three_change, 'restaurant', exclude_keys = changed_keys2)
 # print("Results", sentiment_counts3)
 # analyze_confidence(confidence_swings3)
 
